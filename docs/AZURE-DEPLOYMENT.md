@@ -27,6 +27,12 @@ GitHub authenticates through OpenID Connect using the managed identity
 The repository holds the identity, tenant and subscription IDs as Actions secrets;
 there is no Azure password, client secret or publish profile.
 
+The trusted subject is
+`repo:BenefitsCare25@231800418/insproseo@1414926328:ref:refs/heads/main`.
+This repository uses GitHub's immutable owner/repository IDs in its OIDC subject.
+The older name-only subject was rejected on the first run; the corrected identity
+completed deployment and live homepage verification on 12 October 2026.
+
 Only `site/`, `scripts/server.mjs`, `scripts/http-files.mjs` and a minimal runtime
 `package.json` are deployed. Working material, credentials, development dependencies
 and verification artifacts are excluded. The existing server preserves directory

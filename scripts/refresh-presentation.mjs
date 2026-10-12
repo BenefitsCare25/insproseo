@@ -1,14 +1,15 @@
 import { readFile, writeFile, readdir } from 'node:fs/promises';
-import { resolve } from 'node:path';
+import { resolve, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import { parseHTML } from 'linkedom';
 import { composeHomePanels } from './design-home-panels.mjs';
+import { leadNavigation } from './lead-flow.mjs';
 
 const project = fileURLToPath(new URL('../', import.meta.url));
 const root = resolve(project, 'site');
 const { renderIsland } = createRequire(import.meta.url)(resolve(project, '.impeccable/ui-render.cjs'));
-const stylesheet = '<link rel="stylesheet" href="/assets/css/site-presentation.css?v=20261012-site-1">';
+const stylesheet = '<link rel="stylesheet" href="/assets/css/site-presentation.css?v=20261012-site-2">';
 
 async function pagesIn(directory) {
   const files = [];
@@ -38,6 +39,9 @@ function refreshHome(source) {
 for (const path of await pagesIn(root)) {
   let source = await readFile(path, 'utf8');
   if (path === resolve(root, 'index.html')) source = refreshHome(source);
+  const route = '/' + relative(root, path).split(sep).join('/').replace(/index\.html$/, '');
+  if (!source.includes('<nav class="nav-links"')) throw new Error(`Navigation missing in ${route}`);
+  source = source.replace(/<nav class="nav-links"[\s\S]*?<\/nav>/, leadNavigation(route));
   source = source.replace(/<link[^>]+href="\/assets\/css\/site-presentation\.css[^>]*>\s*/g, '');
   source = source.replace('</head>', `${stylesheet}\n</head>`);
   await writeFile(path, source);

@@ -1,6 +1,28 @@
 /* One type system and a centered reading width across the public pages. */
 .inspro-site { font-family: var(--experience-font); }
 .inspro-site :is(h1, h2, h3, h4, button, input, select, textarea, summary) { font-family: var(--experience-font); }
+.inspro-site .nav-links { gap: clamp(.25rem, .7vw, .65rem); }
+.inspro-site .nav-links :is(a, summary) {
+  font-family: var(--experience-font);
+  font-size: var(--navigation-font-size);
+  font-weight: var(--navigation-font-weight);
+  line-height: 1.35;
+  letter-spacing: 0;
+  min-height: 2.75rem;
+  padding: .5rem .65rem;
+  border: 0;
+  border-radius: var(--radius-small);
+  transition: background-color 160ms ease, color 160ms ease;
+}
+.inspro-site .nav-links :is(a, summary):hover { background: var(--surface-muted); color: var(--foreground); }
+.inspro-site .nav-links :is(a[aria-current="page"], summary.is-current) {
+  background: var(--accent-soft);
+  color: var(--foreground);
+}
+.inspro-site .nav-links :is(a, summary):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; box-shadow: none; }
+.inspro-site .nav-links :is(a, summary):focus:not(:focus-visible) { outline: none; box-shadow: none; }
+.inspro-site .nav-links .lf-nav-options a { padding: .75rem .85rem; }
+.inspro-site .nav-links .lf-nav-options a:not([aria-current="page"]):hover { background: var(--transparent); color: var(--accent); }
 .inspro-site main.ds-page:not([data-design-page="home"]) h1 {
   font-size: var(--page-title-size);
   font-weight: var(--ds-weight);
@@ -12,7 +34,23 @@
   width: min(calc(100% - var(--page-content-inset) * 2), var(--page-content-width));
 }
 .inspro-site main.ds-page :is(.tr-hero-grid, .cl-hero-grid, .xp-about-grid, .xp-portal-intro) { gap: var(--page-hero-gap); }
+.inspro-site main:is([data-design-page="benefits"], [data-design-page="business"], [data-design-page="personal"]) .ds-flagship-hero .xp-breadcrumb { margin-bottom: var(--ds-space-5); }
+@media (min-width: 48.01rem) {
+  .inspro-site main:is([data-design-page="benefits"], [data-design-page="business"], [data-design-page="personal"]) .ds-flagship-hero .ds-hero-grid { align-items: start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .inspro-site .nav-links :is(a, summary) { transition: none; }
+}
 @media (min-width: 64.01rem) {
+  .inspro-site main:is([data-design-page="benefits"], [data-design-page="business"], [data-design-page="personal"]) .ds-flagship-hero > .xp-shell { position: relative; }
+  .inspro-site main:is([data-design-page="benefits"], [data-design-page="business"], [data-design-page="personal"]) .ds-flagship-hero .ds-hero-grid { min-height: var(--category-hero-height); }
+  .inspro-site main:is([data-design-page="benefits"], [data-design-page="business"], [data-design-page="personal"]) .ds-flagship-hero .ds-hero-grid > .ds-visual-photo {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-end: 0;
+    width: calc(100% * 2 / 3);
+    height: auto;
+  }
   .inspro-site main.ds-page :is(.tr-hero-copy, .cl-hero-copy, .xp-about-copy) { padding-inline-start: var(--ds-space-5); }
   .inspro-site main.ds-page .xp-portal-intro > h1 { padding-inline-start: var(--ds-space-5); }
 }

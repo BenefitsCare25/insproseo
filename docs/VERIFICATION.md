@@ -1,4 +1,38 @@
-# Current verification: Portal Preview — 11 October 2026
+# Current verification: presentation and Azure — 12 October 2026
+
+All 15 HTML pages use the transparent Inspro PNG icon and shared Manrope typography.
+Non-home page titles share a size, weight and line-height system; centered reading
+widths and smaller hero gaps reduce excess empty space. The homepage Why Inspro
+and Your Benefits Portal cards now have one primary action each, meaningful service
+and audience guidance, and no repeated feature links. The footer logo's visible
+artwork aligns with its tagline.
+
+Employee Benefits, Business and Personal place the text card 20px below the breadcrumb. Above 64rem,
+the photo extends upward to the breadcrumb row, filling the empty upper strip.
+Its shorter viewport-aware height keeps the support panel within the first screen
+at the checked desktop heights.
+At tablet widths its top aligns with the card; mobile keeps the stacked layout.
+Navigation uses Manrope at 14px/650,
+with a soft filled active-page state and a single keyboard focus indicator. Spaced
+dropdown rows keep the active fill distinct from unselected hover text. The category
+menu highlights only its own destinations; Travel has its own active state.
+
+Local browser checks cover 14 content pages at desktop and mobile widths with no
+horizontal overflow. Final targeted title checks confirm the shared weight/size on
+About, Contact, Claims, Travel and Portal. The latest header correction was checked
+at 1280px, 1050px and 390px; selecting Travel from the mobile menu updates its
+active state. Homepage employee/HR tabs and their contextual preview links were
+checked. These are focused checks, not a new audit of every existing animation.
+
+The separate Linux B1 App Service is in Singapore (`southeastasia`), at
+https://inspro-website-sg.azurewebsites.net. GitHub Actions deployment through OIDC
+has passed its region, runtime health and byte-identical homepage checks. The
+custom domain remains unchanged. Resource and deployment details are in
+[Azure deployment](AZURE-DEPLOYMENT.md). Contact still prepares an email draft.
+
+---
+
+# Previous verification: Portal Preview — 11 October 2026
 
 Current revision **20261011-portal-5** uses nine source-backed demonstrations and compact, active-only natural content heights at every width. Matching groups employer record, assigned benefit schedule and eligibility checks into one workspace; enrolment groups its graphic, selected benefits and review controls. This latest owner instruction supersedes the portal’s earlier equal-height interpretation.
 

@@ -216,6 +216,9 @@
   --page-content-width: 72rem;
   --page-content-inset: clamp(1.25rem, 5.5vw, 5.5rem);
   --page-hero-gap: clamp(1.5rem, 2.5vw, 2.5rem);
+  --navigation-font-size: .875rem;
+  --navigation-font-weight: 650;
+  --category-hero-height: clamp(24rem, calc(100svh - 13rem), 28rem);
 }
 
 [data-mode="dark"] {
