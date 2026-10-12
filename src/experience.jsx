@@ -3,7 +3,6 @@ import { motion, MotionConfig, useReducedMotion, useAnimate } from 'motion/react
 import { ArrowUpRight, ArrowRight, Check, Users, HeartPulse, Building2, BriefcaseBusiness, Plane, House, CarFront, FileCheck2, Smartphone, SlidersHorizontal, MapPin, ClipboardList, ShieldCheck, Wallet, CircleHelp } from 'lucide-react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from './components/ui/tabs.jsx';
 import { Button } from './components/ui/button.jsx';
-import { PortalShowcase, PortalTeaser } from './portal-showcase.jsx';
 import { plans } from './data/benefitscare.mjs';
 
 const iconMap = { arrow: ArrowUpRight, next: ArrowRight, check: Check, people: Users, health: HeartPulse, business: Building2, briefcase: BriefcaseBusiness, travel: Plane, home: House, motor: CarFront, claims: FileCheck2, mobile: Smartphone, flex: SlidersHorizontal, location: MapPin, list: ClipboardList, shield: ShieldCheck, wallet: Wallet, help: CircleHelp };
@@ -106,5 +105,5 @@ function ServiceCycle() {
   </Tabs></div>;
 }
 export function Island({ type }) {
-  return <MotionConfig reducedMotion="user">{type === 'portal' ? <PortalShowcase /> : type === 'portal-teaser' ? <PortalTeaser /> : type === 'plans' ? <Plans /> : type === 'review' ? <Review /> : type === 'benefit-preview' ? <BenefitPreview /> : type === 'service-cycle' ? <ServiceCycle /> : <Explorer kind={type} />}</MotionConfig>;
+  return <MotionConfig reducedMotion="user">{type === 'plans' ? <Plans /> : type === 'review' ? <Review /> : type === 'benefit-preview' ? <BenefitPreview /> : type === 'service-cycle' ? <ServiceCycle /> : <Explorer kind={type} />}</MotionConfig>;
 }

@@ -72,7 +72,7 @@ function consolidateCare(document, main) {
   }
   const portal = sectionWith(main, /^Put your benefits to work/);
   if (portal && quotation) {
-    appendHtml(document, quotation.querySelector('.xp-shell'), '<p class="ds-related-reading"><a class="xp-link" href="/employee-benefits/portal/?role=employees#explore">Preview the employee benefits portal</a>. Features depend on your agreed programme.</p>');
+    appendHtml(document, quotation.querySelector('.xp-shell'), '<p class="ds-related-reading"><a class="xp-link" href="/contact-us/?intent=benefits&amp;topic=administration">Discuss benefits administration</a>. Service scope depends on your agreed programme.</p>');
     portal.remove();
   }
 }

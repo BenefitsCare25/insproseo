@@ -5,19 +5,20 @@
   const labels = {
     review: "Insurance review", benefitscare: "BenefitsCare for SME",
     benefits: "Employee Benefits (Life & Medical)", business: "Business Insurance",
-    personal: "Personal Insurance", claims: "Claims support", portal: "Benefits portal"
+    personal: "Personal Insurance", claims: "Claims support"
   };
   const topics = {
     business: { premises: "Premises and equipment", people: "Workforce cover", liability: "Liability cover", trade: "Trade and project risks" },
     personal: { motor: "Motor insurance", travel: "Travel insurance", home: "Home insurance" },
-    portal: { access: "Existing member - portal access help" }
+    benefits: { administration: "Benefits administration", access: "Existing member access help" }
   };
   const catalogueTopics = document.querySelector('#insurance-topics');
   if (catalogueTopics) Object.assign(topics, JSON.parse(catalogueTopics.textContent));
   const plans = { starter: "Starter", flex: "Flex", premier: "Premier" };
   const params = new URLSearchParams(location.search);
   const intent = form.elements.intent;
-  const initialIntent = Object.hasOwn(labels, params.get("intent")) ? params.get("intent") : "review";
+  const requestedIntent = params.get("intent") === "portal" ? "benefits" : params.get("intent");
+  const initialIntent = Object.hasOwn(labels, requestedIntent) ? requestedIntent : "review";
   intent.value = initialIntent;
   const requestedPlan = params.get("plan");
   const plan = Object.hasOwn(plans, requestedPlan) ? plans[requestedPlan] : "";

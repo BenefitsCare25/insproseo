@@ -34,10 +34,6 @@ export const content = {
     ])),
   benefits: '',
   business: '',
-  portal: section('Confirm what your programme includes.',
-    paragraph('Before selecting a benefits programme, ask which employee features, HR permissions and broker administration tasks are included. Agree how staff receive access, where claims are submitted and who handles questions.') +
-    list(['Employees: benefit statements, claims and panel care where configured.','HR: permitted delegated claim submissions and filed enrolment-form downloads.','Inspro: coverage setup, enrolment administration, insurer follow-up and agreed programme reports.']) +
-    paragraph(`This showcase does not create an account or submit a claim. For programme options, compare ${link('BenefitsCare for SME',r.care)} and ${link('Employee Benefits (Life & Medical)',r.benefits)}.`)),
   about: section('Verify who you are speaking with.',
     paragraph('Inspro Insurance Brokers Pte Ltd is incorporated in Singapore. The MAS Financial Institutions Directory lists Inspro as a Registered Insurance Broker for Direct Insurance and an Exempt Financial Adviser. Check that listing for the current regulated activities.') +
     paragraph(`${link('Check Inspro in the MAS directory',s.mas)}. For an enquiry, use ${link('+65 6448 7707','tel:+6564487707')} or ${link('helpdesk@inspro.com.sg','mailto:helpdesk@inspro.com.sg')}. Our address is 38 Jalan Pemimpin, M38, #02-08, Singapore 577178.`) +

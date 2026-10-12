@@ -1,7 +1,7 @@
 const names = new Map([
   ['claims help', 'Claims Support'], ['claims support', 'Claims Support'],
   ['about', 'About Us'], ['about inspro', 'About Us'],
-  ['benefits portal', 'Portal Preview'], ['contact', 'Contact Us'],
+  ['contact', 'Contact Us'],
 ]);
 
 export function navigationLabel(value) {

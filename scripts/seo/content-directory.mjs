@@ -2,7 +2,7 @@ import { origin } from './page-map.mjs';
 
 export function contentDirectory(pages) {
   const groups = [
-    ['Employee benefits and Business Insurance', ['home', 'care', 'benefits', 'business', 'portal']],
+    ['Employee benefits and Business Insurance', ['home', 'care', 'benefits', 'business']],
     ['Personal Insurance', ['personal', 'travel']],
     ['Insurance guides', ['guides', 'checklist', 'employerGuide']],
     ['Company and support', ['about', 'contact', 'claims', 'privacy']],
@@ -23,7 +23,7 @@ ${directory}
 
 ## Scope
 
-The public portal is a feature preview with sample information. Website forms prepare email drafts and do not send or store enquiries. Policy terms and insurer acceptance determine cover. Verify current regulatory requirements with the cited official sources.
+Website forms prepare email drafts and do not send or store enquiries. Policy terms and insurer acceptance determine cover. Verify current regulatory requirements with the cited official sources.
 
 This file is an optional content directory. It does not confer search eligibility, endorsements or rankings.
 `;

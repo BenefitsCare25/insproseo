@@ -1,14 +1,13 @@
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import { resolve, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { createRequire } from 'node:module';
 import { parseHTML } from 'linkedom';
 import { composeHomePanels } from './design-home-panels.mjs';
 import { leadNavigation } from './lead-flow.mjs';
+import { retirePortalMarkup } from './retire-portal.mjs';
 
 const project = fileURLToPath(new URL('../', import.meta.url));
 const root = resolve(project, 'site');
-const { renderIsland } = createRequire(import.meta.url)(resolve(project, '.impeccable/ui-render.cjs'));
 const stylesheet = '<link rel="stylesheet" href="/assets/css/site-presentation.css?v=20261012-site-2">';
 
 async function pagesIn(directory) {
@@ -24,20 +23,17 @@ async function pagesIn(directory) {
 function refreshHome(source) {
   const { document } = parseHTML(source);
   const introduction = document.querySelector('.ds-home-introduction');
-  const teaser = document.querySelector('[data-ui-island="portal-teaser"]');
-  if (!introduction || !teaser) throw new Error('Homepage panels are missing.');
+  if (!introduction) throw new Error('Homepage introduction is missing.');
   const previousIntro = introduction.outerHTML;
-  const previousTeaser = teaser.outerHTML;
-  if (!source.includes(previousIntro) || !source.includes(previousTeaser)) {
+  if (!source.includes(previousIntro)) {
     throw new Error('Homepage source differs from its parsed panels.');
   }
   composeHomePanels(document.querySelector('main'));
-  teaser.innerHTML = renderIsland('portal-teaser', teaser.id);
-  return source.replace(previousIntro, introduction.outerHTML).replace(previousTeaser, teaser.outerHTML);
+  return source.replace(previousIntro, introduction.outerHTML);
 }
 
 for (const path of await pagesIn(root)) {
-  let source = await readFile(path, 'utf8');
+  let source = retirePortalMarkup(await readFile(path, 'utf8'));
   if (path === resolve(root, 'index.html')) source = refreshHome(source);
   const route = '/' + relative(root, path).split(sep).join('/').replace(/index\.html$/, '');
   if (!source.includes('<nav class="nav-links"')) throw new Error(`Navigation missing in ${route}`);

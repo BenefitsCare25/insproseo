@@ -6,8 +6,8 @@ import { personalEntrance, finishPersonalGraphics, initPersonalGraphics } from '
 const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
 const active = new Set();
 const panelAnimations = new WeakMap();
-const homeCopy = '.hp-intro-copy > *, .hp-benefits-copy > *, .xp-portal-teaser-copy > *, .hp-travel-copy > *, .hp-contact-copy > *';
-const homeVisuals = '.hp-intro-photo, .xp-benefits-photo, .hp-portal-preview, .hp-travel-photo';
+const homeCopy = '.hp-intro-copy > *, .hp-benefits-copy > *, .hp-support-copy > *, .hp-travel-copy > *, .hp-contact-copy > *';
+const homeVisuals = '.hp-intro-photo, .xp-benefits-photo, .hp-support-guidance, .hp-travel-photo';
 const homeDetails = '.hp-credentials > *, .xp-benefit-preview, .hp-contact-picker';
 
 function homeEntrance(panel, gsap, direction) {

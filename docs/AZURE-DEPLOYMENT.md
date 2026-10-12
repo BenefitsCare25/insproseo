@@ -18,7 +18,7 @@ usage charges. The custom business domain and its DNS records have not been chan
 
 Pushes to `main` in https://github.com/BenefitsCare25/insproseo run
 `.github/workflows/azure-deploy.yml`. The workflow validates the committed static
-site, deploys it and checks the live homepage against the committed source.
+site and its SEO audit, deploys it and checks the live homepage against the committed source.
 It can also be run manually from GitHub Actions on `main`.
 
 GitHub authenticates through OpenID Connect using the managed identity

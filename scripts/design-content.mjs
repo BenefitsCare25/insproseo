@@ -31,7 +31,6 @@ export function profileFor(route) {
     ['claims-support', { image: 'consultation-table', icon: 'support', title: 'A clearer next step for your claim.', points: ['Check reporting deadlines', 'Keep your claim reference', 'Ask about the next step'], intent: 'claims' }],
     ['about-us', { image: 'consultation-table', icon: 'people', title: 'Insurance is a people business.', points: ['Insurance placement', 'Benefits administration', 'Claims assistance'], intent: 'review' }],
     ['contact-us', { icon: 'phone', title: 'Let’s start with what matters to you.', intent: 'review' }],
-    ['portal', { icon: 'people', title: 'Cover, claims and care. Connected.', points: ['Employee self-service', 'Practical HR tools', 'Inspro support'], intent: 'portal' }],
   ];
   for (const [key, values] of overrides) if (route.includes(key)) base = { ...base, ...values };
   return base;

@@ -2,7 +2,7 @@ export const origin = 'https://www.inspro.com.sg';
 export const reviewed = '2026-10-09';
 export const routes = {
   home: '/', about: '/about-us/', contact: '/contact-us/',
-  care: '/employee-benefits/benefitscare/', portal: '/employee-benefits/portal/',
+  care: '/employee-benefits/benefitscare/',
   benefits: '/service-details/commercial/employees-benefits/',
   business: '/service-details/commercial/commercialoffice-package/',
   personal: '/service-details/personal/view-personal-insurance-products/',
@@ -29,7 +29,6 @@ const rows = [
   ['care','BenefitsCare for SME Singapore | Inspro','Compare BenefitsCare for SME Starter, Flex and Premier for Singapore SMEs. Review GP access, flexible benefits and hospital cover, then request a tailored quotation.','SME employee benefits Singapore','BenefitsCare for SME.','Bring insurance, flexible benefits, wellness and medical services together for your team, with practical support for HR.','Service'],
   ['benefits','Employee Benefits (Life & Medical) Singapore | Inspro','Explore outpatient, hospital, life and accident benefits, flexible benefits and wellness. Build an employee benefits programme with Inspro.','employee benefits insurance Singapore','Employee Benefits (Life & Medical)','Life, medical and flexible benefits for your people, with support for the programme behind them.','Service'],
   ['business','Business Insurance Singapore: Packages & Specialist Cover | Inspro','Explore business packages and specialist cover for property, money, liabilities, people, marine operations and trade credit with Inspro.','Business Insurance Singapore','Business Insurance for the way you work.','Business packages and specialist policies for your assets, people, liabilities and trade.','Service'],
-  ['portal','Employee Benefits Portal Singapore: HR Tools | Inspro','Preview Inspro’s benefits portal for Singapore employers: employee cover, claims, panel clinics and HR enrolment tools. Features depend on your programme.','employee benefits portal Singapore','Employee benefits. One connected portal.','A connected benefits portal for Singapore employers. Give employees a clearer view of their cover, with practical HR tools and Inspro support.','Service'],
   ['about','About Inspro Insurance Brokers Singapore | Inspro','Learn about Inspro Insurance Brokers Pte Ltd, incorporated in Singapore in June 2000. Verify MAS registration and explore benefits, broking and claims support.','Inspro Insurance Brokers Singapore','About Inspro Insurance Brokers.',null,'AboutPage'],
   ['contact','Contact Inspro Insurance Brokers Singapore | Inspro','Contact Inspro at +65 6448 7707 or helpdesk@inspro.com.sg for insurance enquiries, policy reviews and claims support.','contact Inspro insurance broker','Contact Inspro.','Tell us what you need. We’ll help you take the next step.','ContactPage'],
   ['claims','Insurance Claims Support Singapore | Inspro','Get help with insurance claim documents and insurer follow-up in Singapore. Find what to prepare and the appropriate contact channel for your policy.','insurance claims support Singapore','Claims Support.','Inspro helps with claim documents, insurer communication and follow-up.','Service'],
@@ -44,19 +43,18 @@ const rows = [
 export const pages = rows.map(([key,title,description,keyword,h1,intro,type]) => ({
   key, route: routes[key], title, description, keyword, h1, intro, type,
   isNew: key === 'employerGuide',
-  image: `/assets/images/optimized/${['care','benefits','portal'].includes(key) ? 'employee-benefits' : ['personal','travel'].includes(key) ? 'personal-insurance' : 'business-insurance'}-1280.webp`,
+  image: `/assets/images/optimized/${['care','benefits'].includes(key) ? 'employee-benefits' : ['personal','travel'].includes(key) ? 'personal-insurance' : 'business-insurance'}-1280.webp`,
 }));
 
 export const pageByRoute = new Map(pages.map(page => [page.route, page]));
 export const breadcrumbLabels = {
   benefits: 'Employee Benefits (Life & Medical)', business: 'Business Insurance',
-  care: 'BenefitsCare for SME', portal: 'Portal Preview', personal: 'Personal Insurance',
+  care: 'BenefitsCare for SME', personal: 'Personal Insurance',
   travel: 'Travel Insurance', about: 'About Us', contact: 'Contact Us',
   claims: 'Claims Support', privacy: 'Privacy & Security',
   guides: 'Insurance Guides', checklist: 'Renewal Checklist', employerGuide: 'SME Employee Insurance Guide',
 };
 export function parentRoute(page) {
-  if (page.key === 'portal') return routes.benefits;
   if (['benefits','business'].includes(page.key)) return routes.home;
   if (page.route.startsWith('/service-details/commercial/') && page.key !== 'business') return routes.business;
   if (page.route.startsWith('/service-details/personal/') && page.key !== 'personal') return routes.personal;

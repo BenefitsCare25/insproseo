@@ -4,11 +4,11 @@ import { fileURLToPath } from 'node:url';
 import { escape } from './design-content.mjs';
 import { pageByRoute } from './seo/page-map.mjs';
 import { breadcrumbHtml, structuredData } from './seo/schema.mjs';
-import { claimContacts, claimSteps, programmeGuidance, claimQuestions, portalPreview } from './design-claims-content.mjs';
+import { claimContacts, claimSteps, programmeGuidance, claimQuestions } from './design-claims-content.mjs';
 import { claimSymbol, claimsHeroScene, claimsStepsScene, claimsProgrammeScene, claimsQuestionsScene } from './design-claims-scenes.mjs';
 import { normaliseNavigation } from './navigation-labels.mjs';
 
-const version = '20261011-claims-4';
+const version = '20261012-claims-support';
 const route = '/claims-support/';
 const arrow = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const chevron = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -23,7 +23,7 @@ function firstSteps() {
 }
 
 function benefitsProgramme() {
-  return section(2, `${heading('On an Inspro benefits programme?', 'Start with the claim channel confirmed for your cover.', action('Preview Portal Claims', portalPreview))}
+  return section(2, `${heading('On an Inspro benefits programme?', 'Start with the claim channel confirmed for your cover.', action('Get Programme Support', '/contact-us/?intent=claims'))}
     <div class="cl-programme-layout">${claimsProgrammeScene()}${guidance(programmeGuidance)}</div>`);
 }
 

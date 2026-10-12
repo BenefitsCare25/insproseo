@@ -1,7 +1,7 @@
 import { navigationLabel } from './navigation-labels.js?v=20261011-navigation-1';
 
 const labels = {
-  home: ["Why Inspro","BenefitsCare for SME","Your benefits portal","Travel cover","Start a conversation"],
+  home: ["Why Inspro","BenefitsCare for SME","Policy & claims support","Travel cover","Start a conversation"],
   care: ["Compare plans","Optional benefits","Scheme features","Employee & HR tools","Quotation details"],
   benefits: ["Everyday care","Hospital cover","Life & accident","Flex & wellness","Employee & HR tools","Your policy year"],
   business: ["Business packages","Property & operations","Money & crime","Liability & professional","People & travel","Marine & trade"],

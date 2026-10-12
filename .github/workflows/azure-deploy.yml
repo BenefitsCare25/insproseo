@@ -38,7 +38,9 @@ jobs:
           node-version: '24'
 
       - name: Validate the committed static site
-        run: npm run build
+        run: |
+          npm run build
+          npm run audit:seo
 
       - name: Package public files and the production server
         shell: bash

@@ -1,3 +1,9 @@
+# Current verification: Portal Preview retirement ? 12 October 2026
+
+The standalone page, public links and sample demonstrations are removed. All 13 remaining content pages pass the SEO audit with no warnings. The replacement support content and supplied logo-only favicon are documented in [retirement and SEO verification](PORTAL-REMOVAL-SEO-VERIFICATION.md). Earlier entries below record historical revisions.
+
+---
+
 # Current verification: presentation and Azure — 12 October 2026
 
 All 15 HTML pages use the transparent Inspro PNG icon and shared Manrope typography.

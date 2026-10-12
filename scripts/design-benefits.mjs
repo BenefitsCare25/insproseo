@@ -1,8 +1,8 @@
 import { icon } from './design-content.mjs';
 import { policyYearGraphic } from './design-benefit-year.mjs';
 const benefitsRoute = '/service-details/commercial/employees-benefits/';
-const portalRoute = '/employee-benefits/portal/';
-const version = '20261010-reviews-2';
+const supportRoute = '/contact-us/?intent=benefits';
+const version = '20261012-benefits-support';
 const action = (label, href, primary = false) => `<a class='${primary ? 'xp-button' : 'xp-link'}' href='${href}'>${label}${icon('arrow')}</a>`;
 const path = d => `<path data-eb-draw d='${d}' fill='none' stroke='currentColor' stroke-width='2' vector-effect='non-scaling-stroke'/>`;
 const paths = markup => `<svg class='eb-connectors' viewBox='0 0 840 80' preserveAspectRatio='none' aria-hidden='true' focusable='false'>${markup}</svg>`;
@@ -40,7 +40,7 @@ function flexibleBenefits() {
   return scene('flexible-benefits', 'flex', copy('Room for individual needs.', 'Shape your programme with flexible benefits, wellness and dependent cover.', action('Review', '/contact-us/?intent=benefits&topic=flexible')) + diagram);
 }
 function toolView(role, entries) {
-  return `<div class='eb-tools-view' id='benefits-tools-${role}' data-benefit-role-panel='${role}' aria-labelledby='benefits-role-${role}'><div class='eb-tool-items'>${entries.map(([symbol, title, detail]) => `<div class='eb-tool-item'>${icon(symbol)}<div><h3>${title}</h3><p>${detail}</p></div></div>`).join('')}</div>${action(`Explore ${role === 'hr' ? 'HR' : 'employee'} tools`, `${portalRoute}?role=${role}#explore`)}</div>`;
+  return `<div class='eb-tools-view' id='benefits-tools-${role}' data-benefit-role-panel='${role}' aria-labelledby='benefits-role-${role}'><div class='eb-tool-items'>${entries.map(([symbol, title, detail]) => `<div class='eb-tool-item'>${icon(symbol)}<div><h3>${title}</h3><p>${detail}</p></div></div>`).join('')}</div>${action(`Discuss ${role === 'hr' ? 'HR' : 'employee'} support`, `${supportRoute}&topic=administration`)}</div>`;
 }
 function tools() {
   const employee = [['health', 'Cover & balances', 'Benefit statements and claim usage.'], ['list', 'Claims & updates', 'Documents, status and correspondence.'], ['people', 'Clinics & e-card', 'Panel care and digital card access.'], ['check', 'Benefit enrolment', 'Eligible choices and enrolment forms.']];

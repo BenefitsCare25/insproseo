@@ -19,5 +19,3 @@ export const claimQuestions = [
   ['Can Inspro guarantee my claim?', 'No. The insurer assesses the claim against the policy terms and supporting evidence.'],
   ['What if my employee needs a letter of guarantee?', 'Follow your programme’s hospital and insurer procedures. Contact Inspro for help with the request; issuance is subject to the programme and insurer’s requirements.'],
 ];
-
-export const portalPreview = '/employee-benefits/portal/?role=employees&feature=claims#explore';

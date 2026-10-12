@@ -20,7 +20,7 @@ import { benefitsCareRoute, renderBenefitsCare } from './design-benefitscare.mjs
 import { renderTravel } from './design-travel.mjs';
 import { renderClaims } from './design-claims.mjs';
 import { renderAboutCards } from './design-about-cards.mjs';
-import { portalRoute, renderPortal } from './design-portal.mjs';
+import { retirePortalMarkup } from './retire-portal.mjs';
 import { normaliseNavigation } from './navigation-labels.mjs';
 
 const publicRoot = fileURLToPath(new URL('../site/', import.meta.url));
@@ -218,7 +218,7 @@ export async function refreshDesign(root = publicRoot) {
       protectedHome = source.slice(start, end);
       source = source.replace(protectedHome, '<!-- protected-home -->');
     }
-    const authoredGuide = ['/guides/', '/guides/insurance-review-checklist/', '/guides/sme-employee-insurance-singapore/', benefitsCareRoute, travelRoute, portalRoute, '/claims-support/'].includes(route);
+    const authoredGuide = ['/guides/', '/guides/insurance-review-checklist/', '/guides/sme-employee-insurance-singapore/', benefitsCareRoute, travelRoute, '/claims-support/'].includes(route);
     let enhanced = authoredGuide ? source : enhanceMain(source, route);
     if (protectedHome) enhanced = enhanced.replace('<!-- protected-home -->', protectedHome);
     html = removeRedundantActions(html.replace(match[0], enhanced));
@@ -238,7 +238,7 @@ export async function refreshDesign(root = publicRoot) {
     for (const style of styles) html = html.replace(new RegExp(`<link[^>]+href="/assets/css/${style}\\.css[^>]*>\\s*`, 'g'), '');
     html = html.replace('</head>', `${styles.map(style => `<link rel="stylesheet" href="/assets/css/${style}.css?v=${assetVersion}">`).join('\n')}\n</head>`);
     if (route === '/') {
-      for (const style of ['home-panels', 'portal-preview']) {
+      for (const style of ['home-panels']) {
         html = html.replace(new RegExp(`<link[^>]+href="/assets/css/${style}\\.css[^>]*>\\s*`, 'g'), '');
         html = html.replace('</head>', `<link rel="stylesheet" href="/assets/css/${style}.css?v=${assetVersion}">\n</head>`);
       }
@@ -270,8 +270,7 @@ export async function refreshDesign(root = publicRoot) {
     if (route === travelRoute) html = renderTravel(html);
     if (route === '/claims-support/') html = renderClaims(html);
     if (route === '/about-us/') html = renderAboutCards(html);
-    if (route === portalRoute) html = renderPortal(html);
-    html = normaliseNavigation(html);
+    html = retirePortalMarkup(normaliseNavigation(html));
     await fs.writeFile(file, html);
   }
 }
