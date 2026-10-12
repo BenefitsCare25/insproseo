@@ -23,6 +23,9 @@
 .inspro-site .nav-links :is(a, summary):focus:not(:focus-visible) { outline: none; box-shadow: none; }
 .inspro-site .nav-links .lf-nav-options a { padding: .75rem .85rem; }
 .inspro-site .nav-links .lf-nav-options a:not([aria-current="page"]):hover { background: var(--transparent); color: var(--accent); }
+.inspro-site .nav-links summary { justify-content: space-between; }
+.inspro-site .nav-links summary > svg { flex-shrink: 0; transform: none; }
+.inspro-site .lf-nav-menu[open] summary > svg { transform: rotate(180deg); }
 .inspro-site main.ds-page:not([data-design-page="home"]) h1 {
   font-size: var(--page-title-size);
   font-weight: var(--ds-weight);
@@ -40,6 +43,77 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .inspro-site .nav-links :is(a, summary) { transition: none; }
+}
+@media (max-width: 64rem) {
+  .inspro-site .site-header { padding-top: env(safe-area-inset-top); }
+  .inspro-site .brand { min-height: 2.75rem; }
+  .inspro-site .nav-panel {
+    top: calc(100% + var(--ds-space-2));
+    width: min(24rem, calc(100% - var(--page-gutter) * 2));
+    max-height: calc(100vh - var(--header-height) - env(safe-area-inset-top) - env(safe-area-inset-bottom) - var(--ds-space-6));
+    max-height: calc(100dvh - var(--header-height) - env(safe-area-inset-top) - env(safe-area-inset-bottom) - var(--ds-space-6));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    align-items: stretch;
+    padding: var(--ds-space-3);
+    border-radius: var(--ds-radius);
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-strong) var(--surface);
+  }
+  .inspro-site .nav-links { gap: var(--ds-space-2); align-items: stretch; }
+  .inspro-site .nav-links > a,
+  .inspro-site .nav-links summary { width: 100%; padding: var(--ds-space-3); }
+  .inspro-site .nav-links summary.is-current { background: var(--transparent); color: var(--accent); }
+  .inspro-site .lf-nav-options {
+    gap: var(--ds-space-2);
+    margin-block: var(--ds-space-2) var(--ds-space-1);
+    padding: var(--ds-space-2);
+    border-radius: var(--ds-radius-sm);
+    background: var(--background);
+  }
+  .inspro-site .nav-links .lf-nav-options a {
+    width: 100%;
+    padding: var(--ds-space-3);
+    background: var(--transparent);
+    overflow-wrap: anywhere;
+  }
+  .inspro-site .nav-links .lf-nav-options a[aria-current="page"] { background: var(--accent-soft); }
+  .inspro-site .nav-links .lf-nav-options a:not([aria-current="page"]):hover { background: var(--surface-muted); }
+  html:not(.js) .inspro-site .site-header { position: static; }
+  html:not(.js) .inspro-site .nav-shell { flex-wrap: wrap; padding-block: var(--ds-space-2); gap: var(--ds-space-2); }
+  html:not(.js) .inspro-site .nav-toggle { display: none; }
+  html:not(.js) .inspro-site .nav-panel {
+    position: static;
+    width: 100%;
+    max-height: none;
+    overflow: visible;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+}
+@media (max-width: 48rem) {
+  .inspro-site .static-hero {
+    min-height: min(var(--mobile-hero-height), calc(100svh - var(--header-height)));
+    align-items: center;
+    padding-block: var(--ds-space-12) var(--ds-space-10);
+  }
+  .inspro-site .static-hero .page-title { max-width: 15ch; font-size: var(--mobile-hero-title); line-height: 1.1; letter-spacing: var(--ds-tracking); }
+  .inspro-site .static-hero .section-lede { font-size: var(--ds-body); line-height: var(--ds-leading); }
+  .inspro-site .hp-home .flow-panel { padding: var(--hp-panel-padding); }
+  .inspro-site .ds-page .flow-workbench .flow-screen { padding: var(--card-stage-padding); }
+  .inspro-site .hp-home .flow-workbench .flow-screen { padding: 0; }
+  .inspro-site .hp-home.flow-ready .flow-panel .xp-benefit-preview { padding: var(--ds-space-4); }
+  .inspro-site .hp-home .xp-benefit-preview .ui-tabs-trigger { min-width: 0; min-height: 2.75rem; padding-inline: var(--ds-space-1); }
+  .inspro-site :is(.xp-link, .xp-contact-direct > a, .hp-contact-direct > a, .ed-footer__links > a, .footer-column > a) {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    max-width: 100%;
+  }
+  .inspro-site :is(.xp-contact-direct, .hp-contact-direct) > a { overflow-wrap: anywhere; }
+  .inspro-site .ed-footer__links { gap: var(--ds-space-1); }
+  .inspro-site .site-footer { padding-bottom: max(var(--ds-space-8), env(safe-area-inset-bottom)); }
 }
 @media (min-width: 64.01rem) {
   .inspro-site main:is([data-design-page="benefits"], [data-design-page="business"], [data-design-page="personal"]) .ds-flagship-hero > .xp-shell { position: relative; }

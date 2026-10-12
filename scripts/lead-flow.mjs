@@ -14,7 +14,8 @@ const choices = [
 export function leadNavigation(route, icon) {
   const current = href => route === href ? ' aria-current="page"' : '';
   const categories = [['Employee Benefits (Life & Medical)',corporate],['Business Insurance',business],['Personal Insurance',personal],['BenefitsCare for SME',care]];
-  return `<nav class="nav-links" aria-label="Main navigation"><details class="lf-nav-menu"><summary${categories.some(([, url]) => route === url) ? ' class="is-current"' : ''}>Insurance Solutions<span aria-hidden="true">⌄</span></summary><div class="lf-nav-options">${categories.map(([name,url])=>`<a href="${url}"${current(url)}>${name}</a>`).join('')}</div></details><a href="${routes.travel}"${current(routes.travel)}>Travel Insurance</a><a href="/claims-support/"${current('/claims-support/')}>Claims Support</a><a href="/about-us/"${current('/about-us/')}>About Us</a></nav>`;
+  const chevron = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+  return `<nav class="nav-links" aria-label="Main navigation"><details class="lf-nav-menu"><summary${categories.some(([, url]) => route === url) ? ' class="is-current"' : ''}>Insurance Solutions${chevron}</summary><div class="lf-nav-options">${categories.map(([name,url])=>`<a href="${url}"${current(url)}>${name}</a>`).join('')}</div></details><a href="${routes.travel}"${current(routes.travel)}>Travel Insurance</a><a href="/claims-support/"${current('/claims-support/')}>Claims Support</a><a href="/about-us/"${current('/about-us/')}>About Us</a></nav>`;
 }
 
 function shortcuts(items) {

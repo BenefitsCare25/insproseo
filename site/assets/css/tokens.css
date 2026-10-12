@@ -219,6 +219,9 @@
   --navigation-font-size: .875rem;
   --navigation-font-weight: 650;
   --category-hero-height: clamp(24rem, calc(100svh - 13rem), 28rem);
+  --mobile-gutter: max(clamp(1rem, 4.5vw, 1.25rem), env(safe-area-inset-left), env(safe-area-inset-right));
+  --mobile-hero-height: 40rem;
+  --mobile-hero-title: clamp(2.25rem, 9.5vw, 3rem);
 }
 
 [data-mode="dark"] {
@@ -245,4 +248,14 @@
   --product-glass: rgb(56 33 38 / 0.72);
   --product-glass-hover: rgb(56 33 38 / 0.82);
   --glass-highlight: rgb(255 255 255 / 0.18);
+}
+
+@media (max-width: 48rem) {
+  :root {
+    --page-gutter: var(--mobile-gutter);
+    --ds-gutter: var(--mobile-gutter);
+    --page-content-inset: var(--mobile-gutter);
+    --card-stage-padding: var(--ds-space-4);
+    --hp-panel-padding: var(--ds-space-4);
+  }
 }

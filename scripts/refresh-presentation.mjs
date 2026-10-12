@@ -5,10 +5,10 @@ import { parseHTML } from 'linkedom';
 import { composeHomePanels } from './design-home-panels.mjs';
 import { leadNavigation } from './lead-flow.mjs';
 import { retirePortalMarkup } from './retire-portal.mjs';
+import { applyPresentation } from './presentation-assets.mjs';
 
 const project = fileURLToPath(new URL('../', import.meta.url));
 const root = resolve(project, 'site');
-const stylesheet = '<link rel="stylesheet" href="/assets/css/site-presentation.css?v=20261012-site-2">';
 
 async function pagesIn(directory) {
   const files = [];
@@ -38,8 +38,7 @@ for (const path of await pagesIn(root)) {
   const route = '/' + relative(root, path).split(sep).join('/').replace(/index\.html$/, '');
   if (!source.includes('<nav class="nav-links"')) throw new Error(`Navigation missing in ${route}`);
   source = source.replace(/<nav class="nav-links"[\s\S]*?<\/nav>/, leadNavigation(route));
-  source = source.replace(/<link[^>]+href="\/assets\/css\/site-presentation\.css[^>]*>\s*/g, '');
-  source = source.replace('</head>', `${stylesheet}\n</head>`);
+  source = applyPresentation(source);
   await writeFile(path, source);
 }
 process.stdout.write('Updated homepage panels and shared presentation styles.\n');

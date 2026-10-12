@@ -1,4 +1,19 @@
-# Current verification: Portal Preview retirement ? 12 October 2026
+# Current verification: mobile layouts — 12 October 2026
+
+All 13 content pages and the 404 page now use visible mobile topic grids, a
+separated menu selection state, a scrollable viewport-bounded menu,
+safe-area-aware gutters and larger standalone tap targets. The mobile homepage
+opening is more compact. Local checks passed 98 layouts at seven widths from
+320px to 1440px, 315 topic states and 56 focused interaction/fallback checks.
+Build and the 13-page SEO audit passed. [Mobile verification](MOBILE-VERIFICATION.md)
+records the evidence and browser limits. Pushes to `main` deploy through the
+[Azure workflow](https://github.com/BenefitsCare25/insproseo/actions/workflows/azure-deploy.yml),
+which checks health and the live homepage against the committed source. The local
+preview remains at http://127.0.0.1:3000/.
+
+---
+
+# Previous verification: Portal Preview retirement — 12 October 2026
 
 The standalone page, public links and sample demonstrations are removed. All 13 remaining content pages pass the SEO audit with no warnings. The replacement support content and supplied logo-only favicon are documented in [retirement and SEO verification](PORTAL-REMOVAL-SEO-VERIFICATION.md). Earlier entries below record historical revisions.
 

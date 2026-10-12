@@ -45,20 +45,17 @@ function initialiseQuestionBoxes() {
   });
 }
 
-(() => {
-  "use strict";
-
-  const header = document.querySelector(".site-header");
+function initialiseNavigation() {
   const navToggle = document.querySelector(".nav-toggle");
   const navPanel = document.querySelector(".nav-panel");
   const desktopQuery = matchMedia("(min-width: 64.001rem)");
-
-  initialiseQuestionBoxes();
+  const solutionMenu = document.querySelector('.lf-nav-menu');
 
   const closeMenu = ({ restoreFocus = false } = {}) => {
     if (!navToggle || !navPanel || desktopQuery.matches) return;
     navToggle.setAttribute("aria-expanded", "false");
     navPanel.hidden = true;
+    if (solutionMenu) solutionMenu.open = false;
     if (restoreFocus) navToggle.focus();
   };
 
@@ -67,6 +64,7 @@ function initialiseQuestionBoxes() {
       const willOpen = navToggle.getAttribute("aria-expanded") !== "true";
       navToggle.setAttribute("aria-expanded", String(willOpen));
       navPanel.hidden = !willOpen;
+      if (solutionMenu) solutionMenu.open = willOpen;
     });
 
     navPanel.addEventListener("click", (event) => {
@@ -85,6 +83,7 @@ function initialiseQuestionBoxes() {
       if (desktopQuery.matches) {
         navPanel.hidden = false;
         navToggle.setAttribute("aria-expanded", "false");
+        if (solutionMenu) solutionMenu.open = false;
       } else {
         closeMenu();
       }
@@ -93,16 +92,9 @@ function initialiseQuestionBoxes() {
     syncNavigation();
   }
 
-  const updateHeader = () => {
-    if (header) header.classList.toggle("is-scrolled", scrollY > 24);
-  };
-  addEventListener("scroll", updateHeader, { passive: true });
-  updateHeader();
-
-  const solutionMenu = document.querySelector('.lf-nav-menu');
   if (solutionMenu) {
     document.addEventListener('click', event => {
-      if (!solutionMenu.contains(event.target)) solutionMenu.open = false;
+      if (desktopQuery.matches && !solutionMenu.contains(event.target)) solutionMenu.open = false;
     });
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape' && solutionMenu.open) {
@@ -112,10 +104,24 @@ function initialiseQuestionBoxes() {
     });
     solutionMenu.addEventListener('focusout', () => {
       requestAnimationFrame(() => {
-        if (!solutionMenu.contains(document.activeElement)) solutionMenu.open = false;
+        if (desktopQuery.matches && !solutionMenu.contains(document.activeElement)) solutionMenu.open = false;
       });
     });
   }
+
+}
+
+(() => {
+  "use strict";
+
+  initialiseQuestionBoxes();
+  initialiseNavigation();
+  const header = document.querySelector(".site-header");
+  const updateHeader = () => {
+    if (header) header.classList.toggle("is-scrolled", scrollY > 24);
+  };
+  addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
 
   const revealElements = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {

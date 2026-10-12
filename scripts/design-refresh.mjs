@@ -21,6 +21,7 @@ import { renderTravel } from './design-travel.mjs';
 import { renderClaims } from './design-claims.mjs';
 import { renderAboutCards } from './design-about-cards.mjs';
 import { retirePortalMarkup } from './retire-portal.mjs';
+import { applyPresentation } from './presentation-assets.mjs';
 import { normaliseNavigation } from './navigation-labels.mjs';
 
 const publicRoot = fileURLToPath(new URL('../site/', import.meta.url));
@@ -270,7 +271,7 @@ export async function refreshDesign(root = publicRoot) {
     if (route === travelRoute) html = renderTravel(html);
     if (route === '/claims-support/') html = renderClaims(html);
     if (route === '/about-us/') html = renderAboutCards(html);
-    html = retirePortalMarkup(normaliseNavigation(html));
+    html = applyPresentation(retirePortalMarkup(normaliseNavigation(html)));
     await fs.writeFile(file, html);
   }
 }

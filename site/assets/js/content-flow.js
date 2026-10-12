@@ -107,7 +107,8 @@ function bindNavigation(view) {
   tabs.forEach((tab, index) => tab.addEventListener('click', () => { expand(false); choose(index); }));
   rail.addEventListener('keydown', event => {
     if (!event.target.matches('.flow-chapter')) return;
-    const offsets = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 };
+    const columns = getComputedStyle(rail).gridTemplateColumns.split(' ').length;
+    const offsets = { ArrowDown: columns, ArrowRight: 1, ArrowUp: -columns, ArrowLeft: -1 };
     if (!(event.key in offsets) && !['Home', 'End'].includes(event.key)) return;
     event.preventDefault();
     const index = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : (selected + offsets[event.key] + tabs.length) % tabs.length;
