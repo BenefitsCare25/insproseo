@@ -1,0 +1,236 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 7857,
+    "errors": []
+  },
+  {
+    "route": "/services/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 2839,
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/benefitscare/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3513,
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/employees-benefits/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 4995,
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/commercialoffice-package/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3647,
+    "errors": []
+  },
+  {
+    "route": "/service-details/personal/view-personal-insurance-products/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3073,
+    "errors": []
+  },
+  {
+    "route": "/about-us/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3255,
+    "errors": []
+  },
+  {
+    "route": "/claims-support/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 2180,
+    "errors": []
+  },
+  {
+    "route": "/guides/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 2364,
+    "errors": []
+  },
+  {
+    "route": "/guides/insurance-review-checklist/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3491,
+    "errors": []
+  },
+  {
+    "route": "/contact-us/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 1357,
+    "errors": []
+  },
+  {
+    "route": "/privacy-security/",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 1974,
+    "errors": []
+  },
+  {
+    "route": "/404.html",
+    "width": 1440,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 1180,
+    "errors": []
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 7622,
+    "errors": []
+  },
+  {
+    "route": "/services/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3860,
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/benefitscare/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 4707,
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/employees-benefits/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 5097,
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/commercialoffice-package/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 4120,
+    "errors": []
+  },
+  {
+    "route": "/service-details/personal/view-personal-insurance-products/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3476,
+    "errors": []
+  },
+  {
+    "route": "/about-us/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3699,
+    "errors": []
+  },
+  {
+    "route": "/claims-support/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 2901,
+    "errors": []
+  },
+  {
+    "route": "/guides/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 2766,
+    "errors": []
+  },
+  {
+    "route": "/guides/insurance-review-checklist/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 3871,
+    "errors": []
+  },
+  {
+    "route": "/contact-us/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 1874,
+    "errors": []
+  },
+  {
+    "route": "/privacy-security/",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 2307,
+    "errors": []
+  },
+  {
+    "route": "/404.html",
+    "width": 390,
+    "h1": 1,
+    "overflow": false,
+    "missingImages": [],
+    "height": 1203,
+    "errors": []
+  }
+]

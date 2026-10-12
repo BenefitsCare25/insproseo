@@ -1,0 +1,170 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/about-us/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/guides/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1044,
+      "overflow": false
+    },
+    {
+      "route": "/about-us/",
+      "width": 1044,
+      "overflow": false
+    },
+    {
+      "route": "/guides/",
+      "width": 1044,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/about-us/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/guides/",
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "rail": [
+    {
+      "width": 1044,
+      "height": 938,
+      "requestedProgress": 0,
+      "cardBottom": 913.75,
+      "screenGap": 24.25,
+      "sectionGap": 1801,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "index": "01",
+      "overflow": false,
+      "progress": 0
+    },
+    {
+      "width": 1044,
+      "height": 938,
+      "requestedProgress": 0.55,
+      "cardBottom": 913.75,
+      "screenGap": 24.25,
+      "sectionGap": 824,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, -849.446, 0)",
+      "index": "02",
+      "overflow": false,
+      "progress": 0.5498030388294879
+    },
+    {
+      "width": 1044,
+      "height": 938,
+      "requestedProgress": 1,
+      "cardBottom": 913.75,
+      "screenGap": 24.25,
+      "sectionGap": 24,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, -1545, 0)",
+      "index": "03",
+      "overflow": false,
+      "progress": 1
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "requestedProgress": 0,
+      "cardBottom": 976,
+      "screenGap": 24,
+      "sectionGap": 2474,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "index": "01",
+      "overflow": false,
+      "progress": 0
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "requestedProgress": 0.55,
+      "cardBottom": 976,
+      "screenGap": 24,
+      "sectionGap": 1126,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, -1171.93, 0)",
+      "index": "02",
+      "overflow": false,
+      "progress": 0.5502040816326531
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "requestedProgress": 1,
+      "cardBottom": 976,
+      "screenGap": 24,
+      "sectionGap": 24,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, -2130, 0)",
+      "index": "03",
+      "overflow": false,
+      "progress": 1
+    },
+    {
+      "width": 1044,
+      "height": 600,
+      "requestedProgress": 0,
+      "cardBottom": 575.75,
+      "screenGap": 24.25,
+      "sectionGap": 1801,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "index": "01",
+      "overflow": false,
+      "progress": 0
+    },
+    {
+      "width": 1044,
+      "height": 600,
+      "requestedProgress": 0.55,
+      "cardBottom": 575.75,
+      "screenGap": 24.25,
+      "sectionGap": 824,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, -849.446, 0)",
+      "index": "02",
+      "overflow": false,
+      "progress": 0.5498030388294879
+    },
+    {
+      "width": 1044,
+      "height": 600,
+      "requestedProgress": 1,
+      "cardBottom": 575.75,
+      "screenGap": 24.25,
+      "sectionGap": 24,
+      "paddingBottom": "24px",
+      "transform": "matrix(1, 0, 0, 1, -1545, 0)",
+      "index": "03",
+      "overflow": false,
+      "progress": 1
+    }
+  ],
+  "mobileSwipe": true,
+  "resize": "Desktop to mobile unpins cleanly; returning to desktop creates exactly one rail pin"
+}

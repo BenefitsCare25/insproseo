@@ -1,0 +1,38 @@
+/* Service paths carry motion; typography and benefit information stay still. */
+.bc-scene { position: relative; margin: 0; width: 100%; max-width: 25rem; }
+.bc-scene > svg { display: block; width: 100%; height: auto; overflow: visible; }
+.bc-scene-tile { fill: var(--ds-paper); stroke: var(--ds-line); stroke-width: 1; }
+.bc-scene-hub { fill: var(--ds-brand); }
+.bc-scene-icon { color: var(--ds-brand); }
+.bc-scene-icon svg { width: 24px; height: 24px; }
+.bc-scene-label { fill: var(--ds-muted); font-family: var(--experience-font); font-size: var(--ds-caption); font-weight: 500; }
+.bc-scene-label--strong { fill: var(--ds-ink); font-size: var(--ds-lead); font-weight: var(--ds-weight); }
+.bc-scene-inverse .bc-scene-icon { color: var(--ds-inverse); }
+.bc-scene-inverse .bc-scene-label { fill: var(--ds-inverse); }
+.bc-scene-route, .bc-scene-flow, .bc-scene-rule { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.bc-scene-route { stroke: var(--ds-line); stroke-width: 1.2; }
+.bc-scene-flow { stroke: var(--ds-brand); stroke-width: 2; stroke-dasharray: 10 110; opacity: 0; }
+.bc-scene-rule { stroke: var(--ds-line); stroke-width: 2; }
+.bc-plan-body > .bc-scene { justify-self: center; align-self: center; }
+.bc-option-copy > .bc-scene { max-width: 22rem; margin-top: var(--ds-space-2); }
+.bc-scene--scheme { max-width: 23rem; margin-inline: auto; }
+@media (max-width: 60rem) {
+  .bc-option-copy > .bc-scene { max-width: 20rem; }
+  .bc-scene--scheme { max-width: 21rem; }
+}
+@media (max-width: 48rem) {
+  .bc-scene-label { font-size: var(--ds-small); }
+  .bc-plan-body > .bc-scene { max-width: 22rem; }
+  .bc-option-copy > .bc-scene { max-width: 22rem; }
+  .bc-scene--scheme { max-width: 22rem; }
+}
+@media (max-width: 22rem) {
+  .bc-network-centre { left: 63%; width: 36%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bc-scene-flow { display: none !important; }
+}
+@media print {
+  .bc-scene-flow { display: none !important; }
+  .bc-scene { max-width: 19rem; }
+}

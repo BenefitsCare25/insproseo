@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-03",
+  "mode": "normal",
+  "viewport": 1440,
+  "checks": [
+    {
+      "name": "404",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "home",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "about-us",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "claims-support",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "contact-us",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "guides",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "privacy-security",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "services",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "employee-benefits-benefitscare",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "employee-benefits-portal",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "guides-insurance-review-checklist",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "service-details-commercial-commercialoffice-package",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "service-details-commercial-employees-benefits",
+      "invisible": [],
+      "overflow": false
+    },
+    {
+      "name": "service-details-personal-view-personal-insurance-products",
+      "invisible": [],
+      "overflow": false
+    }
+  ]
+}

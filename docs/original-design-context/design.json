@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "project": {
+    "name": "inspro-site",
+    "productType": "marketing website",
+    "stack": ["HTML", "CSS", "JavaScript"]
+  },
+  "sources": {
+    "tokens": ["assets/css/tokens.css"],
+    "components": ["assets/css/components.css", "assets/css/sections.css"],
+    "assets": [
+      "assets"
+    ],
+    "instructions": ["review/design-package.md", "SEO report findings"]
+  },
+  "design": {
+    "colorMode": "light by default with an explicit dark token fallback",
+    "colors": {
+      "background": "var(--background)",
+      "foreground": "var(--foreground)",
+      "surface": "var(--surface)",
+      "accent": "var(--accent)"
+    },
+    "typography": {
+      "display": "Apple system display stack",
+      "body": "Apple system text stack",
+      "label": "System monospace stack"
+    },
+    "spacing": {"page": "var(--page-gutter)", "section": "var(--section-space)"},
+    "radius": {"small": "var(--radius-small)", "medium": "var(--radius-medium)", "large": "var(--radius-large)"},
+    "shadows": {"soft": "var(--shadow-soft)", "raised": "var(--shadow-raised)"},
+    "motion": {"primary": "scroll-linked cinematic video and GSAP product rail", "secondary": "restrained reveals, pointer depth and active process states"},
+    "density": "comfortable"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": ["semantic HTML", "native details", "native forms"],
+    "patterns": ["full-border cards", "decision-led service content", "reduced-motion fallback"]
+  },
+  "constraints": {
+    "must": ["Use semantic CSS color variables", "Support reduced motion", "Keep one clear H1 per page", "Preserve useful legacy URLs with redirects"],
+    "avoid": ["Directional accent borders", "Autoplay video on mobile", "Generic insurance slogans", "Unverified pricing or coverage promises"]
+  },
+  "decisions": [
+    "Use one continuous 18-second video scrubbed across six equal scroll beats.",
+    "Use a static 4K consultation fallback on mobile and reduced-motion devices.",
+    "Use 21st insurance components only as structural references because the production site is framework-free.",
+    "Make the primary conversion a prepared insurance-review email instead of a stored web form.",
+    "Use a full-width sticky navigation header in normal document flow so it never obstructs the cinematic story.",
+    "Use an Apple-inspired light visual system with translucent white navigation, system typography, quiet hairlines and restrained depth.",
+    "Use three distinct 4K editorial images for business insurance, employee benefits and personal insurance instead of reusing the cinematic hero assets.",
+    "Use a GSAP ScrollTrigger horizontal product story on desktop with native CSS scroll snap on touch devices and static reduced-motion behavior.",
+    "Move directly from the cinematic story into the product rail without an additional marketing-intro section.",
+    "Place company facts inside the About section and use a compact multi-column footer with services, company links, contact details and regulatory evidence.",
+    "Use a 68% translucent, lightly blurred glass material for product copy panels so each 4K scene remains visible behind the content."
+  ],
+  "evidence": ["inspro.com.sg SEO/GEO report dated 2026-07-20", "current Inspro website", "MAS Financial Institutions Directory", "21st.dev components 8203 and 8414"],
+  "generatedAt": "2026-09-02T06:00:15.757Z"
+}

@@ -1,0 +1,205 @@
+/* Compact Business Insurance scenes inherit Inspro's shared reading frame. */
+.ds-page .bs-scene { display:flex; flex-direction:column; gap:var(--ds-space-4); min-width:0; }
+.ds-page .bs-copy { min-width:0; }
+.ds-page[data-design-page="business"] .bs-copy h2 { max-width:none; margin:0 0 var(--ds-space-2); font-size:var(--card-heading); line-height:1.2; }
+.ds-page .bs-copy > p { max-width:none; margin:0; color:var(--ds-muted); font-size:var(--ds-small); line-height:1.55; }
+.ds-page .bs-scene h3 { margin:0 0 var(--ds-space-3); font-size:var(--ds-title); line-height:1.3; }
+.ds-page .bs-scene h4 { margin:0 0 var(--ds-space-1); font-size:var(--ds-small); line-height:1.45; }
+.ds-page .bs-product-display { min-width:0; }
+.ds-page .bs-product-picks { display:none; }
+.flow-ready .bs-product-display { display:grid; grid-template-columns:10rem minmax(0,1fr); gap:var(--ds-space-4); align-items:stretch; }
+.flow-ready .bs-product-picks { display:flex; flex-direction:column; align-self:start; gap:var(--ds-space-2); }
+.ds-page .bs-product-picks button { display:flex; align-items:center; gap:var(--ds-space-2); min-width:0; min-height:2.75rem; padding:var(--ds-space-2) var(--ds-space-3); border:0; border-radius:var(--ds-radius-sm); background:var(--ds-clear); color:var(--ds-ink); text-align:left; font:inherit; font-size:var(--ds-small); font-weight:var(--ds-weight); line-height:1.4; cursor:pointer; }
+.ds-page .bs-product-picks button:hover { background:var(--ds-tint); }
+.ds-page .bs-product-picks button[aria-pressed="true"] { background:var(--ds-brand); color:var(--ds-inverse); }
+.ds-page .bs-product-picks button:focus-visible { outline:var(--nav-focus-width) solid var(--ds-brand); outline-offset:var(--nav-focus-offset); box-shadow:none; }
+.ds-page .bs-product-picks button[aria-pressed="true"]:focus-visible { outline-color:var(--ds-inverse); }
+.ds-page .bs-product-views { min-width:0; background:var(--ds-paper); border-radius:var(--card-preview-radius); padding:var(--ds-space-4); }
+.flow-ready .bs-product-views { display:grid; grid-template-columns:minmax(0,1fr); align-items:stretch; }
+.flow-ready .bs-product-view { grid-area:1 / 1; min-width:0; }
+.flow-ready .bs-product-view[hidden] { display:block !important; visibility:hidden; pointer-events:none; }
+.ds-page .bs-presentation { display:grid; grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr); align-items:center; gap:var(--ds-space-4); min-height:19rem; }
+.ds-page .bs-graphic { min-width:0; width:100%; margin:0; color:var(--ds-brand); }
+.ds-page .bs-graphic > svg { width:100%; height:auto; max-height:19rem; overflow:visible; display:block; }
+.ds-page .bs-graphic text { stroke:none; fill:var(--ds-brand); font:15px Manrope,Arial,sans-serif; }
+.ds-page .bs-svg-paper { fill:var(--ds-paper); }
+.ds-page .bs-svg-wash { fill:var(--ds-wash); }
+.ds-page .bs-svg-brand { fill:var(--ds-brand); }
+.ds-page .bs-svg-inverse { stroke:var(--ds-inverse); }
+.flow-ready .bs-reading-name { display:none; }
+.ds-page .bs-detail { min-width:0; align-self:start; }
+.ds-page .bs-detail > p { font-size:var(--ds-small); color:var(--ds-muted); line-height:1.55; margin:0 0 var(--ds-space-3); }
+.ds-page .bs-facts { display:grid; gap:var(--ds-space-1); margin:0; }
+.ds-page .bs-facts > div { font-size:var(--ds-caption); line-height:1.6; }
+.ds-page .bs-facts dt { display:inline; color:var(--ds-brand); font-weight:var(--ds-weight); }
+.ds-page .bs-facts dd { display:inline; margin:0; color:var(--ds-muted); }
+.ds-page .bs-facts dd::before { content:" — "; }
+.ds-page .bs-emphasis { padding:var(--ds-space-3); border-radius:var(--ds-radius-sm); background:var(--ds-brand); color:var(--ds-inverse); margin-top:var(--ds-space-3); }
+.ds-page .bs-emphasis h4 { color:inherit; }
+.ds-page .bs-emphasis p { font-size:var(--ds-caption); color:inherit; line-height:1.55; margin:0; }
+.ds-page .bs-detail > .bs-distinction { margin:var(--ds-space-3) 0 0; font-size:var(--ds-caption); }
+.ds-page .bs-detail .bs-action { display:flex; align-items:center; gap:var(--ds-space-3); width:fit-content; max-width:100%; min-height:2.75rem; margin-top:var(--ds-space-3); font-size:var(--ds-small); line-height:1.4; }
+.ds-page .bs-action svg { flex-shrink:0; width:1rem; height:1rem; }
+.ds-page .bs-requirements { display:grid; gap:var(--ds-space-4); }
+.ds-page .bs-requirements > div + div { border-top:1px solid var(--ds-line); padding-top:var(--ds-space-3); }
+.ds-page .bs-requirements p { font-size:var(--ds-caption); line-height:1.55; color:var(--ds-muted); margin:0; }
+.ds-page .bs-requirements .bs-action { margin-top:var(--ds-space-1); font-size:var(--ds-caption); }
+.ds-page .bs-role-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--ds-space-3); margin:0; font-size:var(--ds-caption); line-height:1.5; }
+.ds-page .bs-role-list dt { color:var(--ds-brand); font-weight:var(--ds-weight); margin-bottom:var(--ds-space-1); }
+.ds-page .bs-role-list dd { margin:0; color:var(--ds-muted); }
+.ds-page .bs-role-list dd span { display:block; }
+.ds-page .bs-role-list dd span + span { margin-top:var(--ds-space-1); }
+.flow-ready[data-design-page="business"] .flow-workbench .flow-screen { display:grid; grid-template-columns:minmax(0,1fr); min-height:var(--card-stage-height); height:auto; }
+.flow-ready[data-design-page="business"] .flow-panel { grid-area:1 / 1; align-self:start; width:100%; }
+.flow-ready[data-design-page="business"] .flow-panel.flow-inactive { display:block !important; visibility:hidden; pointer-events:none; }
+.flow-ready[data-design-page="business"] .flow-expanded .flow-screen { display:block; min-height:0; }
+.flow-ready[data-design-page="business"] .flow-expanded .flow-panel { visibility:visible; pointer-events:auto; }
+.ds-page:not(.flow-ready) .bs-product-view + .bs-product-view { margin-top:var(--ds-space-8); }
+@media (max-width:70rem) {
+  .flow-ready .bs-product-display { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-3); }
+  .flow-ready .bs-product-picks { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--ds-space-2); }
+  .ds-page .bs-product-picks button { justify-content:center; text-align:center; }
+  .ds-page .bs-presentation { min-height:0; }
+}
+@media (max-width:48rem) {
+  .ds-page .bs-scene { gap:var(--ds-space-3); }
+  .ds-page[data-design-page="business"] .bs-copy h2 { font-size:var(--ds-panel-title); }
+  .flow-ready .bs-product-picks { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .ds-page .bs-product-picks button { font-size:var(--ds-caption); padding:var(--ds-space-2); }
+  .ds-page .bs-presentation { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-3); padding:0; }
+  .ds-page .bs-product-views { padding:var(--ds-space-3); }
+  .ds-page .bs-graphic { max-width:17rem; justify-self:center; }
+  .ds-page .bs-graphic > svg { height:10.5rem; }
+  .ds-page .bs-detail h3 { font-size:var(--ds-body); margin-bottom:var(--ds-space-2); }
+  .ds-page .bs-detail > p { font-size:var(--ds-caption); }
+  .ds-page .bs-detail .bs-action { font-size:var(--ds-caption); margin-top:var(--ds-space-2); }
+  .ds-page .bs-facts > div { line-height:1.55; }
+  .ds-page .bs-role-list { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-2); line-height:1.55; }
+  .ds-page .bs-role-list :is(dt,dd) { display:inline; margin:0; }
+  .ds-page .bs-role-list dd::before { content:" — "; }
+  .ds-page .bs-role-list dd span { display:inline; }
+  .ds-page .bs-role-list dd span + span { margin:0; }
+  .ds-page .bs-role-list dd span + span::before { content:"; "; }
+}
+@media (prefers-reduced-motion:reduce) { .bs-scene * { animation:none; transition:none; } }
+@media print {
+  .flow-ready .bs-reading-name { display:inline; }
+  .flow-ready[data-design-page="business"] .flow-workbench .flow-screen { display:block; min-height:0; height:auto; }
+  .flow-ready[data-design-page="business"] .flow-panel { visibility:visible !important; pointer-events:auto; }
+  .ds-page .bs-scene, .flow-ready .bs-product-display, .flow-ready .bs-product-views { display:block; }
+  .ds-page .bs-product-picks { display:none !important; }
+  .flow-ready .bs-product-view[hidden] { display:block !important; visibility:visible; pointer-events:auto; }
+  .ds-page .bs-product-view + .bs-product-view { margin-top:var(--ds-space-5); }
+  .ds-page .bs-presentation { break-inside:avoid; }
+}
+/* The package is one explanation, without industry selectors repeating its sections. */
+.ds-page .bs-package-overview { min-width:0; background:var(--ds-paper); border-radius:var(--card-preview-radius); padding:var(--ds-space-4); }
+.ds-page .bs-package-groups { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--ds-space-6); }
+.ds-page .bs-package-group { min-width:0; }
+.ds-page .bs-package-graphic { width:100%; margin:0 0 var(--ds-space-2); color:var(--ds-brand); }
+.ds-page .bs-package-graphic > svg { display:block; width:100%; height:5.5rem; }
+.ds-page .bs-package-graphic .bs-package-mobile { display:none; }
+.ds-page .bs-package-group h3 { font-size:var(--ds-small); margin:0 0 var(--ds-space-3); line-height:1.4; }
+.ds-page .bs-package-group dl { display:grid; gap:var(--ds-space-2); margin:0; font-size:var(--ds-caption); line-height:1.55; }
+.ds-page .bs-package-group dt { display:inline; color:var(--ds-brand); font-weight:var(--ds-weight); }
+.ds-page .bs-package-group dd { display:inline; color:var(--ds-muted); margin:0; }
+.ds-page .bs-package-group dd::before { content:" — "; }
+.ds-page .bs-package-footer { display:flex; align-items:center; justify-content:space-between; gap:var(--ds-space-4); margin-top:var(--ds-space-4); padding-top:var(--ds-space-3); border-top:1px solid var(--ds-line); }
+.ds-page .bs-package-context { margin:0; max-width:40ch; color:var(--ds-muted); font-size:var(--ds-caption); line-height:1.55; }
+.ds-page .bs-package-footer .bs-action { display:flex; align-items:center; gap:var(--ds-space-3); flex-shrink:0; min-height:2.75rem; font-size:var(--ds-small); }
+@media (max-width:48rem) {
+  .ds-page .bs-package-overview { padding:var(--ds-space-3); }
+  .ds-page .bs-package-groups { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-4); }
+  .ds-page .bs-package-group { display:grid; grid-template-columns:4.5rem minmax(0,1fr); gap:var(--ds-space-3); align-items:start; }
+  .ds-page .bs-package-graphic { margin:var(--ds-space-2) 0 0; }
+  .ds-page .bs-package-graphic .bs-package-wide { display:none; }
+  .ds-page .bs-package-graphic .bs-package-mobile { display:block; height:5rem; }
+  .ds-page .bs-package-group h3 { font-size:var(--ds-small); margin-bottom:var(--ds-space-2); }
+  .ds-page .bs-package-group dl { gap:var(--ds-space-2); }
+  .ds-page .bs-package-group dt, .ds-page .bs-package-group dd { display:block; }
+  .ds-page .bs-package-group dd::before { content:none; }
+  .ds-page .bs-package-footer { align-items:start; flex-direction:column; gap:var(--ds-space-2); }
+  .ds-page .bs-package-footer .bs-action { font-size:var(--ds-caption); }
+}
+@media print {
+  .ds-page .bs-package-overview { break-inside:avoid; }
+  .ds-page .bs-package-groups { grid-template-columns:repeat(3,minmax(0,1fr)); }
+}
+
+
+@media (max-width:24rem) { .ds-page .bs-package-group { grid-template-columns:3rem minmax(0,1fr); gap:var(--ds-space-2); } }
+
+/* Cash movement and loss exposures read as a horizontal sequence. */
+.ds-page [data-bs-products="money"] .bs-presentation { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-3); align-items:start; }
+.ds-page [data-bs-products="money"] .bs-graphic > svg { height:7rem; }
+.ds-page [data-bs-products="money"] .bs-facts { grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--ds-space-4); }
+.ds-page [data-bs-products="money"] .bs-facts dt, .ds-page [data-bs-products="money"] .bs-facts dd { display:block; }
+.ds-page [data-bs-products="money"] .bs-facts dd::before { content:none; }
+@media (max-width:48rem) {
+  .ds-page [data-bs-products="money"] .bs-graphic { max-width:none; }
+  .ds-page [data-bs-products="money"] .bs-graphic > svg { height:5.5rem; }
+  .ds-page [data-bs-products="money"] .bs-facts { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-2); }
+  .ds-page [data-bs-products="money"] .bs-facts dt, .ds-page [data-bs-products="money"] .bs-facts dd { display:inline; }
+  .ds-page [data-bs-products="money"] .bs-facts dd::before { content:" — "; }
+}
+
+/* Liability starts with the explanation; the adjacent diagram follows the allegation. */
+.ds-page [data-bs-products="liability"] .bs-presentation { grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr); }
+.ds-page [data-bs-products="liability"] .bs-graphic { grid-column:2; grid-row:1; }
+.ds-page [data-bs-products="liability"] .bs-detail { grid-column:1; grid-row:1; }
+@media (max-width:48rem) {
+  .ds-page [data-bs-products="liability"] .bs-presentation { grid-template-columns:minmax(0,1fr); }
+  .ds-page [data-bs-products="liability"] .bs-detail { grid-column:1; grid-row:1; }
+  .ds-page [data-bs-products="liability"] .bs-graphic { grid-column:1; grid-row:2; }
+}
+
+.ds-page [data-bs-products="liability"] .bs-graphic > svg { height:14rem; }
+.ds-page [data-bs-products="liability"] .bs-presentation > .bs-action { grid-column:1 / -1; grid-row:2; display:flex; align-items:center; gap:var(--ds-space-3); min-height:2.75rem; font-size:var(--ds-small); width:fit-content; }
+@media (max-width:48rem) {
+  .ds-page [data-bs-products="liability"] .bs-graphic > svg { height:8rem; }
+  .ds-page [data-bs-products="liability"] .bs-presentation > .bs-action { grid-row:3; font-size:var(--ds-caption); }
+}
+
+/* People coverage uses benefit branches, independent requirements and a journey. */
+.ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"],[data-bs-view="foreign"]) .bs-presentation { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-3); align-items:start; }
+.ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-graphic > svg { height:7rem; }
+.ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts { grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--ds-space-4); }
+.ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts dt, .ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts dd { display:block; }
+.ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts dd::before { content:none; }
+.ds-page [data-bs-view="foreign"] .bs-requirements { grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--ds-space-6); }
+.ds-page [data-bs-view="foreign"] .bs-requirements > div + div { border:0; padding:0; }
+.ds-page [data-bs-view="foreign"] .bs-graphic { margin:0 0 var(--ds-space-2); }
+.ds-page [data-bs-view="foreign"] .bs-graphic > svg { height:5.5rem; }
+@media (max-width:48rem) {
+  .ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-graphic { max-width:none; }
+  .ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-graphic > svg { height:5.5rem; }
+  .ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-2); }
+  .ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts dt, .ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts dd { display:inline; }
+  .ds-page [data-bs-products="people"] :is([data-bs-view="work"],[data-bs-view="travel"]) .bs-facts dd::before { content:" — "; }
+  .ds-page [data-bs-view="foreign"] .bs-requirements { gap:var(--ds-space-3); }
+}
+
+/* A shipment is a journey; marine liability is an independent map of operating roles. */
+.ds-page [data-bs-products="marine"] :is([data-bs-view="cargo"],[data-bs-view="liabilities"]) .bs-presentation { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-3); align-items:start; }
+.ds-page [data-bs-view="cargo"] .bs-graphic > svg { height:7rem; }
+.ds-page [data-bs-view="cargo"] .bs-facts { grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--ds-space-4); }
+.ds-page [data-bs-view="cargo"] .bs-facts dt, .ds-page [data-bs-view="cargo"] .bs-facts dd { display:block; }
+.ds-page [data-bs-view="cargo"] .bs-facts dd::before { content:none; }
+.ds-page [data-bs-view="liabilities"] .bs-role-list { grid-template-columns:repeat(4,minmax(0,1fr)); gap:var(--ds-space-4); }
+.ds-page .bs-role-graphic { margin:0 0 var(--ds-space-2); width:100%; color:var(--ds-brand); }
+.ds-page .bs-role-graphic > svg { display:block; width:100%; height:4rem; }
+@media (max-width:48rem) {
+  .ds-page [data-bs-view="cargo"] .bs-graphic { max-width:none; }
+  .ds-page [data-bs-view="cargo"] .bs-graphic > svg { height:5.5rem; }
+  .ds-page [data-bs-view="cargo"] .bs-facts { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-2); }
+  .ds-page [data-bs-view="cargo"] .bs-facts dt, .ds-page [data-bs-view="cargo"] .bs-facts dd { display:inline; }
+  .ds-page [data-bs-view="cargo"] .bs-facts dd::before { content:" — "; }
+  .ds-page [data-bs-view="liabilities"] .bs-role-list { grid-template-columns:minmax(0,1fr); gap:var(--ds-space-3); }
+  .ds-page [data-bs-view="liabilities"] .bs-role-list > div { display:grid; grid-template-columns:3rem minmax(0,1fr); column-gap:var(--ds-space-3); }
+  .ds-page [data-bs-view="liabilities"] .bs-role-list dt { display:contents; }
+  .ds-page [data-bs-view="liabilities"] .bs-role-graphic { grid-column:1; grid-row:1 / 3; margin:0; }
+  .ds-page [data-bs-view="liabilities"] .bs-role-graphic > svg { height:3rem; }
+  .ds-page [data-bs-view="liabilities"] .bs-role-list dt > span { grid-column:2; grid-row:1; color:var(--ds-brand); }
+  .ds-page [data-bs-view="liabilities"] .bs-role-list dd { grid-column:2; grid-row:2; }
+  .ds-page [data-bs-view="liabilities"] .bs-role-list dd::before { content:none; }
+}

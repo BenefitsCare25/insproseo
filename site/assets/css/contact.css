@@ -1,0 +1,11 @@
+/* Contact details and office directions share one area. */
+.ds-surface[data-design-page="contact"] .xp-contact-copy h1 { font-size: var(--ds-display); max-width: none; white-space: nowrap; }
+.ds-surface[data-design-page="contact"] .xp-contact-copy > p { max-width: 32ch; }
+.ds-surface[data-design-page="contact"] .xp-contact-direct { display: grid; justify-items: start; gap: var(--ds-space-4); }
+.cp-contact-office { margin-top: var(--ds-space-10); }
+.ds-surface[data-design-page="contact"] .cp-contact-office address { display: block; margin: 0 0 var(--ds-space-4); color: var(--ds-muted); font-size: var(--ds-body); font-style: normal; line-height: var(--ds-leading); }
+.cp-contact-office .xp-link { font-size: var(--ds-body); }
+.ds-surface[data-design-page="contact"] .cp-contact-office p { margin: var(--ds-space-4) 0 0; color: var(--ds-muted); font-size: var(--ds-small); }
+@media (max-width: 48rem) {
+  .ds-surface[data-design-page="contact"] .ds-enquiry-options { grid-template-columns: 1fr; }
+}

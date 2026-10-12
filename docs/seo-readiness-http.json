@@ -1,0 +1,263 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 37080,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/services/",
+      "status": 200,
+      "bytes": 18922,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "status": 200,
+      "bytes": 27381,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "status": 200,
+      "bytes": 32890,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "status": 200,
+      "bytes": 34939,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/view-commercial-insurance-products/",
+      "status": 200,
+      "bytes": 25055,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/employee-benefits/portal/",
+      "status": 200,
+      "bytes": 55027,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/about-us/",
+      "status": 200,
+      "bytes": 14266,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/contact-us/",
+      "status": 200,
+      "bytes": 16599,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/claims-support/",
+      "status": 200,
+      "bytes": 15315,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/guides/",
+      "status": 200,
+      "bytes": 15364,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "status": 200,
+      "bytes": 17547,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/privacy-security/",
+      "status": 200,
+      "bytes": 11567,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/foreign-worker-medical-insurance/",
+      "status": 200,
+      "bytes": 16178,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/foreign-workers-bonds/",
+      "status": 200,
+      "bytes": 16121,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/corporate-travel-insurance/",
+      "status": 200,
+      "bytes": 15955,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "status": 200,
+      "bytes": 18832,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/personal/travel-insurance/",
+      "status": 200,
+      "bytes": 18192,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/personal/motor-insurance/",
+      "status": 200,
+      "bytes": 15909,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/personal/home-insurance/",
+      "status": 200,
+      "bytes": 15898,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/personal/personal-accident-insurance/",
+      "status": 200,
+      "bytes": 16065,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/personal/maid-insurance/",
+      "status": 200,
+      "bytes": 16072,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/employee-benefits/group-medical-insurance/",
+      "status": 200,
+      "bytes": 16217,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/work-injury-compensation-insurance/",
+      "status": 200,
+      "bytes": 16923,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/public-liability-insurance/",
+      "status": 200,
+      "bytes": 15876,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/service-details/commercial/professional-indemnity-insurance/",
+      "status": 200,
+      "bytes": 16149,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/guides/sme-employee-insurance-singapore/",
+      "status": 200,
+      "bytes": 16734,
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'none'",
+      "cache": "public, max-age=0, must-revalidate"
+    }
+  ],
+  "cases": [
+    {
+      "label": "missing404",
+      "route": "/not-a-page-production-check/",
+      "expected": 404,
+      "status": 404,
+      "location": null,
+      "bodyBytes": 8676
+    },
+    {
+      "label": "privateRoot",
+      "route": "/README.md",
+      "expected": 404,
+      "status": 404,
+      "location": null,
+      "bodyBytes": 8676
+    },
+    {
+      "label": "hiddenConfig",
+      "route": "/.env",
+      "expected": 400,
+      "status": 400,
+      "location": null,
+      "bodyBytes": 13
+    },
+    {
+      "label": "hiddenRules",
+      "route": "/_headers",
+      "expected": 404,
+      "status": 404,
+      "location": null,
+      "bodyBytes": 10
+    },
+    {
+      "label": "postBlocked",
+      "route": "/contact-us/",
+      "expected": 405,
+      "status": 405,
+      "location": null,
+      "bodyBytes": 19
+    },
+    {
+      "label": "indexAlias",
+      "route": "/guides/index.html?source=check",
+      "expected": 301,
+      "status": 301,
+      "location": "/guides/?source=check",
+      "bodyBytes": 18
+    },
+    {
+      "label": "slashAlias",
+      "route": "/guides",
+      "expected": 301,
+      "status": 301,
+      "location": "/guides/",
+      "bodyBytes": 18
+    },
+    {
+      "label": "head",
+      "route": "/services/",
+      "expected": 200,
+      "status": 200,
+      "location": null,
+      "bodyBytes": 0
+    }
+  ],
+  "conditionalStatus": 304,
+  "rangeStatus": 206,
+  "rangeBytes": 100,
+  "invalidRangeStatus": 416
+}

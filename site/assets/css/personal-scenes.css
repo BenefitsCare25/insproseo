@@ -1,0 +1,116 @@
+/* Personal cover uses the approved shared frame with content-specific diagrams. */
+.ds-page .ps-scene { display:grid; grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr); gap:var(--ds-space-8); align-items:start; }
+.ds-page .ps-scene > * { min-width:0; }
+.ds-page .ps-copy h2 { font-size:var(--card-heading); line-height:1.2; max-width:22ch; margin:0 0 var(--ds-space-4); }
+.ds-page .ps-copy > p { color:var(--ds-muted); line-height:1.65; margin:0 0 var(--ds-space-5); max-width:43ch; }
+.ds-page .ps-copy > :is(.xp-button,.xp-link) { display:flex; width:fit-content; margin-top:var(--ds-space-4); }
+.ds-page .ps-copy > .ps-copy-note { font-size:var(--ds-small); margin:var(--ds-space-5) 0 0; }
+.ds-page .ps-scene h3 { font-size:var(--ds-body); line-height:1.4; margin:0 0 var(--ds-space-2); }
+.ds-page .ps-scene p { font-size:var(--ds-small); line-height:1.6; }
+.ds-page .ps-scene .ps-copy > p { font-size:var(--ds-body); }
+.ds-page .ps-scene .ps-copy > .ps-copy-note { font-size:var(--ds-small); }
+.ds-page .ps-display { min-width:0; }
+.ds-page .ps-choices { display:none; }
+.flow-ready .ps-choices { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--ds-space-2); margin:0 0 var(--ds-space-3); }
+.flow-ready [data-ps-display="travel"] .ps-choices { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.ds-page .ps-choices button { min-width:0; min-height:2.75rem; padding:var(--ds-space-2) var(--ds-space-3); font:inherit; font-size:var(--ds-small); line-height:1.45; font-weight:var(--ds-weight); color:var(--ds-ink); background:var(--ds-paper); border:0; border-radius:var(--ds-radius-sm); cursor:pointer; }
+.ds-page .ps-choices button:hover { background:var(--ds-wash); }
+.ds-page .ps-choices button[aria-pressed="true"] { background:var(--ds-brand); color:var(--ds-inverse); }
+.ds-page .ps-choices button:focus-visible { outline:var(--nav-focus-width) solid var(--ds-brand); outline-offset:var(--nav-focus-offset); box-shadow:none; }
+.ds-page .ps-choices button[aria-pressed="true"]:focus-visible { outline-color:var(--ds-inverse); }
+.flow-ready .ps-views { display:grid; grid-template-columns:minmax(0,1fr); }
+.flow-ready .ps-view { grid-area:1 / 1; align-self:start; min-width:0; }
+.flow-ready .ps-view[hidden] { display:block !important; visibility:hidden; pointer-events:none; }
+.ds-page .ps-detail { background:var(--ds-paper); border-radius:var(--ds-radius); padding:var(--ds-space-4); }
+.ds-page .ps-detail p { margin:0; color:var(--ds-muted); }
+.ds-page .ps-caption { margin:var(--ds-space-3) 0 0; font-size:var(--ds-caption); color:var(--ds-muted); }
+.ds-page .ps-travel-route { display:block; width:100%; height:7rem; color:var(--ds-brand); }
+.ds-page .ps-route-track, .ds-page .ps-golf-ground { stroke:var(--ds-line); stroke-width:2; stroke-linecap:round; }
+.ds-page .ps-travel-route circle { fill:var(--ds-brand); }
+.ds-page .ps-route-plane { stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; fill:var(--ds-paper); }
+.ds-page .ps-travel-window { display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:var(--ds-space-3); background:var(--ds-brand); color:var(--ds-inverse); border-radius:var(--ds-radius); padding:var(--ds-space-4); }
+.ds-page .ps-window-arrow svg { width:1.25rem; height:1.25rem; }
+.ds-page #ps-view-travel-single .ps-window-arrow svg { transform:rotate(45deg); }
+.ds-page .ps-travel-window div { display:grid; gap:var(--ds-space-1); }
+.ds-page .ps-travel-window div > span { font-size:var(--ds-caption); color:var(--ds-inverse-muted); }
+.ds-page .ps-travel-window strong { font-size:var(--ds-body); font-weight:var(--ds-weight); }
+.ds-page .ps-travel-checks { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--ds-space-4); margin-top:var(--ds-space-5); }
+.ds-page .ps-travel-checks > div { display:flex; align-items:center; gap:var(--ds-space-2); font-size:var(--ds-small); }
+.ds-page .ps-travel-checks svg { color:var(--ds-brand); width:1.25rem; height:1.25rem; flex-shrink:0; }
+.ds-page .ps-car-graphic { display:block; width:100%; height:7rem; color:var(--ds-brand); margin-bottom:var(--ds-space-2); }
+.ds-page .ps-asset-outline { stroke:var(--ds-brand); stroke-width:2.3; stroke-linecap:round; stroke-linejoin:round; }
+.ds-page .ps-motor-layers { list-style:none; margin:var(--ds-space-3) 0 0; padding:0; }
+.ds-page .ps-motor-layers li { display:flex; align-items:start; gap:var(--ds-space-2); padding:var(--ds-space-2) 0; font-size:var(--ds-small); line-height:1.5; }
+.ds-page .ps-motor-layers svg { width:1rem; height:1rem; flex-shrink:0; margin-top:var(--ds-space-1); }
+.ds-page .ps-layer-on { color:var(--ds-brand); }
+.ds-page .ps-layer-off { color:var(--ds-muted); }
+.ds-page .ps-layer-status { margin-left:auto; font-size:var(--ds-caption); flex-shrink:0; }
+.ds-page .ps-house-graphic { display:block; width:100%; height:12rem; margin:0 0 var(--ds-space-3); }
+.ds-page .ps-house-shell, .ds-page .ps-house-renovation, .ds-page .ps-house-contents { stroke:var(--ds-line); stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; }
+.ds-page .ps-house-active { stroke:var(--ds-brand); stroke-width:3; }
+.ds-page .ps-house-marker { fill:var(--ds-brand); stroke:var(--ds-paper); stroke-width:2; }
+.ds-page .ps-connector { display:block; width:100%; height:1.75rem; stroke:var(--ds-line); stroke-width:2; stroke-linecap:round; }
+.ds-page .ps-accident-hub { text-align:center; color:var(--ds-brand); padding:var(--ds-space-3) 0 0; }
+.ds-page .ps-accident-hub > svg { width:2.5rem; height:2.5rem; margin:0 auto var(--ds-space-2); }
+.ds-page .ps-accident-hub h3 { color:inherit; margin:0; }
+.ds-page .ps-accident-outcomes, .ds-page .ps-helper-covers { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--ds-space-3); }
+.ds-page .ps-accident-outcomes > div, .ds-page .ps-helper-covers > div { background:var(--ds-paper); border-radius:var(--ds-radius); padding:var(--ds-space-5); }
+.ds-page .ps-accident-outcomes > div > svg, .ds-page .ps-helper-covers > div > svg { width:1.5rem; height:1.5rem; color:var(--ds-brand); margin-bottom:var(--ds-space-3); }
+.ds-page .ps-accident-outcomes p, .ds-page .ps-helper-covers p { color:var(--ds-muted); margin:0; }
+.ds-page .ps-helper-display > h3 { margin-bottom:var(--ds-space-3); }
+.ds-page .ps-helper-bond { margin-top:var(--ds-space-3); display:flex; align-items:start; gap:var(--ds-space-3); background:var(--ds-brand); color:var(--ds-inverse); padding:var(--ds-space-4); border-radius:var(--ds-radius); }
+.ds-page .ps-helper-bond > svg { width:1.5rem; height:1.5rem; flex-shrink:0; }
+.ds-page .ps-helper-bond h3 { color:inherit; }
+.ds-page .ps-helper-bond p { margin:0; color:var(--ds-inverse-muted); }
+.ds-page :is(.ps-golf-graphic,.ps-art-graphic,.ps-craft-graphic) { display:block; width:100%; height:8rem; color:var(--ds-brand); margin:0 0 var(--ds-space-3); }
+.ds-page .ps-golf-graphic ellipse, .ds-page .ps-golf-ball { fill:var(--ds-brand); }
+.ds-page .ps-golf-ball { stroke:var(--ds-paper); stroke-width:1; }
+.ds-page .ps-art-work, .ds-page .ps-craft-water { stroke:var(--ds-brand); stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+.ds-page .ps-specialist-facts { margin:0; padding:0; }
+.ds-page .ps-specialist-facts > div { display:grid; grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr); gap:var(--ds-space-4); padding:var(--ds-space-3) 0; border-bottom:1px solid var(--ds-line); }
+.ds-page .ps-specialist-facts > div:last-child { border:0; }
+.ds-page .ps-specialist-facts dt { font-size:var(--ds-small); font-weight:var(--ds-weight); color:var(--ds-brand); }
+.ds-page .ps-specialist-facts dd { font-size:var(--ds-small); line-height:1.6; color:var(--ds-muted); margin:0; }
+.flow-ready[data-design-page="personal"] .flow-workbench .flow-screen { display:grid; grid-template-columns:minmax(0,1fr); min-height:var(--card-stage-height); height:auto; }
+.flow-ready[data-design-page="personal"] .flow-panel { grid-area:1 / 1; align-self:start; width:100%; }
+.flow-ready[data-design-page="personal"] .flow-panel.flow-inactive { display:block !important; visibility:hidden; pointer-events:none; }
+.flow-ready[data-design-page="personal"] .flow-expanded .flow-screen { display:block; min-height:0; }
+.flow-ready[data-design-page="personal"] .flow-expanded .flow-panel { visibility:visible; pointer-events:auto; }
+@media (max-width:70rem) {
+  .ds-page .ps-scene { grid-template-columns:1fr; gap:var(--ds-space-6); }
+  .ds-page .ps-scene > :last-child { width:100%; max-width:36rem; justify-self:center; }
+  .ds-page .ps-house-graphic { height:10rem; }
+}
+@media (max-width:48rem) {
+  .ds-page .ps-choices button { padding:var(--ds-space-2); font-size:var(--ds-caption); }
+  .flow-ready :is([data-ps-display="motor"],[data-ps-display="home"]) .ps-choices { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .flow-ready :is([data-ps-display="motor"],[data-ps-display="home"]) .ps-choices > button:last-child { grid-column:1 / -1; }
+  .ds-page .ps-travel-window { padding:var(--ds-space-3); gap:var(--ds-space-2); }
+  .ds-page .ps-travel-window strong { font-size:var(--ds-small); }
+  .ds-page .ps-travel-checks { grid-template-columns:1fr; gap:var(--ds-space-3); }
+  .ds-page .ps-motor-layers li { display:grid; grid-template-columns:1rem minmax(0,1fr); }
+  .ds-page .ps-layer-status { grid-column:2; margin:0; }
+  .ds-page .ps-accident-outcomes > div, .ds-page .ps-helper-covers > div { padding:var(--ds-space-3); }
+  .ds-page .ps-specialist-facts > div { grid-template-columns:1fr; gap:var(--ds-space-1); }
+}
+@media (max-width:23.75rem) {
+  .ds-page :is(.ps-accident-outcomes,.ps-helper-covers) { grid-template-columns:1fr; }
+}
+@media (prefers-reduced-motion:reduce) { .ps-scene * { animation:none; transition:none; } }
+@media print {
+  .flow-ready[data-design-page="personal"] .flow-workbench .flow-screen { display:block; min-height:0; height:auto; }
+  .flow-ready[data-design-page="personal"] .flow-panel { visibility:visible !important; pointer-events:auto; }
+  .ds-page .ps-scene, .flow-ready .ps-views { display:block; }
+  .ds-page .ps-scene > * + * { margin-top:var(--ds-space-5); }
+  .ds-page .ps-choices { display:none !important; }
+  .flow-ready .ps-view[hidden] { display:block !important; visibility:visible; pointer-events:auto; }
+  .ds-page .ps-view + .ps-view { margin-top:var(--ds-space-5); }
+}
+.ds-page:not(.flow-ready) .ps-view + .ps-view { margin-top:var(--ds-space-6); }
+
+.ds-page:not(.flow-ready) .ps-copy > [data-personal-enquiry] { display:none; }
+.flow-ready .ps-fallback-action { display:none; }
+@media print {
+  .ds-page .ps-copy > [data-personal-enquiry] { display:none; }
+  .flow-ready .ps-fallback-action { display:inline-flex; }
+}

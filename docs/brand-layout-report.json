@@ -1,0 +1,873 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Not sure what your insurance actually covers?",
+        "Insurance services",
+        "BenefitsCare for\nsmaller teams.",
+        "Benefits for a\nlarger workforce.",
+        "Start a conversation."
+      ],
+      "paragraphs": [
+        "SINGAPORE INSURANCE BROKER",
+        "Not sure what your insurance actually covers?",
+        "We help businesses, HR teams and individuals review possible gaps, compare suitable cover and understand the next step.",
+        "Request an insurance review\n→",
+        "FOR BUSINESS OWNERS",
+        "Review property, business interruption, work injury compensation and liability risks around how your company actually operates.",
+        "FOR HR AND PEOPLE TEAMS",
+        "Review group medical, life, outpatient, dental and claims-administration needs against your workforce and budget.",
+        "FOR INDIVIDUALS AND FAMILIES",
+        "Review motor, travel, home, personal accident, maid and specialist cover as your circumstances change.",
+        "Start with panel GP care. Add flexibility or inpatient hospitalisation as your needs grow.",
+        "per employee\nper month",
+        "Indicative starting prices; quotation required. Benefits, limits and exclusions are subject to policy terms.",
+        "Customise cover, enrolment and administration around your organisation.",
+        "Benefits, claims and clinic information.",
+        "Enrolment, reporting and programme support."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Insurance solutions.",
+        "BenefitsCare for SMEs",
+        "Corporate employee benefits",
+        "Business insurance",
+        "Personal insurance",
+        "Not sure which cover you need?"
+      ],
+      "paragraphs": [
+        "Three starting points for a healthier team.",
+        "A programme built around your workforce.",
+        "Cover for the way your business works.",
+        "For home, travel and everyday life."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "BenefitsCare forSingapore SMEs.",
+        "Compare the plans.",
+        "Additional cover.",
+        "What we need for your quotation.",
+        "Request a BenefitsCare quotation."
+      ],
+      "paragraphs": [
+        "Choose from three plans, with panel GP access and options for flexible benefits and hospital cover.",
+        "Indicative starting prices. Quotation required. Benefits, eligibility, limits and exclusions are subject to the insurer’s terms. Inpatient hospitalisation is included in Premier, subject to policy terms.",
+        "Need a broader benefits package? We can discuss additional cover alongside your chosen plan.",
+        "Additional benefits are not automatically included in the three plans. Your quotation confirms the scope.",
+        "No. These are indicative starting prices per employee per month. Request a quotation for the final cost, eligibility, benefits and policy terms.",
+        "Explore our corporate employee benefits service for programme design, HR administration and employee support."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Employee benefitsfor larger teams.",
+        "Tools for day-to-day benefits.",
+        "Support through the policy year.",
+        "Choose the scope of cover.",
+        "Discuss your benefits programme."
+      ],
+      "paragraphs": [
+        "Tailored benefits, practical administration and support throughout the policy year.",
+        "Online tools for managing everyday care.",
+        "View benefits, claims status and claims history.",
+        "Clinic locator and e-card access where included in your programme.",
+        "Submit claims and raise benefit or letter-of-guarantee enquiries.",
+        "Features and support depend on your agreed programme.",
+        "Start with your workforce, priorities and current cover.",
+        "Hospital and surgical, major medical, outpatient and dental options.",
+        "Group term life, dread disease and personal accident benefits.",
+        "Insurance and non-insurance benefit administration, where agreed."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Cover for the wayyou do business.",
+        "Where does your businessneed protection?",
+        "When to review your cover."
+      ],
+      "paragraphs": [
+        "Start with your operations. Review the risks, responsibilities and cover that keep your business moving.",
+        "What would it take to recover after damage to your workplace?",
+        "Review buildings, contents, stock and equipment.",
+        "Discuss income loss and recovery costs following an insured event.",
+        "Availability, cover, limits and exclusions depend on the insurer and policy.",
+        "Opening a location, growing your team, signing a new contract or buying equipment can change your insurance needs."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Cover for lifeoutside work.",
+        "What are you protecting?",
+        "Other personal cover."
+      ],
+      "paragraphs": [
+        "Practical cover for your car, your travels and the place you call home.",
+        "Review the protection behind the wheel.",
+        "Compare the cover type, excess and driver conditions.",
+        "Check workshop arrangements and reporting requirements.",
+        "Availability, cover, limits and exclusions depend on the insurer and policy.",
+        "Ask us about personal accident, domestic helper and other personal insurance needs.",
+        "Bring your policy schedule and renewal date. We’ll help you compare the details that matter."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/about-us/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "About Inspro."
+      ],
+      "paragraphs": [
+        "A Singapore insurance brokerage serving employers, businesses and individuals.",
+        "Our work covers insurance placement, employee benefits administration and claims assistance."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/claims-support/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Help with yourinsurance claim.",
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "Common claim questions."
+      ],
+      "paragraphs": [
+        "Help with documents, insurer follow-up and settlement queries.",
+        "Follow the insurer’s reporting channel and time limits. For urgent assistance, use the insurer’s emergency contact.",
+        "Keep your policy number, incident date, receipts, reports and insurer correspondence together.",
+        "Share your claim reference and insurer correspondence so we can help with the next step.",
+        "No. Ask our team for the appropriate channel before sharing medical records, identification or complete policy documents.",
+        "No. The insurer assesses the claim against the policy terms and supporting evidence.",
+        "Follow your programme’s hospital and insurer procedures. Contact Inspro for help with the request; issuance is subject to the programme and insurer’s requirements."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/guides/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Guides & checklists.",
+        "Your insurance\nreview checklist."
+      ],
+      "paragraphs": [
+        "01\nGather your policies",
+        "02\nSpot what has changed",
+        "03\nCompare the details",
+        "04\nConfirm the next steps",
+        "What to prepare, what to compare and what to ask before renewal."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Your insurancereview checklist.",
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Arrange an insurance review."
+      ],
+      "paragraphs": [
+        "Prepare your documents, spot changes and compare the details before renewal.",
+        "In this guide",
+        "Updated 3 October 2026 · 5 min read. Tick items as you go; progress lasts only while this page stays open.",
+        "Start with what you already have.",
+        "A renewal is a chance to check whether your cover still fits.",
+        "A lower premium is only one part of the decision.",
+        "Resolve the practical questions before cover begins.",
+        "General preparation guidance. Your policy wording and insurer’s terms determine your cover."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Talk to Inspro.",
+        "Prepare an enquiry."
+      ],
+      "paragraphs": [
+        "For quotes, renewals and policy support.",
+        "Please leave out NRIC numbers, medical records and payment details.",
+        "Opens an email draft for you to review and send. This website does not send or store your enquiry."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/privacy-security/",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Privacy & security.",
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "paragraphs": [
+        "How this website handles enquiries and personal information. Updated 3 October 2026.",
+        "The form prepares an email draft in your mail application. You can review, edit or cancel it. This website does not submit or store the form contents.",
+        "Information you provide directly to Inspro may be used to respond to your enquiry and provide requested services. Contact Inspro with questions about information you have provided.",
+        "Do not include NRIC numbers, medical records, payment details, passwords or complete policy documents in an initial website enquiry. Ask our team for an appropriate channel.",
+        "This website does not use advertising cookies or store enquiry data in the browser. Interactive selections and checklist progress are temporary. This notice will be updated if optional analytics or other services are added.",
+        "External links, including the MAS directory, are governed by those sites’ own privacy and security practices.",
+        "This notice may be updated when website services or enquiry-handling processes change."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Page not found."
+      ],
+      "paragraphs": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Not sure what your insurance actually covers?",
+        "Insurance services",
+        "BenefitsCare for\nsmaller teams.",
+        "Benefits for a\nlarger workforce.",
+        "Start a conversation."
+      ],
+      "paragraphs": [
+        "SINGAPORE INSURANCE BROKER",
+        "Not sure what your insurance actually covers?",
+        "We help businesses, HR teams and individuals review possible gaps, compare suitable cover and understand the next step.",
+        "Request an insurance review\n→",
+        "FOR BUSINESS OWNERS",
+        "Review property, business interruption, work injury compensation and liability risks around how your company actually operates.",
+        "FOR HR AND PEOPLE TEAMS",
+        "Review group medical, life, outpatient, dental and claims-administration needs against your workforce and budget.",
+        "FOR INDIVIDUALS AND FAMILIES",
+        "Review motor, travel, home, personal accident, maid and specialist cover as your circumstances change.",
+        "Start with panel GP care. Add flexibility or inpatient hospitalisation as your needs grow.",
+        "per employee\nper month",
+        "Indicative starting prices; quotation required. Benefits, limits and exclusions are subject to policy terms.",
+        "Customise cover, enrolment and administration around your organisation.",
+        "Benefits, claims and clinic information.",
+        "Enrolment, reporting and programme support."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/services/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Insurance solutions.",
+        "BenefitsCare for SMEs",
+        "Corporate employee benefits",
+        "Business insurance",
+        "Personal insurance",
+        "Not sure which cover you need?"
+      ],
+      "paragraphs": [
+        "Three starting points for a healthier team.",
+        "A programme built around your workforce.",
+        "Cover for the way your business works.",
+        "For home, travel and everyday life."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "BenefitsCare forSingapore SMEs.",
+        "Compare the plans.",
+        "Additional cover.",
+        "What we need for your quotation.",
+        "Request a BenefitsCare quotation."
+      ],
+      "paragraphs": [
+        "Choose from three plans, with panel GP access and options for flexible benefits and hospital cover.",
+        "Indicative starting prices. Quotation required. Benefits, eligibility, limits and exclusions are subject to the insurer’s terms. Inpatient hospitalisation is included in Premier, subject to policy terms.",
+        "Need a broader benefits package? We can discuss additional cover alongside your chosen plan.",
+        "Additional benefits are not automatically included in the three plans. Your quotation confirms the scope.",
+        "No. These are indicative starting prices per employee per month. Request a quotation for the final cost, eligibility, benefits and policy terms.",
+        "Explore our corporate employee benefits service for programme design, HR administration and employee support."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Employee benefitsfor larger teams.",
+        "Tools for day-to-day benefits.",
+        "Support through the policy year.",
+        "Choose the scope of cover.",
+        "Discuss your benefits programme."
+      ],
+      "paragraphs": [
+        "Tailored benefits, practical administration and support throughout the policy year.",
+        "Online tools for managing everyday care.",
+        "View benefits, claims status and claims history.",
+        "Clinic locator and e-card access where included in your programme.",
+        "Submit claims and raise benefit or letter-of-guarantee enquiries.",
+        "Features and support depend on your agreed programme.",
+        "Start with your workforce, priorities and current cover.",
+        "Hospital and surgical, major medical, outpatient and dental options.",
+        "Group term life, dread disease and personal accident benefits.",
+        "Insurance and non-insurance benefit administration, where agreed."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Cover for the wayyou do business.",
+        "Where does your businessneed protection?",
+        "When to review your cover."
+      ],
+      "paragraphs": [
+        "Start with your operations. Review the risks, responsibilities and cover that keep your business moving.",
+        "What would it take to recover after damage to your workplace?",
+        "Review buildings, contents, stock and equipment.",
+        "Discuss income loss and recovery costs following an insured event.",
+        "Availability, cover, limits and exclusions depend on the insurer and policy.",
+        "Opening a location, growing your team, signing a new contract or buying equipment can change your insurance needs."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Cover for lifeoutside work.",
+        "What are you protecting?",
+        "Other personal cover."
+      ],
+      "paragraphs": [
+        "Practical cover for your car, your travels and the place you call home.",
+        "Review the protection behind the wheel.",
+        "Compare the cover type, excess and driver conditions.",
+        "Check workshop arrangements and reporting requirements.",
+        "Availability, cover, limits and exclusions depend on the insurer and policy.",
+        "Ask us about personal accident, domestic helper and other personal insurance needs.",
+        "Bring your policy schedule and renewal date. We’ll help you compare the details that matter."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/about-us/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "About Inspro."
+      ],
+      "paragraphs": [
+        "A Singapore insurance brokerage serving employers, businesses and individuals.",
+        "Our work covers insurance placement, employee benefits administration and claims assistance."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/claims-support/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Help with yourinsurance claim.",
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "Common claim questions."
+      ],
+      "paragraphs": [
+        "Help with documents, insurer follow-up and settlement queries.",
+        "Follow the insurer’s reporting channel and time limits. For urgent assistance, use the insurer’s emergency contact.",
+        "Keep your policy number, incident date, receipts, reports and insurer correspondence together.",
+        "Share your claim reference and insurer correspondence so we can help with the next step.",
+        "No. Ask our team for the appropriate channel before sharing medical records, identification or complete policy documents.",
+        "No. The insurer assesses the claim against the policy terms and supporting evidence.",
+        "Follow your programme’s hospital and insurer procedures. Contact Inspro for help with the request; issuance is subject to the programme and insurer’s requirements."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/guides/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Guides & checklists.",
+        "Your insurance\nreview checklist."
+      ],
+      "paragraphs": [
+        "01\nGather your policies",
+        "02\nSpot what has changed",
+        "03\nCompare the details",
+        "04\nConfirm the next steps",
+        "What to prepare, what to compare and what to ask before renewal."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Your insurancereview checklist.",
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Arrange an insurance review."
+      ],
+      "paragraphs": [
+        "Prepare your documents, spot changes and compare the details before renewal.",
+        "In this guide",
+        "Updated 3 October 2026 · 5 min read. Tick items as you go; progress lasts only while this page stays open.",
+        "Start with what you already have.",
+        "A renewal is a chance to check whether your cover still fits.",
+        "A lower premium is only one part of the decision.",
+        "Resolve the practical questions before cover begins.",
+        "General preparation guidance. Your policy wording and insurer’s terms determine your cover."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Talk to Inspro.",
+        "Prepare an enquiry."
+      ],
+      "paragraphs": [
+        "For quotes, renewals and policy support.",
+        "Please leave out NRIC numbers, medical records and payment details.",
+        "Opens an email draft for you to review and send. This website does not send or store your enquiry."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/privacy-security/",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Privacy & security.",
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "paragraphs": [
+        "How this website handles enquiries and personal information. Updated 3 October 2026.",
+        "The form prepares an email draft in your mail application. You can review, edit or cancel it. This website does not submit or store the form contents.",
+        "Information you provide directly to Inspro may be used to respond to your enquiry and provide requested services. Contact Inspro with questions about information you have provided.",
+        "Do not include NRIC numbers, medical records, payment details, passwords or complete policy documents in an initial website enquiry. Ask our team for an appropriate channel.",
+        "This website does not use advertising cookies or store enquiry data in the browser. Interactive selections and checklist progress are temporary. This notice will be updated if optional analytics or other services are added.",
+        "External links, including the MAS directory, are governed by those sites’ own privacy and security practices.",
+        "This notice may be updated when website services or enquiry-handling processes change."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/404.html",
+      "width": 1044,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Page not found."
+      ],
+      "paragraphs": [],
+      "errors": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Not sure what your insurance actually covers?",
+        "Insurance services",
+        "BenefitsCare for\nsmaller teams.",
+        "Benefits for a\nlarger workforce.",
+        "Start a conversation."
+      ],
+      "paragraphs": [
+        "SINGAPORE INSURANCE BROKER",
+        "Not sure what your insurance actually covers?",
+        "We help businesses, HR teams and individuals review possible gaps, compare suitable cover and understand the next step.",
+        "Request an insurance review\n→",
+        "FOR BUSINESS OWNERS",
+        "Review property, business interruption, work injury compensation and liability risks around how your company actually operates.",
+        "FOR HR AND PEOPLE TEAMS",
+        "Review group medical, life, outpatient, dental and claims-administration needs against your workforce and budget.",
+        "FOR INDIVIDUALS AND FAMILIES",
+        "Review motor, travel, home, personal accident, maid and specialist cover as your circumstances change.",
+        "Start with panel GP care. Add flexibility or inpatient hospitalisation as your needs grow.",
+        "per employee\nper month",
+        "Indicative starting prices; quotation required. Benefits, limits and exclusions are subject to policy terms.",
+        "Customise cover, enrolment and administration around your organisation.",
+        "Benefits, claims and clinic information.",
+        "Enrolment, reporting and programme support."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/services/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Insurance solutions.",
+        "BenefitsCare for SMEs",
+        "Corporate employee benefits",
+        "Business insurance",
+        "Personal insurance",
+        "Not sure which cover you need?"
+      ],
+      "paragraphs": [
+        "Three starting points for a healthier team.",
+        "A programme built around your workforce.",
+        "Cover for the way your business works.",
+        "For home, travel and everyday life."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "BenefitsCare forSingapore SMEs.",
+        "Compare the plans.",
+        "Additional cover.",
+        "What we need for your quotation.",
+        "Request a BenefitsCare quotation."
+      ],
+      "paragraphs": [
+        "Choose from three plans, with panel GP access and options for flexible benefits and hospital cover.",
+        "Indicative starting prices. Quotation required. Benefits, eligibility, limits and exclusions are subject to the insurer’s terms. Inpatient hospitalisation is included in Premier, subject to policy terms.",
+        "Need a broader benefits package? We can discuss additional cover alongside your chosen plan.",
+        "Additional benefits are not automatically included in the three plans. Your quotation confirms the scope.",
+        "No. These are indicative starting prices per employee per month. Request a quotation for the final cost, eligibility, benefits and policy terms.",
+        "Explore our corporate employee benefits service for programme design, HR administration and employee support."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Employee benefitsfor larger teams.",
+        "Tools for day-to-day benefits.",
+        "Support through the policy year.",
+        "Choose the scope of cover.",
+        "Discuss your benefits programme."
+      ],
+      "paragraphs": [
+        "Tailored benefits, practical administration and support throughout the policy year.",
+        "Online tools for managing everyday care.",
+        "View benefits, claims status and claims history.",
+        "Clinic locator and e-card access where included in your programme.",
+        "Submit claims and raise benefit or letter-of-guarantee enquiries.",
+        "Features and support depend on your agreed programme.",
+        "Start with your workforce, priorities and current cover.",
+        "Hospital and surgical, major medical, outpatient and dental options.",
+        "Group term life, dread disease and personal accident benefits.",
+        "Insurance and non-insurance benefit administration, where agreed."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Cover for the wayyou do business.",
+        "Where does your businessneed protection?",
+        "When to review your cover."
+      ],
+      "paragraphs": [
+        "Start with your operations. Review the risks, responsibilities and cover that keep your business moving.",
+        "What would it take to recover after damage to your workplace?",
+        "Review buildings, contents, stock and equipment.",
+        "Discuss income loss and recovery costs following an insured event.",
+        "Availability, cover, limits and exclusions depend on the insurer and policy.",
+        "Opening a location, growing your team, signing a new contract or buying equipment can change your insurance needs."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Cover for lifeoutside work.",
+        "What are you protecting?",
+        "Other personal cover."
+      ],
+      "paragraphs": [
+        "Practical cover for your car, your travels and the place you call home.",
+        "Review the protection behind the wheel.",
+        "Compare the cover type, excess and driver conditions.",
+        "Check workshop arrangements and reporting requirements.",
+        "Availability, cover, limits and exclusions depend on the insurer and policy.",
+        "Ask us about personal accident, domestic helper and other personal insurance needs.",
+        "Bring your policy schedule and renewal date. We’ll help you compare the details that matter."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/about-us/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "About Inspro."
+      ],
+      "paragraphs": [
+        "A Singapore insurance brokerage serving employers, businesses and individuals.",
+        "Our work covers insurance placement, employee benefits administration and claims assistance."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/claims-support/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Help with yourinsurance claim.",
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "Common claim questions."
+      ],
+      "paragraphs": [
+        "Help with documents, insurer follow-up and settlement queries.",
+        "Follow the insurer’s reporting channel and time limits. For urgent assistance, use the insurer’s emergency contact.",
+        "Keep your policy number, incident date, receipts, reports and insurer correspondence together.",
+        "Share your claim reference and insurer correspondence so we can help with the next step.",
+        "No. Ask our team for the appropriate channel before sharing medical records, identification or complete policy documents.",
+        "No. The insurer assesses the claim against the policy terms and supporting evidence.",
+        "Follow your programme’s hospital and insurer procedures. Contact Inspro for help with the request; issuance is subject to the programme and insurer’s requirements."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/guides/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Guides & checklists.",
+        "Your insurance\nreview checklist."
+      ],
+      "paragraphs": [
+        "01\nGather your policies",
+        "02\nSpot what has changed",
+        "03\nCompare the details",
+        "04\nConfirm the next steps",
+        "What to prepare, what to compare and what to ask before renewal."
+      ],
+      "errors": [],
+      "revision": 2
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Your insurancereview checklist.",
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Arrange an insurance review."
+      ],
+      "paragraphs": [
+        "Prepare your documents, spot changes and compare the details before renewal.",
+        "Updated 3 October 2026 · 5 min read. Tick items as you go; progress lasts only while this page stays open.",
+        "Start with what you already have.",
+        "A renewal is a chance to check whether your cover still fits.",
+        "A lower premium is only one part of the decision.",
+        "Resolve the practical questions before cover begins.",
+        "General preparation guidance. Your policy wording and insurer’s terms determine your cover."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/contact-us/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Talk to Inspro.",
+        "Prepare an enquiry."
+      ],
+      "paragraphs": [
+        "For quotes, renewals and policy support.",
+        "Please leave out NRIC numbers, medical records and payment details.",
+        "Opens an email draft for you to review and send. This website does not send or store your enquiry."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/privacy-security/",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Privacy & security.",
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "paragraphs": [
+        "How this website handles enquiries and personal information. Updated 3 October 2026.",
+        "The form prepares an email draft in your mail application. You can review, edit or cancel it. This website does not submit or store the form contents.",
+        "Information you provide directly to Inspro may be used to respond to your enquiry and provide requested services. Contact Inspro with questions about information you have provided.",
+        "Do not include NRIC numbers, medical records, payment details, passwords or complete policy documents in an initial website enquiry. Ask our team for an appropriate channel.",
+        "This website does not use advertising cookies or store enquiry data in the browser. Interactive selections and checklist progress are temporary. This notice will be updated if optional analytics or other services are added.",
+        "External links, including the MAS directory, are governed by those sites’ own privacy and security practices.",
+        "This notice may be updated when website services or enquiry-handling processes change."
+      ],
+      "errors": []
+    },
+    {
+      "route": "/404.html",
+      "width": 390,
+      "overflow": false,
+      "h1": 1,
+      "missingImages": [],
+      "headings": [
+        "Page not found."
+      ],
+      "paragraphs": [],
+      "errors": []
+    }
+  ]
+}

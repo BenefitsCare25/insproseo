@@ -1,0 +1,15 @@
+{
+  "files_byte_verified": 46,
+  "redirects_verified": 24,
+  "checks": [
+    "health",
+    "404",
+    "methods",
+    "path safety",
+    "private files blocked",
+    "video ranges",
+    "cache revalidation",
+    "HEAD",
+    "security headers"
+  ]
+}

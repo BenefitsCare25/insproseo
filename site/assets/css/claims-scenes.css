@@ -1,0 +1,28 @@
+/* Claims illustrations: fixed page typography and coordinated document exchanges. */
+.cl-scene { width: 100%; margin: 0; color: var(--ds-brand); }
+.cl-scene > svg { display: block; width: 100%; height: auto; overflow: visible; }
+.cl-scene--hero { max-width: 31rem; justify-self: end; }
+.cl-scene-labels { display: grid; grid-template-columns: repeat(var(--cl-label-count), minmax(0, 1fr)); gap: var(--ds-space-2); margin-top: var(--ds-space-2); color: var(--ds-muted); font: var(--ds-weight) var(--ds-small)/1.45 var(--experience-font); text-align: center; }
+.cl-scene-labels span { text-wrap: balance; }
+.cl-art-paper { fill: var(--ds-paper); stroke: var(--ds-line); stroke-width: 1.2; }
+.cl-art-phone { fill: var(--ds-paper); stroke: var(--ds-brand); stroke-width: 1.5; }
+.cl-art-soft { fill: var(--ds-tint); }
+.cl-art-accent, .cl-art-dot { fill: var(--ds-brand); }
+.cl-art-line { fill: var(--ds-line); }
+.cl-art-inverse { color: var(--ds-inverse); }
+.cl-art-inverse-line { fill: var(--ds-inverse); opacity: .7; }
+.cl-art-rule { fill: none; stroke: var(--ds-brand); stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+.cl-art-route { fill: none; stroke: var(--ds-line); stroke-width: 1.4; }
+.cl-art-trace { fill: none; stroke: var(--ds-brand); stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 100; opacity: 0; }
+.cl-art-focus { fill: none; stroke: var(--ds-brand); stroke-width: 2; opacity: 0; }
+.cl-art-highlight { fill: var(--ds-brand); opacity: 0; }
+.cl-art-moving { opacity: 0; }
+.cl-art-moving-paper { stroke: var(--ds-brand); }
+.cl-art-dot { opacity: .3; }
+.cl-art-flap { transform-box: fill-box; transform-origin: 50% 0; }
+@media (max-width: 48rem) {
+  .cl-scene--hero { max-width: 25rem; justify-self: center; }
+}
+@media print {
+  .cl-scene { display: none !important; }
+}

@@ -1,0 +1,355 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/business-insurance-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/business-insurance-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/employee-benefits-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/employee-benefits-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/personal-insurance-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/about-us/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/consultation-table-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/claims-support/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/consultation-table-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/guides/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/privacy-security/",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/404.html",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/services/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/business-insurance-640.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/business-insurance-640.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/employee-benefits-640.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/employee-benefits-640.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/personal-insurance-640.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/about-us/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/consultation-table-640.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/claims-support/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/consultation-table-640.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/guides/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/privacy-security/",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/404.html",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [
+        "http://127.0.0.1:3002/assets/images/optimized/employee-benefits-1280.webp"
+      ],
+      "font": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false,
+      "missingImages": [],
+      "imageSources": [],
+      "font": true
+    }
+  ],
+  "errors": [],
+  "motion": {
+    "initial": {
+      "ready": 4,
+      "time": 0,
+      "duration": 18.041667
+    },
+    "scrolled": {
+      "ready": 4,
+      "time": 9.266321
+    },
+    "scrollTriggers": 1,
+    "reducedStatic": true,
+    "productRail": {
+      "transform": "matrix(1, 0, 0, 1, -1044.35, 0)",
+      "current": "02",
+      "active": "Support the people behind the business."
+    }
+  },
+  "http": {
+    "/assets/fonts/newsreader-regular.ttf": {
+      "status": 200,
+      "type": "font/ttf"
+    },
+    "/assets/images/optimized/employee-benefits-640.webp": {
+      "status": 200,
+      "type": "image/webp"
+    },
+    "/does-not-exist": {
+      "status": 404,
+      "type": "text/html; charset=utf-8"
+    },
+    "/healthz": {
+      "status": 200,
+      "type": "text/plain; charset=utf-8"
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "type": "application/xml; charset=utf-8"
+    }
+  }
+}

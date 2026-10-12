@@ -1,0 +1,19 @@
+{
+  "routes": [
+    "/about-us/",
+    "/contact-us/",
+    "/",
+    "/privacy-security/",
+    "/service-details/commercial/commercialoffice-package/",
+    "/service-details/commercial/employees-benefits/",
+    "/service-details/personal/view-personal-insurance-products/",
+    "/services/"
+  ],
+  "errors": [],
+  "checks": [
+    "Desktop menu stays visible after outside click/Escape; cinematic video loads and seeks",
+    "Review selector updates guidance and contact intent",
+    "Contact intent, required fields and email-draft preparation; no email sent",
+    "All eight pages fit mobile; menu toggle/Escape and reduced-motion hero pass"
+  ]
+}

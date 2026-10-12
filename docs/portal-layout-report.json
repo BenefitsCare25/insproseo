@@ -1,0 +1,530 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": [],
+    "headingCheck": "visible level-one heading; protected desktop/mobile alternatives"
+  },
+  {
+    "route": "/services/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/portal/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/benefitscare/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/employees-benefits/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/claims-support/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/contact-us/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/about-us/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/guides/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/guides/insurance-review-checklist/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/commercialoffice-package/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/personal/view-personal-insurance-products/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/privacy-security/",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/404.html",
+    "width": 1440,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Cover & balances",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Claims & updates",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Clinics & e-card",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Benefit enrolment",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "HR teams",
+    "feature": "Submit employee claims",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "HR teams",
+    "feature": "Download enrolment forms",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "Inspro support",
+    "feature": "Coverage administration",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "Inspro support",
+    "feature": "Claims follow-up",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1440,
+    "role": "Inspro support",
+    "feature": "Programme reporting",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "route": "/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": [],
+    "headingCheck": "visible level-one heading; protected desktop/mobile alternatives"
+  },
+  {
+    "route": "/services/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/portal/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/benefitscare/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/employees-benefits/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/claims-support/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/contact-us/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/about-us/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/guides/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/guides/insurance-review-checklist/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/commercialoffice-package/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/personal/view-personal-insurance-products/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/privacy-security/",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/404.html",
+    "width": 1044,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Cover & balances",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Claims & updates",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Clinics & e-card",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Benefit enrolment",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "HR teams",
+    "feature": "Submit employee claims",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "HR teams",
+    "feature": "Download enrolment forms",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "Inspro support",
+    "feature": "Coverage administration",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "Inspro support",
+    "feature": "Claims follow-up",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 1044,
+    "role": "Inspro support",
+    "feature": "Programme reporting",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": [],
+    "headingCheck": "visible level-one heading; protected desktop/mobile alternatives"
+  },
+  {
+    "route": "/services/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/portal/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/employee-benefits/benefitscare/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/employees-benefits/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/claims-support/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/contact-us/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/about-us/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/guides/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/guides/insurance-review-checklist/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/commercial/commercialoffice-package/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/service-details/personal/view-personal-insurance-products/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/privacy-security/",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "route": "/404.html",
+    "width": 390,
+    "overflow": false,
+    "h1": 1,
+    "missing": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Cover & balances",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Claims & updates",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Clinics & e-card",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Benefit enrolment",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "HR teams",
+    "feature": "Submit employee claims",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "HR teams",
+    "feature": "Download enrolment forms",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "Inspro support",
+    "feature": "Coverage administration",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "Inspro support",
+    "feature": "Claims follow-up",
+    "overflow": false,
+    "panels": 1
+  },
+  {
+    "width": 390,
+    "role": "Inspro support",
+    "feature": "Programme reporting",
+    "overflow": false,
+    "panels": 1
+  }
+]

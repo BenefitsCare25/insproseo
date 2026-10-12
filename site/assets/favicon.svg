@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    :root { --accent: #df1f2b; --foreground: #f4f7f9; }
+  </style>
+  <rect width="64" height="64" rx="14" fill="var(--foreground)"/>
+  <rect x="8" y="9" width="14" height="14" rx="3" fill="var(--accent)"/>
+  <rect x="25" y="9" width="14" height="14" rx="3" fill="var(--accent)"/>
+  <path d="M42 9h7c5 0 9 4 9 9s-4 9-9 9h-7V9Zm0 22h7c5 0 9 4 9 9s-4 9-9 9h-7V31Z" fill="var(--accent)"/>
+  <rect x="8" y="26" width="14" height="29" rx="3" fill="var(--foreground)" stroke="var(--accent)" stroke-width="2"/>
+  <rect x="25" y="26" width="14" height="29" rx="3" fill="var(--foreground)" stroke="var(--accent)" stroke-width="2"/>
+</svg>

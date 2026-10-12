@@ -1,0 +1,797 @@
+{
+  "date": "2026-10-03",
+  "round": 2,
+  "preserved": [
+    {
+      "file": "assets/js/hero.js",
+      "unchanged": true
+    },
+    {
+      "file": "assets/js/homepage-motion.js",
+      "unchanged": true
+    },
+    {
+      "file": "assets/css/homepage.css",
+      "unchanged": true
+    },
+    {
+      "file": "assets/vendor/gsap-3.15.0.min.js",
+      "unchanged": true
+    },
+    {
+      "file": "assets/vendor/ScrollTrigger-3.15.0.min.js",
+      "unchanged": true
+    },
+    {
+      "file": "home cinematic/fallback/product sections",
+      "unchanged": true
+    }
+  ],
+  "pages": [
+    {
+      "name": "404",
+      "url": "/404.html",
+      "width": 390,
+      "h1": [
+        "Page not found."
+      ],
+      "headings": [
+        "Try a direct route."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "404",
+      "url": "/404.html",
+      "width": 1440,
+      "h1": [
+        "Page not found."
+      ],
+      "headings": [
+        "Try a direct route."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "404",
+      "url": "/404.html",
+      "width": 1065,
+      "h1": [
+        "Page not found."
+      ],
+      "headings": [
+        "Try a direct route."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "url": "/",
+      "width": 390,
+      "h1": [
+        "Not sure what your insurance actually covers?"
+      ],
+      "headings": [
+        "Insurance services",
+        "What can we help you protect?",
+        "BenefitsCare forsmaller teams.",
+        "Benefits your teamcan actually use.",
+        "Start a conversation."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "url": "/",
+      "width": 1065,
+      "h1": [
+        "Not sure what your insurance actually covers?"
+      ],
+      "headings": [
+        "Insurance services",
+        "What can we help you protect?",
+        "BenefitsCare forsmaller teams.",
+        "Benefits your teamcan actually use.",
+        "Start a conversation."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "url": "/",
+      "width": 1440,
+      "h1": [
+        "Not sure what your insurance actually covers?"
+      ],
+      "headings": [
+        "Insurance services",
+        "What can we help you protect?",
+        "BenefitsCare forsmaller teams.",
+        "Benefits your teamcan actually use.",
+        "Start a conversation."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "about-us",
+      "url": "/about-us/",
+      "width": 1440,
+      "h1": [
+        "About Inspro."
+      ],
+      "headings": [
+        "Advice that connectscover with everyday needs.",
+        "A clearer next step.",
+        "Let’s discuss what you need."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "about-us",
+      "url": "/about-us/",
+      "width": 1065,
+      "h1": [
+        "About Inspro."
+      ],
+      "headings": [
+        "Advice that connectscover with everyday needs.",
+        "A clearer next step.",
+        "Let’s discuss what you need."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "about-us",
+      "url": "/about-us/",
+      "width": 390,
+      "h1": [
+        "About Inspro."
+      ],
+      "headings": [
+        "Advice that connectscover with everyday needs.",
+        "A clearer next step.",
+        "Let’s discuss what you need."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "claims-support",
+      "url": "/claims-support/",
+      "width": 1440,
+      "h1": [
+        "Help with yourinsurance claim."
+      ],
+      "headings": [
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "On an Inspro benefits programme?",
+        "Common claim questions.",
+        "Need help withyour next step?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "claims-support",
+      "url": "/claims-support/",
+      "width": 1065,
+      "h1": [
+        "Help with yourinsurance claim."
+      ],
+      "headings": [
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "On an Inspro benefits programme?",
+        "Common claim questions.",
+        "Need help withyour next step?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "claims-support",
+      "url": "/claims-support/",
+      "width": 390,
+      "h1": [
+        "Help with yourinsurance claim."
+      ],
+      "headings": [
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "On an Inspro benefits programme?",
+        "Common claim questions.",
+        "Need help withyour next step?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "contact-us",
+      "url": "/contact-us/",
+      "width": 1065,
+      "h1": [
+        "Let’s talk aboutyour cover."
+      ],
+      "headings": [
+        "Start with the essentials.",
+        "Start your enquiry."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "contact-us",
+      "url": "/contact-us/",
+      "width": 390,
+      "h1": [
+        "Let’s talk aboutyour cover."
+      ],
+      "headings": [
+        "Start with the essentials.",
+        "Start your enquiry."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "contact-us",
+      "url": "/contact-us/",
+      "width": 1440,
+      "h1": [
+        "Let’s talk aboutyour cover."
+      ],
+      "headings": [
+        "Start with the essentials.",
+        "Start your enquiry."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "guides",
+      "url": "/guides/",
+      "width": 1065,
+      "h1": [
+        "Guides & checklists."
+      ],
+      "headings": [
+        "Your insurancereview checklist.",
+        "Put your checklist to work.",
+        "Ready to review your cover?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "guides",
+      "url": "/guides/",
+      "width": 1440,
+      "h1": [
+        "Guides & checklists."
+      ],
+      "headings": [
+        "Your insurancereview checklist.",
+        "Put your checklist to work.",
+        "Ready to review your cover?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "guides",
+      "url": "/guides/",
+      "width": 390,
+      "h1": [
+        "Guides & checklists."
+      ],
+      "headings": [
+        "Your insurancereview checklist.",
+        "Put your checklist to work.",
+        "Ready to review your cover?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "privacy-security",
+      "url": "/privacy-security/",
+      "width": 390,
+      "h1": [
+        "Privacy & security."
+      ],
+      "headings": [
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "privacy-security",
+      "url": "/privacy-security/",
+      "width": 1065,
+      "h1": [
+        "Privacy & security."
+      ],
+      "headings": [
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "privacy-security",
+      "url": "/privacy-security/",
+      "width": 1440,
+      "h1": [
+        "Privacy & security."
+      ],
+      "headings": [
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "services",
+      "url": "/services/",
+      "width": 1440,
+      "h1": [
+        "The right cover startswith your needs."
+      ],
+      "headings": [
+        "Two ways to buildemployee benefits.",
+        "Already have a policy?",
+        "Not sure where to start?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "services",
+      "url": "/services/",
+      "width": 1065,
+      "h1": [
+        "The right cover startswith your needs."
+      ],
+      "headings": [
+        "Two ways to buildemployee benefits.",
+        "Already have a policy?",
+        "Not sure where to start?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "services",
+      "url": "/services/",
+      "width": 390,
+      "h1": [
+        "The right cover startswith your needs."
+      ],
+      "headings": [
+        "Two ways to buildemployee benefits.",
+        "Already have a policy?",
+        "Not sure where to start?"
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "employee-benefits-benefitscare",
+      "url": "/employee-benefits/benefitscare/",
+      "width": 1440,
+      "h1": [
+        "BenefitsCare forSingapore SMEs."
+      ],
+      "headings": [
+        "Compare the plans.",
+        "Additional cover.",
+        "Put your benefits to work.",
+        "What we need for your quotation.",
+        "A clearer next step.",
+        "Request a BenefitsCare quotation."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "employee-benefits-benefitscare",
+      "url": "/employee-benefits/benefitscare/",
+      "width": 390,
+      "h1": [
+        "BenefitsCare forSingapore SMEs."
+      ],
+      "headings": [
+        "Compare the plans.",
+        "Additional cover.",
+        "Put your benefits to work.",
+        "What we need for your quotation.",
+        "A clearer next step.",
+        "Request a BenefitsCare quotation."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "employee-benefits-benefitscare",
+      "url": "/employee-benefits/benefitscare/",
+      "width": 1065,
+      "h1": [
+        "BenefitsCare forSingapore SMEs."
+      ],
+      "headings": [
+        "Compare the plans.",
+        "Additional cover.",
+        "Put your benefits to work.",
+        "What we need for your quotation.",
+        "A clearer next step.",
+        "Request a BenefitsCare quotation."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "employee-benefits-portal",
+      "url": "/employee-benefits/portal/",
+      "width": 390,
+      "h1": [
+        "Employee benefits.Connected."
+      ],
+      "headings": [
+        "Your benefits, at hand.",
+        "Practical tools for HR.",
+        "A team behind the tools.",
+        "Built aroundyour programme.",
+        "See how it fits your team."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "employee-benefits-portal",
+      "url": "/employee-benefits/portal/",
+      "width": 1440,
+      "h1": [
+        "Employee benefits.Connected."
+      ],
+      "headings": [
+        "Your benefits, at hand.",
+        "Practical tools for HR.",
+        "A team behind the tools.",
+        "Built aroundyour programme.",
+        "See how it fits your team."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "employee-benefits-portal",
+      "url": "/employee-benefits/portal/",
+      "width": 1065,
+      "h1": [
+        "Employee benefits.Connected."
+      ],
+      "headings": [
+        "Your benefits, at hand.",
+        "Practical tools for HR.",
+        "A team behind the tools.",
+        "Built aroundyour programme.",
+        "See how it fits your team."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "guides-insurance-review-checklist",
+      "url": "/guides/insurance-review-checklist/",
+      "width": 390,
+      "h1": [
+        "Your insurancereview checklist."
+      ],
+      "headings": [
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Keep your review moving.",
+        "Arrange an insurance review."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "guides-insurance-review-checklist",
+      "url": "/guides/insurance-review-checklist/",
+      "width": 1440,
+      "h1": [
+        "Your insurancereview checklist."
+      ],
+      "headings": [
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Keep your review moving.",
+        "Arrange an insurance review."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "guides-insurance-review-checklist",
+      "url": "/guides/insurance-review-checklist/",
+      "width": 1065,
+      "h1": [
+        "Your insurancereview checklist."
+      ],
+      "headings": [
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Keep your review moving.",
+        "Arrange an insurance review."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-commercial-commercialoffice-package",
+      "url": "/service-details/commercial/commercialoffice-package/",
+      "width": 1440,
+      "h1": [
+        "Cover for the wayyou do business."
+      ],
+      "headings": [
+        "Where does your businessneed protection?",
+        "When to review your cover.",
+        "Before we talk.",
+        "A clearer next step."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-commercial-commercialoffice-package",
+      "url": "/service-details/commercial/commercialoffice-package/",
+      "width": 390,
+      "h1": [
+        "Cover for the wayyou do business."
+      ],
+      "headings": [
+        "Where does your businessneed protection?",
+        "When to review your cover.",
+        "Before we talk.",
+        "A clearer next step."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-commercial-commercialoffice-package",
+      "url": "/service-details/commercial/commercialoffice-package/",
+      "width": 1065,
+      "h1": [
+        "Cover for the wayyou do business."
+      ],
+      "headings": [
+        "Where does your businessneed protection?",
+        "When to review your cover.",
+        "Before we talk.",
+        "A clearer next step."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-commercial-employees-benefits",
+      "url": "/service-details/commercial/employees-benefits/",
+      "width": 390,
+      "h1": [
+        "Employee benefitsfor larger teams."
+      ],
+      "headings": [
+        "Choose the scope of cover.",
+        "Cover is onlythe start.",
+        "Support through the policy year.",
+        "A clearer next step.",
+        "Discuss your benefits programme."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-commercial-employees-benefits",
+      "url": "/service-details/commercial/employees-benefits/",
+      "width": 1440,
+      "h1": [
+        "Employee benefitsfor larger teams."
+      ],
+      "headings": [
+        "Choose the scope of cover.",
+        "Cover is onlythe start.",
+        "Support through the policy year.",
+        "A clearer next step.",
+        "Discuss your benefits programme."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-commercial-employees-benefits",
+      "url": "/service-details/commercial/employees-benefits/",
+      "width": 1065,
+      "h1": [
+        "Employee benefitsfor larger teams."
+      ],
+      "headings": [
+        "Choose the scope of cover.",
+        "Cover is onlythe start.",
+        "Support through the policy year.",
+        "A clearer next step.",
+        "Discuss your benefits programme."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-personal-view-personal-insurance-products",
+      "url": "/service-details/personal/view-personal-insurance-products/",
+      "width": 390,
+      "h1": [
+        "Cover for lifeoutside work."
+      ],
+      "headings": [
+        "What are you protecting?",
+        "Other personal cover.",
+        "Before we talk.",
+        "A clearer next step."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-personal-view-personal-insurance-products",
+      "url": "/service-details/personal/view-personal-insurance-products/",
+      "width": 1065,
+      "h1": [
+        "Cover for lifeoutside work."
+      ],
+      "headings": [
+        "What are you protecting?",
+        "Other personal cover.",
+        "Before we talk.",
+        "A clearer next step."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    },
+    {
+      "name": "service-details-personal-view-personal-insurance-products",
+      "url": "/service-details/personal/view-personal-insurance-products/",
+      "width": 1440,
+      "h1": [
+        "Cover for lifeoutside work."
+      ],
+      "headings": [
+        "What are you protecting?",
+        "Other personal cover.",
+        "Before we talk.",
+        "A clearer next step."
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "violations": [],
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+[
+  {
+    "width": 1440,
+    "check": "role keyboard",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "feature keyboard",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Cover & balances",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Claims & updates",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Clinics & e-card",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "Employees",
+    "feature": "Benefit enrolment",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "HR teams",
+    "feature": "Submit employee claims",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "HR teams",
+    "feature": "Download enrolment forms",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "Inspro support",
+    "feature": "Coverage administration",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "Inspro support",
+    "feature": "Claims follow-up",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "role": "Inspro support",
+    "feature": "Programme reporting",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "claims deep link",
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "check": "walkthrough enquiry",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "check": "role keyboard",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "check": "feature keyboard",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Cover & balances",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Claims & updates",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Clinics & e-card",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "Employees",
+    "feature": "Benefit enrolment",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "HR teams",
+    "feature": "Submit employee claims",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "HR teams",
+    "feature": "Download enrolment forms",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "Inspro support",
+    "feature": "Coverage administration",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "Inspro support",
+    "feature": "Claims follow-up",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "role": "Inspro support",
+    "feature": "Programme reporting",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "check": "claims deep link",
+    "pass": true
+  },
+  {
+    "width": 1044,
+    "check": "walkthrough enquiry",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "role keyboard",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "feature keyboard",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Cover & balances",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Claims & updates",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Clinics & e-card",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "Employees",
+    "feature": "Benefit enrolment",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "HR teams",
+    "feature": "Submit employee claims",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "HR teams",
+    "feature": "Download enrolment forms",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "Inspro support",
+    "feature": "Coverage administration",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "Inspro support",
+    "feature": "Claims follow-up",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "role": "Inspro support",
+    "feature": "Programme reporting",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "claims deep link",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "walkthrough enquiry",
+    "pass": true
+  },
+  {
+    "width": 390,
+    "check": "mobile portal navigation and escape",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "check": "role keyboard",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "check": "feature keyboard",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "Employees",
+    "feature": "Cover & balances",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "Employees",
+    "feature": "Claims & updates",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "Employees",
+    "feature": "Clinics & e-card",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "Employees",
+    "feature": "Benefit enrolment",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "HR teams",
+    "feature": "Submit employee claims",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "HR teams",
+    "feature": "Download enrolment forms",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "Inspro support",
+    "feature": "Coverage administration",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "Inspro support",
+    "feature": "Claims follow-up",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "role": "Inspro support",
+    "feature": "Programme reporting",
+    "check": "visible preview and no overflow",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "check": "claims deep link",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "check": "walkthrough enquiry",
+    "pass": true
+  },
+  {
+    "width": 320,
+    "check": "mobile portal navigation and escape",
+    "pass": true
+  },
+  {
+    "check": "no JavaScript content",
+    "pass": true
+  },
+  {
+    "check": "normal motion transition",
+    "during": {
+      "transform": "matrix(1, 0, 0, 1, 0, 3.30872)",
+      "opacity": "0.834275"
+    },
+    "after": {
+      "transform": "none",
+      "opacity": "1"
+    },
+    "errors": [],
+    "pass": true
+  },
+  {
+    "check": "portal navigation to walkthrough email draft",
+    "pass": true,
+    "recipient": "helpdesk@inspro.com.sg",
+    "status": "Email draft prepared. If your mail application opens, review the draft and press Send there. If it does not, email helpdesk@inspro.com.sg or call +65 6448 7707. This website has not sent your enquiry.",
+    "delivery": "No email sent"
+  }
+]

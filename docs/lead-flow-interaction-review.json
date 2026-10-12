@@ -1,0 +1,352 @@
+{
+  "date": "2026-10-03",
+  "results": [
+    {
+      "name": "Keyboard opens service menu",
+      "pass": true
+    },
+    {
+      "name": "Menu tab reaches link",
+      "pass": true
+    },
+    {
+      "name": "Escape closes menu and restores focus",
+      "pass": true
+    },
+    {
+      "name": "Explorer retains Premises",
+      "pass": true,
+      "detail": "/contact-us/?intent=business&topic=premises"
+    },
+    {
+      "name": "Explorer retains People",
+      "pass": true,
+      "detail": "/contact-us/?intent=business&topic=people"
+    },
+    {
+      "name": "Explorer retains Liability",
+      "pass": true,
+      "detail": "/contact-us/?intent=business&topic=liability"
+    },
+    {
+      "name": "Explorer retains Trade",
+      "pass": true,
+      "detail": "/contact-us/?intent=business&topic=trade"
+    },
+    {
+      "name": "Explorer keyboard Premises",
+      "pass": true,
+      "detail": "ArrowRight changes focus and active panel; checked after Radix focus event settles."
+    },
+    {
+      "name": "Explorer retains Motor",
+      "pass": true,
+      "detail": "/contact-us/?intent=personal&topic=motor"
+    },
+    {
+      "name": "Explorer retains Travel",
+      "pass": true,
+      "detail": "/contact-us/?intent=personal&topic=travel"
+    },
+    {
+      "name": "Explorer retains Home",
+      "pass": true,
+      "detail": "/contact-us/?intent=personal&topic=home"
+    },
+    {
+      "name": "Explorer keyboard Motor",
+      "pass": true,
+      "detail": "ArrowRight changes focus and active panel; checked after Radix focus event settles."
+    },
+    {
+      "name": "Plan context starter",
+      "pass": true
+    },
+    {
+      "name": "Required fields block starter",
+      "pass": true
+    },
+    {
+      "name": "Draft retains starter",
+      "pass": true
+    },
+    {
+      "name": "Unsent status starter",
+      "pass": true
+    },
+    {
+      "name": "Draft focus starter",
+      "pass": true
+    },
+    {
+      "name": "Plan context flex",
+      "pass": true
+    },
+    {
+      "name": "Required fields block flex",
+      "pass": true
+    },
+    {
+      "name": "Draft retains flex",
+      "pass": true
+    },
+    {
+      "name": "Unsent status flex",
+      "pass": true
+    },
+    {
+      "name": "Draft focus flex",
+      "pass": true
+    },
+    {
+      "name": "Plan context premier",
+      "pass": true
+    },
+    {
+      "name": "Required fields block premier",
+      "pass": true
+    },
+    {
+      "name": "Draft retains premier",
+      "pass": true
+    },
+    {
+      "name": "Unsent status premier",
+      "pass": true
+    },
+    {
+      "name": "Draft focus premier",
+      "pass": true
+    },
+    {
+      "name": "Clipboard copy",
+      "pass": true
+    },
+    {
+      "name": "Correct mail recipient",
+      "pass": true
+    },
+    {
+      "name": "Edit invalidates old draft",
+      "pass": true
+    },
+    {
+      "name": "Changed intent clears plan",
+      "pass": true
+    },
+    {
+      "name": "Changed draft content",
+      "pass": true
+    },
+    {
+      "name": "Contact topic liability",
+      "pass": true
+    },
+    {
+      "name": "Contact topic travel",
+      "pass": true
+    },
+    {
+      "name": "Contact topic access",
+      "pass": true
+    },
+    {
+      "name": "Unknown query safely defaults",
+      "pass": true
+    },
+    {
+      "name": "Whitespace name blocked",
+      "pass": true
+    },
+    {
+      "name": "Invalid email blocked",
+      "pass": true
+    },
+    {
+      "name": "Portal Employees Cover & balances",
+      "pass": true
+    },
+    {
+      "name": "Portal Employees Claims & updates",
+      "pass": true
+    },
+    {
+      "name": "Portal Employees Clinics & e-card",
+      "pass": true
+    },
+    {
+      "name": "Portal Employees Benefit enrolment",
+      "pass": true
+    },
+    {
+      "name": "Portal HR teams Submit employee claims",
+      "pass": true
+    },
+    {
+      "name": "Portal HR teams Download enrolment forms",
+      "pass": true
+    },
+    {
+      "name": "Portal Inspro support Coverage administration",
+      "pass": true
+    },
+    {
+      "name": "Portal Inspro support Claims follow-up",
+      "pass": true
+    },
+    {
+      "name": "Portal Inspro support Programme reporting",
+      "pass": true
+    },
+    {
+      "name": "Policy year 01\nReview",
+      "pass": true
+    },
+    {
+      "name": "Policy year 02\nImplement",
+      "pass": true
+    },
+    {
+      "name": "Policy year 03\nSupport",
+      "pass": true
+    },
+    {
+      "name": "Policy year 04\nRenew",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu links",
+      "pass": true
+    },
+    {
+      "name": "Mobile Escape",
+      "pass": true
+    },
+    {
+      "name": "All mobile shortcuts visible",
+      "pass": true
+    },
+    {
+      "name": "Section anchor",
+      "pass": true
+    },
+    {
+      "name": "Checklist",
+      "pass": true
+    },
+    {
+      "name": "Print action",
+      "pass": true
+    },
+    {
+      "name": "FAQ opens",
+      "pass": true
+    },
+    {
+      "name": "Expanded draft accessibility",
+      "pass": true
+    },
+    {
+      "name": "Denied clipboard recovery",
+      "pass": true
+    },
+    {
+      "name": "No JS choices",
+      "pass": true
+    },
+    {
+      "name": "No JS navigation",
+      "pass": true
+    },
+    {
+      "name": "No JS contact fallback",
+      "pass": true
+    },
+    {
+      "name": "No JS submit safely disabled",
+      "pass": true
+    },
+    {
+      "name": "Original cinematic scrubs",
+      "pass": true,
+      "detail": {
+        "before": 0,
+        "after": 4.451672
+      }
+    },
+    {
+      "name": "Original product rail advances",
+      "pass": true,
+      "detail": "02"
+    },
+    {
+      "name": "Home plan Starter 1440",
+      "pass": true
+    },
+    {
+      "name": "Home plan Flex 1440",
+      "pass": true
+    },
+    {
+      "name": "Home plan Premier 1440",
+      "pass": true
+    },
+    {
+      "name": "Home review benefitscare 1440",
+      "pass": true
+    },
+    {
+      "name": "Home review benefits 1440",
+      "pass": true
+    },
+    {
+      "name": "Home review business 1440",
+      "pass": true
+    },
+    {
+      "name": "Home review personal 1440",
+      "pass": true
+    },
+    {
+      "name": "Home plan Starter 390",
+      "pass": true
+    },
+    {
+      "name": "Home plan Flex 390",
+      "pass": true
+    },
+    {
+      "name": "Home plan Premier 390",
+      "pass": true
+    },
+    {
+      "name": "Home review benefitscare 390",
+      "pass": true
+    },
+    {
+      "name": "Home review benefits 390",
+      "pass": true
+    },
+    {
+      "name": "Home review business 390",
+      "pass": true
+    },
+    {
+      "name": "Home review personal 390",
+      "pass": true
+    },
+    {
+      "name": "Print content retained and navigation removed",
+      "pass": true,
+      "detail": "PDF and print-media screenshot captured; visual review pending."
+    },
+    {
+      "name": "Print hides skip control and marketing section",
+      "pass": true,
+      "detail": {
+        "skip": "none",
+        "related": "none"
+      }
+    }
+  ]
+}

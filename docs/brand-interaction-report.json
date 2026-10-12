@@ -1,0 +1,115 @@
+{
+  "results": [
+    {
+      "width": 1044,
+      "explorer": "For employees",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "explorer": "For HR teams",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "stage": "Review",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "stage": "Implement",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "stage": "Support",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "stage": "Renew",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "plan": "Starter",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "plan": "Flex",
+      "pass": true
+    },
+    {
+      "width": 1044,
+      "plan": "Premier",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "explorer": "For employees",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "explorer": "For HR teams",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "stage": "Review",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "stage": "Implement",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "stage": "Support",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "stage": "Renew",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "plan": "Starter",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "plan": "Flex",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "plan": "Premier",
+      "pass": true
+    },
+    {
+      "noJS": "employee/HR and all service stages visible"
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "tabs": 4,
+      "pass": true
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "tabs": 3,
+      "pass": true
+    },
+    {
+      "contact": "Plan prefill and required validation passed",
+      "navigation": "Mobile open/Escape passed"
+    },
+    {
+      "guide": "Checkbox and print passed"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Desktop category menu opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Escape closes menu",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Travel navigation reaches dedicated page",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Referral parameters retained: fwd",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Referral parameters retained: msig",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Referral parameters retained: preex",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Travel FAQ expands",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/travel",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/motor",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/home",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/accident",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/helper",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/golf",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/art",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic personal/craft",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/premises",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/people",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/liability",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/trade",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/medical",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/bonds",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/corporateTravel",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/fleet",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/professional",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/directors",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/cyber",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/products",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/cargo",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/marine",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/credit",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/crime",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/office",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/retail",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/food",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/industrial",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/clinics",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/education",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Empty form blocks draft",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Draft includes industry topic",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Draft is explicitly unsent",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Changing category hides stale draft",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Manually selected topic appears in draft",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Old business topic removed",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "BenefitsCare plan preserved",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Topic selector hidden for plan",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Unknown topic ignored",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Mobile menu opens",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Mobile category link works",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Mobile escape closes menu",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Quote links work without JavaScript",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "No-JS draft safely disabled",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "No-JS direct contact visible",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Homepage story and product rail preserved",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "hero.js unchanged",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "homepage-motion.js unchanged",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Enquiry topic business/interruption",
+    "pass": true
+  },
+  {
+    "name": "Enquiry topic business/art",
+    "pass": true
+  },
+  {
+    "name": "Enquiry topic business/craft",
+    "pass": true
+  },
+  {
+    "name": "Personal travel anchor retained",
+    "pass": true
+  },
+  {
+    "name": "Copy draft success path",
+    "pass": true
+  },
+  {
+    "name": "Copy draft denied fallback",
+    "pass": true
+  }
+]

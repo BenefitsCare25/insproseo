@@ -1,0 +1,204 @@
+@media (max-width: 64rem) {
+  .nav-toggle {
+    display: grid;
+  }
+
+  .nav-panel {
+    position: absolute;
+    top: calc(100% + 1px);
+    right: var(--page-gutter);
+    width: min(22rem, calc(100% - (2 * var(--page-gutter))));
+    display: grid;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-medium);
+    box-shadow: var(--shadow-raised);
+  }
+
+  .js .nav-panel[hidden] {
+    display: none;
+  }
+
+  .nav-links {
+    display: grid;
+    gap: 0.15rem;
+  }
+
+  .nav-links a {
+    min-height: 2.9rem;
+    padding: 0.35rem 0.55rem;
+    color: var(--foreground);
+  }
+
+  .nav-panel .button {
+    width: 100%;
+  }
+
+  .intro-grid,
+  .review-layout,
+  .claims-layout,
+  .contact-layout,
+  .about-layout,
+  .faq-layout,
+  .content-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-grid .section-lede {
+    justify-self: start;
+  }
+
+  .process-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .content-aside {
+    position: static;
+    order: -1;
+  }
+}
+
+@media (max-width: 50rem) {
+  .card-grid,
+  .fact-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card p {
+    min-height: 0;
+  }
+
+  .section-heading-row {
+    display: grid;
+    align-items: start;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    text-align: left;
+  }
+
+  .footer-bottom {
+    display: grid;
+  }
+}
+
+@media (max-width: 40rem) {
+  :root {
+    --header-height: 3.75rem;
+  }
+
+  .nav-shell {
+    min-height: var(--header-height);
+  }
+
+  .brand img {
+    width: 7rem;
+  }
+
+  .choice-grid,
+  .process-grid,
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+
+  .field--full,
+  .contact-form .button,
+  .contact-form .form-note,
+  .contact-form .form-status {
+    grid-column: auto;
+  }
+
+  .choice label {
+    min-height: auto;
+  }
+
+  .about-image {
+    min-height: 22rem;
+  }
+
+  .page-hero {
+    padding-top: 4.5rem;
+  }
+}
+
+@media (max-width: 47.5rem),
+  (orientation: portrait) and (max-width: 64rem),
+  (orientation: portrait) and (pointer: coarse),
+  (orientation: landscape) and (pointer: coarse) and (max-height: 35rem),
+  (prefers-reduced-motion: reduce) {
+  .story {
+    display: none;
+  }
+
+  .static-hero {
+    display: flex;
+  }
+}
+
+.use-static-hero .story {
+  display: none;
+}
+
+.use-static-hero .static-hero {
+  display: flex;
+}
+
+@media (prefers-contrast: more) {
+  .site-header,
+  .nav-shell,
+  .service-card,
+  .fact,
+  .choice label,
+  .review-panel,
+  .review-output,
+  .faq-item,
+  .contact-card,
+  .about-card,
+  .claims-checklist,
+  .content-aside {
+    border-color: var(--foreground);
+  }
+
+  .story-shade {
+    background: linear-gradient(90deg, var(--hero-overlay) 0%, var(--hero-overlay) 50%, var(--hero-overlay-soft) 100%);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .site-header {
+    background: var(--surface);
+    backdrop-filter: none;
+  }
+}
+
+@media print {
+  .site-header,
+  .story,
+  .static-hero,
+  .button,
+  .site-footer {
+    display: none !important;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--surface);
+  }
+
+  .section,
+  .page-hero {
+    padding: 2rem 0;
+  }
+
+  .reveal,
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

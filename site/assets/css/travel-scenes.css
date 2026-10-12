@@ -1,0 +1,17 @@
+/* Stationary labels and paths remain legible when motion is suspended. */
+.tr-scene { width: 100%; margin: 0; color: var(--ds-brand); }
+.tr-scene > svg { display: block; width: 100%; height: auto; overflow: visible; }
+.tr-scene--hero { max-width: 29rem; justify-self: end; }
+.tr-scene-badge { fill: var(--ds-paper); stroke: var(--ds-line); stroke-width: 1.2; }
+.tr-scene-label { fill: var(--ds-ink); font-family: var(--experience-font); font-size: var(--ds-title); font-weight: var(--ds-weight); }
+.tr-route-base { fill: none; stroke: var(--ds-line); stroke-width: 1.6; }
+.tr-route-active { fill: none; stroke: var(--ds-brand); stroke-width: 1.8; stroke-dasharray: 10 100; stroke-linecap: round; }
+.tr-scene-junction { fill: var(--ds-brand); }
+.tr-plane { transform-origin: 0 0; }
+.tr-plane > svg { background: var(--ds-wash); border-radius: var(--ds-pill); }
+@media (max-width: 48rem) {
+  .tr-scene--hero { max-width: 25rem; justify-self: center; }
+}
+@media print {
+  .tr-scene { display: none !important; }
+}

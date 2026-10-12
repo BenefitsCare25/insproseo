@@ -1,0 +1,13 @@
+node_modules/
+.impeccable/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+verification/
+output/
+outputs/
+.21st/
+*.zip

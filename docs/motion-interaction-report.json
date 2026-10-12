@@ -1,0 +1,52 @@
+{
+  "planSelection": "Starter\nfrom\nS$2\nper employee / month\nStart with everyday care.\nPanel GP access\nDiscuss Starter",
+  "planHover": "matrix(1, 0, 0, 1, 0, -7)",
+  "prefill": "I would like to discuss the BenefitsCare Starter plan.\nApproximate employee headcount: \nPreferred start or renewal date: ",
+  "intent": "benefitscare",
+  "requiredBlocks": true,
+  "draftStatus": "Email draft prepared. If your mail application opens, review the draft and press Send there. If it does not, email helpdesk@inspro.com.sg or call +65 6448 7707. This website has not sent your enquiry.",
+  "hrPanel": "Less chasing. More oversight.",
+  "keyboardTab": true,
+  "journey": {
+    "number": "03",
+    "label": "Support",
+    "progress": "matrix(0.6784, 0, 0, 1, 0, 0)"
+  },
+  "business": "Understand your responsibilities.",
+  "personalHash": "true",
+  "personalHome": "For the place you call yours.",
+  "checklist": true,
+  "readingProgress": "matrix(0.6849, 0, 0, 1, 0, 0)",
+  "overflow-768-/employee-benefits/benefitscare/": false,
+  "overflow-768-/contact-us/": false,
+  "overflow-768-/service-details/commercial/employees-benefits/": false,
+  "overflow-1024-/employee-benefits/benefitscare/": false,
+  "overflow-1024-/contact-us/": false,
+  "overflow-1024-/service-details/commercial/employees-benefits/": false,
+  "mobileFormTop": 428.09375,
+  "mobileMenuOpen": "true",
+  "mobileMenuClosed": "false",
+  "faqOpen": true,
+  "nojsPanels": 2,
+  "nojsNav": true,
+  "errors": [],
+  "cinematic": {
+    "initial": 0,
+    "current": 9.013711,
+    "duration": 18.041667
+  },
+  "homePinned": [
+    {
+      "start": 7072,
+      "end": 9522,
+      "trigger": "product-rail__viewport"
+    }
+  ],
+  "productRail": {
+    "transform": "matrix(1, 0, 0, 1, -1065, 0)",
+    "active": "02"
+  },
+  "homeReview": "/contact-us/?intent=business",
+  "reducedHero": true,
+  "reducedPlanTransform": "none"
+}

@@ -1,0 +1,946 @@
+{
+  "date": "2026-10-09",
+  "scope": "Local Chrome, actual DOM widths 1440 and 390; visible images only.",
+  "checks": [
+    {
+      "route": "/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Insurance services",
+        "A Singapore insurance broker for your people and business.",
+        "A trip coming up?",
+        "What can we help you protect?",
+        "BenefitsCare forsmaller teams.",
+        "Benefits your teamcan actually use.",
+        "Start a conversation."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/services/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Employee Benefits",
+        "Business Insurance",
+        "Personal Insurance",
+        "Explore a specific SME insurance need",
+        "Already insured with us?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Compare the plans.",
+        "Additional cover.",
+        "Put your benefits to work.",
+        "What we need for your quotation.",
+        "Choose a starting plan, then confirm the details.",
+        "A clearer next step.",
+        "Request a BenefitsCare quotation."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Choose the scope of cover.",
+        "Cover is onlythe start.",
+        "Support through the policy year.",
+        "Help employees understandtheir benefits.",
+        "Design the benefits around your workforce.",
+        "A clearer next step.",
+        "Discuss your benefits programme."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Start with your industry.",
+        "Where does your businessneed protection?",
+        "When to review your cover.",
+        "Before we talk.",
+        "Match the policy to the loss you need to manage.",
+        "A clearer next step."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/view-commercial-insurance-products/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Employees & business travel",
+        "Property, vehicles & projects",
+        "Liability & professional risks",
+        "Marine & trade credit",
+        "Package cover or a specialist policy?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/employee-benefits/portal/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Your benefits, at hand.",
+        "Practical tools for HR.",
+        "A team behind the tools.",
+        "Built aroundyour programme.",
+        "Confirm what your programme includes.",
+        "See how it fits your team."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/about-us/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Advice that connectscover with everyday needs.",
+        "Verify who you are speaking with.",
+        "A clearer next step.",
+        "Let’s discuss what you need."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/contact-us/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Start with the essentials.",
+        "Start your enquiry.",
+        "Find our Singapore office."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/claims-support/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "On an Inspro benefits programme?",
+        "Common claim questions.",
+        "Keep the initial enquiry focused.",
+        "Need help withyour next step?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/guides/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Your insurancereview checklist.",
+        "Make your next insurance decision clearer",
+        "Put your checklist to work.",
+        "Ready to review your cover?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Compare quotations on the same basis.",
+        "Keep your review moving.",
+        "Arrange an insurance review."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/privacy-security/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/foreign-worker-medical-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Medical cover for your foreign workers.",
+        "Workforce details",
+        "Medical cover",
+        "Policy administration",
+        "Work Permit and S Pass medical cover.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/foreign-workers-bonds/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Prepare the bond before the next step.",
+        "Application or renewal",
+        "Bond conditions",
+        "Related insurance",
+        "Who needs a S$5,000 security bond?",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/corporate-travel-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Business trips. A clearer plan for cover.",
+        "Who travels & how often",
+        "Medical & travel disruption",
+        "Work activities",
+        "Compare cover for your business travel.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "A trip coming up?",
+        "Explore personal insurance.",
+        "Compare the cover you already have.",
+        "Already have a policy?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/travel-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Choose an insurer to request a quote.",
+        "Before you bookyour cover.",
+        "Travel questions,answered.",
+        "Keep your policy and assistance details accessible.",
+        "Need help with your travel insurance?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/motor-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Cover for the way you drive.",
+        "Prefer an online quote?",
+        "Cover type",
+        "Drivers & use",
+        "Excesses & repairs",
+        "Motor insurance questions before renewal.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/home-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Protect the place you call home.",
+        "Prefer an online quote?",
+        "Building & renovations",
+        "Contents & valuables",
+        "Liability & disruption",
+        "What is included in your home cover?",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/personal-accident-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Plan for the impact of an accident.",
+        "Prefer an online quote?",
+        "Benefit types",
+        "Your activities",
+        "Existing policies",
+        "Understand how accident benefits work.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/maid-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Cover for your helper. Clarity for you.",
+        "Prefer an online quote?",
+        "Medical & accident cover",
+        "Security bond",
+        "Employer expenses",
+        "Check the current MOM insurance requirements.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/employee-benefits/group-medical-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Compare the care employees can use.",
+        "Choose how much flexibility your team needs.",
+        "Group medical questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/work-injury-compensation-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Who needs compulsory WIC insurance?",
+        "Check the declarations before comparing prices.",
+        "Work injury insurance questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/public-liability-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Start with where you meet customers and the public.",
+        "Compare the terms behind the limit.",
+        "Public liability questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/professional-indemnity-insurance/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Describe the advice and services you provide.",
+        "Pay attention to when a claim is made.",
+        "Professional indemnity questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/guides/sme-employee-insurance-singapore/",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Separate benefits from compulsory requirements.",
+        "Build a quotation brief HR can maintain.",
+        "Questions employers often need to resolve.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/404.html",
+      "targetWidth": 1440,
+      "actualWidth": 1440,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Try a direct route."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Insurance services",
+        "A Singapore insurance broker for your people and business.",
+        "A trip coming up?",
+        "What can we help you protect?",
+        "BenefitsCare forsmaller teams.",
+        "Benefits your teamcan actually use.",
+        "Start a conversation."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/services/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Employee Benefits",
+        "Business Insurance",
+        "Personal Insurance",
+        "Explore a specific SME insurance need",
+        "Already insured with us?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Compare the plans.",
+        "Additional cover.",
+        "Put your benefits to work.",
+        "What we need for your quotation.",
+        "Choose a starting plan, then confirm the details.",
+        "A clearer next step.",
+        "Request a BenefitsCare quotation."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Choose the scope of cover.",
+        "Cover is onlythe start.",
+        "Support through the policy year.",
+        "Help employees understandtheir benefits.",
+        "Design the benefits around your workforce.",
+        "A clearer next step.",
+        "Discuss your benefits programme."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Start with your industry.",
+        "Where does your businessneed protection?",
+        "When to review your cover.",
+        "Before we talk.",
+        "Match the policy to the loss you need to manage.",
+        "A clearer next step."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/view-commercial-insurance-products/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Employees & business travel",
+        "Property, vehicles & projects",
+        "Liability & professional risks",
+        "Marine & trade credit",
+        "Package cover or a specialist policy?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/employee-benefits/portal/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Your benefits, at hand.",
+        "Practical tools for HR.",
+        "A team behind the tools.",
+        "Built aroundyour programme.",
+        "Confirm what your programme includes.",
+        "See how it fits your team."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/about-us/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Advice that connectscover with everyday needs.",
+        "Verify who you are speaking with.",
+        "A clearer next step.",
+        "Let’s discuss what you need."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/contact-us/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Start with the essentials.",
+        "Start your enquiry.",
+        "Find our Singapore office."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/claims-support/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Check your policy",
+        "Gather the details",
+        "Get help with the next step",
+        "On an Inspro benefits programme?",
+        "Common claim questions.",
+        "Keep the initial enquiry focused.",
+        "Need help withyour next step?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/guides/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Your insurancereview checklist.",
+        "Make your next insurance decision clearer",
+        "Put your checklist to work.",
+        "Ready to review your cover?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Gather your documents.",
+        "Spot what has changed.",
+        "Compare the detail.",
+        "Confirm the next steps.",
+        "Compare quotations on the same basis.",
+        "Keep your review moving.",
+        "Arrange an insurance review."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/privacy-security/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Your enquiry",
+        "Email and telephone",
+        "Sensitive information",
+        "Cookies and local storage",
+        "External websites",
+        "Changes to this notice"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/foreign-worker-medical-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Medical cover for your foreign workers.",
+        "Workforce details",
+        "Medical cover",
+        "Policy administration",
+        "Work Permit and S Pass medical cover.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/foreign-workers-bonds/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Prepare the bond before the next step.",
+        "Application or renewal",
+        "Bond conditions",
+        "Related insurance",
+        "Who needs a S$5,000 security bond?",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/corporate-travel-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Business trips. A clearer plan for cover.",
+        "Who travels & how often",
+        "Medical & travel disruption",
+        "Work activities",
+        "Compare cover for your business travel.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "A trip coming up?",
+        "Explore personal insurance.",
+        "Compare the cover you already have.",
+        "Already have a policy?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/travel-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Choose an insurer to request a quote.",
+        "Before you bookyour cover.",
+        "Travel questions,answered.",
+        "Keep your policy and assistance details accessible.",
+        "Need help with your travel insurance?"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/motor-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Cover for the way you drive.",
+        "Prefer an online quote?",
+        "Cover type",
+        "Drivers & use",
+        "Excesses & repairs",
+        "Motor insurance questions before renewal.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/home-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Protect the place you call home.",
+        "Prefer an online quote?",
+        "Building & renovations",
+        "Contents & valuables",
+        "Liability & disruption",
+        "What is included in your home cover?",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/personal-accident-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Plan for the impact of an accident.",
+        "Prefer an online quote?",
+        "Benefit types",
+        "Your activities",
+        "Existing policies",
+        "Understand how accident benefits work.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/personal/maid-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Cover for your helper. Clarity for you.",
+        "Prefer an online quote?",
+        "Medical & accident cover",
+        "Security bond",
+        "Employer expenses",
+        "Check the current MOM insurance requirements.",
+        "Start with the essentials.",
+        "Related cover"
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/employee-benefits/group-medical-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Compare the care employees can use.",
+        "Choose how much flexibility your team needs.",
+        "Group medical questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/work-injury-compensation-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Who needs compulsory WIC insurance?",
+        "Check the declarations before comparing prices.",
+        "Work injury insurance questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/public-liability-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Start with where you meet customers and the public.",
+        "Compare the terms behind the limit.",
+        "Public liability questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/service-details/commercial/professional-indemnity-insurance/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Describe the advice and services you provide.",
+        "Pay attention to when a claim is made.",
+        "Professional indemnity questions.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/guides/sme-employee-insurance-singapore/",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Separate benefits from compulsory requirements.",
+        "Build a quotation brief HR can maintain.",
+        "Questions employers often need to resolve.",
+        "Continue your review",
+        "Start with your priorities."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    },
+    {
+      "route": "/404.html",
+      "targetWidth": 390,
+      "actualWidth": 390,
+      "brokenImages": [],
+      "h1": 1,
+      "headings": [
+        "Try a direct route."
+      ],
+      "lang": "en-SG",
+      "overflow": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+/* Clinic discovery and digital membership credential. */
+.pt-care-layout { display: grid; grid-template-columns: 1.1fr .9fr; gap: var(--ds-space-4); }
+.pt-clinic-card { display: flex; flex-direction: column; }
+.pt-clinic-card .pt-sample-choices { margin-bottom: var(--ds-space-3); }
+.pt-clinic-diagram { background: var(--surface-raised); border-radius: var(--ds-radius-sm); overflow: clip; display: flex; flex-direction: column; min-width: 0; }
+.pt-clinic-diagram > svg { display: block; width: 100%; height: auto; max-height: 11rem; }
+.pt-map-buildings { fill: var(--accent-soft); }
+.pt-map-park { fill: var(--border); opacity: .5; }
+.pt-map-street { fill: none; stroke: var(--surface); stroke-width: 22; }
+.pt-map-road { fill: none; stroke: var(--border); stroke-width: 1.5; }
+.pt-map-route { fill: none; stroke: var(--portal-accent-foreground); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 5 3; }
+.pt-map-you > circle:first-child { fill: var(--surface); stroke: var(--border-strong); stroke-width: 1; }
+.pt-map-origin, .pt-map-traveller { fill: var(--portal-accent-foreground); }
+.pt-pin-shape { fill: var(--border-strong); }
+.pt-pin-cross { fill: none; stroke: var(--accent-ink); stroke-width: 3; stroke-linecap: round; }
+.pt-clinic-diagram[data-clinic="a"] .pt-map-pin-a .pt-pin-shape,
+.pt-clinic-diagram[data-clinic="b"] .pt-map-pin-b .pt-pin-shape { fill: var(--accent); }
+.pt-map-pulse { fill: none; stroke: var(--portal-accent-foreground); stroke-width: 1.5; transform-origin: 128px 72px; }
+.pt-clinic-diagram[data-clinic="b"] .pt-map-pulse { transform-origin: 350px 88px; }
+.pt-map-traveller { opacity: 0; offset-path: var(--pt-map-route, none); offset-distance: 100%; offset-rotate: 0deg; }
+.pt-map-key { display: flex; justify-content: center; flex-wrap: wrap; gap: var(--ds-space-4); padding: var(--ds-space-3); font-size: var(--ds-caption); color: var(--muted-foreground); }
+.pt-map-key > span { display: flex; align-items: center; gap: .35rem; }
+.pt-map-key svg { width: 1rem; height: 1rem; color: var(--portal-accent-foreground); }
+.pt-map-key i { width: .5rem; height: .5rem; background: var(--portal-accent-foreground); border-radius: var(--ds-pill); }
+.pt-clinic-result { display: flex; align-items: center; gap: .7rem; margin-top: var(--ds-space-4); }
+.pt-clinic-result > svg { width: 1.35rem; height: 1.35rem; color: var(--portal-accent-foreground); }
+.pt-clinic-result > div { flex: 1; min-width: 0; }
+.pt-clinic-result strong, .pt-clinic-result > div > span { display: block; line-height: 1.5; }
+.pt-clinic-result strong { font-size: var(--ds-small); }
+.pt-clinic-result > div > span { color: var(--muted-foreground); font-size: var(--ds-caption); }
+.pt-card-wallet { display: flex; flex-direction: column; gap: var(--ds-space-3); }
+.pt-card-wallet .pt-card-top { margin-bottom: 0; }
+.pt-wallet-stage { position: relative; padding: .4rem .1rem .6rem; width: min(100%, 19rem); align-self: center; margin: var(--ds-space-2) 0; }
+.pt-card-back { position: absolute; inset: .1rem .75rem .35rem; background: var(--accent-soft); border: 1px solid var(--border); border-radius: var(--ds-radius); transform: rotate(-3deg); }
+.pt-digital-card { position: relative; width: 100%; aspect-ratio: 1.65; min-height: 11rem; border-radius: var(--ds-radius); padding: var(--ds-space-5); background: var(--accent); color: var(--accent-ink); display: flex; flex-direction: column; justify-content: space-between; gap: var(--ds-space-4); }
+.pt-card-brand, .pt-card-credential { display: flex; justify-content: space-between; align-items: center; gap: var(--ds-space-3); }
+.pt-card-brand > strong { font-size: var(--ds-body); }
+.pt-card-brand > span { font-size: var(--ds-caption); color: var(--xp-dark-muted); }
+.pt-card-identity { display: flex; align-items: center; gap: var(--ds-space-3); }
+.pt-member-avatar { width: 2.5rem; height: 2.5rem; flex-shrink: 0; border-radius: var(--ds-pill); display: grid; place-items: center; background: var(--xp-panel); color: var(--accent-ink); font-size: var(--ds-small); }
+.pt-card-identity > div { display: grid; gap: .3rem; }
+.pt-card-identity strong { font-size: var(--ds-body); }
+.pt-card-identity > div > span { font-size: var(--ds-caption); color: var(--xp-dark-muted); }
+.pt-card-credential > span { display: flex; align-items: center; gap: .5rem; font-size: var(--ds-caption); }
+.pt-card-credential > span > svg { width: 1.1rem; height: 1.1rem; }
+.pt-credential-seal { width: 2rem; height: 2rem; flex-shrink: 0; fill: none; stroke: var(--accent-ink); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.pt-credential-seal circle { stroke: var(--xp-dark-muted); }
+.pt-card-facts { display: grid; grid-template-columns: .8fr 1.2fr; gap: var(--ds-space-3); margin: 0; padding-block: var(--ds-space-3); }
+.pt-card-facts > div { display: grid; gap: .4rem; }
+.pt-card-facts dt { font-size: var(--ds-caption); color: var(--muted-foreground); }
+.pt-card-facts dd { margin: 0; font-size: var(--ds-small); font-weight: var(--ds-weight); }
+.pt-access-steps { display: flex; align-items: center; justify-content: space-between; gap: .4rem; padding: var(--ds-space-3); background: var(--surface-raised); border-radius: var(--ds-radius-sm); font-size: var(--ds-caption); }
+.pt-access-steps > span { display: flex; align-items: center; gap: .35rem; }
+.pt-access-steps svg { width: 1rem; height: 1rem; color: var(--portal-accent-foreground); }
+.pt-ready .pt-map-pulse { animation: pt-map-pulse 7.2s ease-out infinite; }
+.pt-ready .pt-map-route { animation: pt-map-trace 7.2s var(--ds-ease) infinite; }
+.pt-ready .pt-map-traveller { animation: pt-map-travel 7.2s var(--ds-ease) infinite; }
+.pt-ready .pt-digital-card { animation: pt-wallet-card 7.2s var(--ds-ease) infinite; }
+.pt-ready .pt-card-back { animation: pt-wallet-back 7.2s var(--ds-ease) infinite; }
+.pt-ready .pt-credential-seal path { animation: pt-credential-draw 7.2s var(--ds-ease) infinite; }
+[data-motion-graphic] * { animation-play-state: paused; }
+[data-motion-graphic][data-motion="running"] * { animation-play-state: running; }
+@keyframes pt-map-trace { 0% { stroke-dashoffset: 100; } 36%, 100% { stroke-dashoffset: 0; } }
+@keyframes pt-map-travel { 0%, 8% { offset-distance: 0%; opacity: 0; } 12% { opacity: 1; } 38%, 65% { offset-distance: 100%; opacity: 1; } 72%, 100% { offset-distance: 100%; opacity: 0; } }
+@keyframes pt-wallet-card { 0%, 100% { transform: translateY(0); } 24%, 48% { transform: translateY(-6px); } 72% { transform: translateY(0); } }
+@keyframes pt-wallet-back { 0%, 100% { transform: rotate(-3deg); } 24%, 48% { transform: rotate(-5deg) translateY(3px); } 72% { transform: rotate(-3deg); } }
+@keyframes pt-credential-draw { 0%, 12% { stroke-dasharray: 100; stroke-dashoffset: 100; } 38%, 100% { stroke-dasharray: 100; stroke-dashoffset: 0; } }
+@media (max-width: 48rem) {
+  .pt-care-layout { grid-template-columns: 1fr; }
+  .pt-digital-card { padding: var(--ds-space-4); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pt-care-layout *, .pt-care-layout *::before, .pt-care-layout *::after { animation: none !important; transition: none !important; }
+}
+@media print {
+  .pt-card-back { display: none; }
+  .pt-page .pt-digital-card { background: var(--surface); color: var(--foreground); border: 1px solid var(--border); }
+  .pt-page .pt-digital-card span { color: var(--foreground); }
+  .pt-page .pt-credential-seal { stroke: var(--foreground); }
+  .pt-page .pt-care-layout * { animation: none !important; }
+}

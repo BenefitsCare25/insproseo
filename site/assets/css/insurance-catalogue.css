@@ -1,0 +1,70 @@
+/* Product discovery and quote routes, scoped away from the homepage animation. */
+.ic-directory-group { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(2rem,6vw,6rem); align-items: start; }
+.ic-directory-group > div:first-child p { max-width: 32rem; }
+.ic-rows { border-top: 1px solid var(--xp-line); }
+.ic-row { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.45rem 0; border-bottom: 1px solid var(--xp-line); text-decoration: none; color: var(--xp-ink); }
+.ic-row h3 { font-size: 1.25rem; margin: 0 0 .45rem; }
+.ic-row p { margin: 0; max-width: 58ch; font-size: .95rem; }
+.ic-row > svg { color: var(--accent); flex-shrink: 0; width: 1.2rem; transition: transform .2s ease; }
+.ic-row:hover h3 { color: var(--accent); }
+.ic-row:hover > svg { transform: translate(3px,-3px); }
+.ic-travel-section { background: var(--xp-dark); }
+.ic-travel-feature { display: grid; grid-template-columns: 1.4fr 1fr; gap: 4rem; align-items: center; }
+.ic-travel-feature h2 { color: var(--xp-on-dark); }
+.ic-travel-feature p { color: var(--xp-dark-muted); max-width: 42rem; }
+.ic-travel-aside { justify-self: end; }
+.ic-travel-aside > svg { width: 2.8rem; height: 2.8rem; color: var(--xp-on-dark); margin-bottom: 1rem; }
+.ic-travel-aside p { line-height: 1.9; }
+.ic-travel-aside .xp-link { color: var(--xp-on-dark); }
+.ic-heading { display: flex; align-items: start; justify-content: space-between; gap: 2rem; margin-bottom: 2.5rem; }
+.ic-heading h2 { max-width: 34rem; margin: 0; }
+.ic-heading p { max-width: 28rem; margin: 0; }
+.ic-quotes { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.5rem; margin-bottom: 1.5rem; }
+.ic-quotes article { display: flex; flex-direction: column; padding: 2rem; background: var(--xp-canvas); border-radius: 1rem; }
+.ic-quotes h3 { margin: 0 0 .8rem; font-size: 1.55rem; }
+.ic-quotes .ic-option-type { font-weight: 650; font-size: .9rem; color: var(--xp-ink); }
+.ic-quotes .xp-button { margin-top: auto; align-self: start; text-align: left; }
+.ic-quotes p { font-size: .95rem; margin-bottom: 1.5rem; }
+.ic-check-rows > div { padding: 1.4rem 0; border-top: 1px solid var(--xp-line); }
+.ic-check-rows h2, .ic-check-rows h3 { font-size: 1.35rem; margin: 0 0 .55rem; }
+.ic-check-rows p { margin: 0; }
+.ic-personal-list, .ic-industry-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 3.5rem; margin: 2rem 0; }
+.ic-personal-list .ic-rows, .ic-industry-list .ic-rows { border: 0; }
+.ic-personal-list > div, .ic-industry-list .ic-row { height: 100%; }
+.ic-personal-list .ic-row { height: 100%; }
+.ic-product-intro { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem,6vw,6rem); margin-bottom: 2rem; }
+.ic-insurer-route { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--xp-line); }
+.ic-insurer-route h2 { font-size: 1.5rem; }
+.ic-insurer-route .xp-fine { margin-top: 1rem; }
+.ic-preparation { margin-top: 1.5rem; max-width: 35rem; }
+.ic-source-note { padding: 2rem; background: var(--xp-canvas); border-radius: .75rem; margin: 2rem 0; }
+.ic-source-note h3 { margin-top: 0; }
+.ic-source-note .xp-fine { margin: 1rem 0 0; }
+.ic-related { display: grid; grid-template-columns: .8fr 1.2fr; gap: 4rem; }
+.ic-related h2 { margin: 0; }
+.experience .ic-personal-list [id], .experience .ic-directory-group { scroll-margin-top: 6rem; }
+.lf-home-choices .ic-home-categories { grid-template-columns: repeat(3,minmax(0,1fr)); }
+@media (max-width: 64rem) {
+  .ic-quotes { gap: 1rem; }
+  .ic-quotes article { padding: 1.4rem; }
+  .ic-quotes .xp-button { width: 100%; }
+  .nav-panel { max-height: calc(100dvh - 6rem); overflow-y: auto; }
+}
+@media (max-width: 48rem) {
+  .ic-directory-group, .ic-product-intro, .ic-related { grid-template-columns: 1fr; gap: 1.5rem; }
+  .ic-travel-feature { grid-template-columns: 1fr; gap: 2rem; }
+  .ic-travel-aside { justify-self: start; }
+  .ic-travel-aside > svg { display: none; }
+  .ic-heading { display: block; }
+  .ic-heading h2 { margin-bottom: 1rem; }
+  .ic-quotes { grid-template-columns: 1fr; }
+  .ic-quotes article { padding: 1.5rem; }
+  .ic-quotes .xp-button { width: auto; }
+  .ic-personal-list, .ic-industry-list { grid-template-columns: 1fr; }
+  .ic-source-note { padding: 1.4rem; }
+  .lf-home-choices .ic-home-categories { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ic-row > svg { transition: none; }
+  .ic-row:hover > svg { transform: none; }
+}

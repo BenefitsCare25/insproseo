@@ -1,0 +1,510 @@
+{
+  "date": "2026-10-09",
+  "scope": "Local preview; viewport values are requested browser override sizes, affected by the existing browser zoom.",
+  "checks": [
+    {
+      "route": "/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Singapore Insurance Broker for SMEs | Inspro"
+    },
+    {
+      "route": "/services/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Insurance Services for Singapore SMEs | Inspro"
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Employee Benefits Singapore: BenefitsCare | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Employee Benefits Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Business Insurance Packages Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/view-commercial-insurance-products/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Commercial Insurance Broker Singapore | Inspro"
+    },
+    {
+      "route": "/employee-benefits/portal/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Employee Benefits Portal Singapore: HR Tools | Inspro"
+    },
+    {
+      "route": "/about-us/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "About Inspro Insurance Brokers Singapore | Inspro"
+    },
+    {
+      "route": "/contact-us/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Contact Inspro Insurance Brokers Singapore | Inspro"
+    },
+    {
+      "route": "/claims-support/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Insurance Claims Support Singapore | Inspro"
+    },
+    {
+      "route": "/guides/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Insurance Guides for Singapore Employers | Inspro"
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Insurance Renewal Checklist Singapore | Inspro"
+    },
+    {
+      "route": "/privacy-security/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Website Privacy & Security | Inspro Singapore"
+    },
+    {
+      "route": "/service-details/commercial/foreign-worker-medical-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Foreign Worker Medical Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/foreign-workers-bonds/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Foreign Worker Security Bonds Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/corporate-travel-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Corporate Travel Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Personal Insurance Broker Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/personal/travel-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Travel Insurance Singapore: Quote Options | Inspro"
+    },
+    {
+      "route": "/service-details/personal/motor-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Motor Insurance Singapore: Compare Cover | Inspro"
+    },
+    {
+      "route": "/service-details/personal/home-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Home Insurance Singapore: Buildings & Contents | Inspro"
+    },
+    {
+      "route": "/service-details/personal/personal-accident-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Personal Accident Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/personal/maid-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Maid & Domestic Helper Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/employee-benefits/group-medical-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Group Medical Insurance Singapore for SMEs | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/work-injury-compensation-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Work Injury Compensation Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/public-liability-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Public Liability Insurance Singapore for SMEs | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/professional-indemnity-insurance/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Professional Indemnity Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/guides/sme-employee-insurance-singapore/",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Employee Insurance Guide Singapore | Inspro"
+    },
+    {
+      "route": "/404.html",
+      "viewport": 1440,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Page Not Found | Inspro Insurance Brokers"
+    },
+    {
+      "route": "/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Singapore Insurance Broker for SMEs | Inspro"
+    },
+    {
+      "route": "/services/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Insurance Services for Singapore SMEs | Inspro"
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Employee Benefits Singapore: BenefitsCare | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Employee Benefits Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Business Insurance Packages Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/view-commercial-insurance-products/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Commercial Insurance Broker Singapore | Inspro"
+    },
+    {
+      "route": "/employee-benefits/portal/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Employee Benefits Portal Singapore: HR Tools | Inspro"
+    },
+    {
+      "route": "/about-us/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "About Inspro Insurance Brokers Singapore | Inspro"
+    },
+    {
+      "route": "/contact-us/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Contact Inspro Insurance Brokers Singapore | Inspro"
+    },
+    {
+      "route": "/claims-support/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Insurance Claims Support Singapore | Inspro"
+    },
+    {
+      "route": "/guides/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Insurance Guides for Singapore Employers | Inspro"
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Insurance Renewal Checklist Singapore | Inspro"
+    },
+    {
+      "route": "/privacy-security/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Website Privacy & Security | Inspro Singapore"
+    },
+    {
+      "route": "/service-details/commercial/foreign-worker-medical-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Foreign Worker Medical Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/foreign-workers-bonds/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Foreign Worker Security Bonds Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/corporate-travel-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Corporate Travel Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Personal Insurance Broker Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/personal/travel-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Travel Insurance Singapore: Quote Options | Inspro"
+    },
+    {
+      "route": "/service-details/personal/motor-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Motor Insurance Singapore: Compare Cover | Inspro"
+    },
+    {
+      "route": "/service-details/personal/home-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Home Insurance Singapore: Buildings & Contents | Inspro"
+    },
+    {
+      "route": "/service-details/personal/personal-accident-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Personal Accident Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/personal/maid-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Maid & Domestic Helper Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/employee-benefits/group-medical-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Group Medical Insurance Singapore for SMEs | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/work-injury-compensation-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Work Injury Compensation Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/public-liability-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Public Liability Insurance Singapore for SMEs | Inspro"
+    },
+    {
+      "route": "/service-details/commercial/professional-indemnity-insurance/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Professional Indemnity Insurance Singapore | Inspro"
+    },
+    {
+      "route": "/guides/sme-employee-insurance-singapore/",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "SME Employee Insurance Guide Singapore | Inspro"
+    },
+    {
+      "route": "/404.html",
+      "viewport": 390,
+      "badImages": [],
+      "h1": 1,
+      "main": true,
+      "overflow": false,
+      "title": "Page Not Found | Inspro Insurance Brokers"
+    }
+  ]
+}

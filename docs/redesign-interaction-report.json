@@ -1,0 +1,253 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "width": 1440,
+      "title": "Singapore Insurance Broker for Business and Personal | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "title": "Insurance Solutions for Singapore SMEs & Employers | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "width": 1440,
+      "title": "Business Insurance for Singapore SMEs | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "width": 1440,
+      "title": "Corporate Employee Benefits Insurance Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 1440,
+      "title": "BenefitsCare: Employee Benefits for Singapore SMEs | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "width": 1440,
+      "title": "Personal Insurance Broker in Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/about-us/",
+      "width": 1440,
+      "title": "About Inspro Insurance Brokers Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/claims-support/",
+      "width": 1440,
+      "title": "Insurance Claims Support in Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/guides/",
+      "width": 1440,
+      "title": "Insurance Guides for Singapore Businesses | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "width": 1440,
+      "title": "Insurance Review Checklist for Singapore Businesses | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1440,
+      "title": "Contact Inspro Insurance Brokers Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/privacy-security/",
+      "width": 1440,
+      "title": "Website Privacy & Security | Inspro Singapore",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "title": "Singapore Insurance Broker for Business and Personal | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/services/",
+      "width": 390,
+      "title": "Insurance Solutions for Singapore SMEs & Employers | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "width": 390,
+      "title": "Business Insurance for Singapore SMEs | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "width": 390,
+      "title": "Corporate Employee Benefits Insurance Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 390,
+      "title": "BenefitsCare: Employee Benefits for Singapore SMEs | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "width": 390,
+      "title": "Personal Insurance Broker in Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/about-us/",
+      "width": 390,
+      "title": "About Inspro Insurance Brokers Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/claims-support/",
+      "width": 390,
+      "title": "Insurance Claims Support in Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/guides/",
+      "width": 390,
+      "title": "Insurance Guides for Singapore Businesses | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "width": 390,
+      "title": "Insurance Review Checklist for Singapore Businesses | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 390,
+      "title": "Contact Inspro Insurance Brokers Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/privacy-security/",
+      "width": 390,
+      "title": "Website Privacy & Security | Inspro Singapore",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "width": 768,
+      "title": "BenefitsCare: Employee Benefits for Singapore SMEs | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 768,
+      "title": "Contact Inspro Insurance Brokers Singapore | Inspro",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "font": true
+    }
+  ],
+  "interactions": {
+    "intent": "benefitscare",
+    "plan": "I would like to discuss the BenefitsCare Flex plan.\nApproximate employee headcount: \nPreferred start or renewal date: ",
+    "requiredFields": true,
+    "emailDraftStatus": "Email draft prepared. If your mail application opens, review the draft and press Send there. If it does not, email helpdesk@inspro.com.sg or call +65 6448 7707. This website has not sent your enquiry.",
+    "desktopNav": true,
+    "reviewSelector": "Prepare for an employee benefits review",
+    "reviewIntent": "benefits",
+    "mobileOpen": true,
+    "mobileEscape": true,
+    "faq": true,
+    "noJsProductVisible": true,
+    "noJsNavigation": true
+  },
+  "errors": []
+}

@@ -1,0 +1,191 @@
+{
+  "round": 2,
+  "records": [
+    {
+      "width": 1065,
+      "component": "benefit-preview",
+      "state": "Starter",
+      "pass": true
+    },
+    {
+      "width": 1065,
+      "component": "benefit-preview",
+      "state": "Flex",
+      "pass": true
+    },
+    {
+      "width": 1065,
+      "component": "benefit-preview",
+      "state": "Premier",
+      "pass": true
+    },
+    {
+      "width": 1065,
+      "component": "service-cycle",
+      "state": "Review",
+      "marker": {
+        "position": "absolute",
+        "width": 232.25,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 1065,
+      "component": "service-cycle",
+      "state": "Implement",
+      "marker": {
+        "position": "absolute",
+        "width": 232.24996948242188,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 1065,
+      "component": "service-cycle",
+      "state": "Support",
+      "marker": {
+        "position": "absolute",
+        "width": 232.25,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 1065,
+      "component": "service-cycle",
+      "state": "Renew",
+      "marker": {
+        "position": "absolute",
+        "width": 232.25,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 1065,
+      "keyboardAndStatePersistence": true
+    },
+    {
+      "width": 390,
+      "component": "benefit-preview",
+      "state": "Starter",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "component": "benefit-preview",
+      "state": "Flex",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "component": "benefit-preview",
+      "state": "Premier",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "component": "service-cycle",
+      "state": "Review",
+      "marker": {
+        "position": "absolute",
+        "width": 165,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "component": "service-cycle",
+      "state": "Implement",
+      "marker": {
+        "position": "absolute",
+        "width": 165,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "component": "service-cycle",
+      "state": "Support",
+      "marker": {
+        "position": "absolute",
+        "width": 165,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "component": "service-cycle",
+      "state": "Renew",
+      "marker": {
+        "position": "absolute",
+        "width": 165,
+        "height": 2
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "keyboardAndStatePersistence": true
+    },
+    {
+      "noJavaScript": "all 3 plans and 4 service stages readable"
+    },
+    {
+      "contact": "Premier prefill, required fields, truthful unsent status passed",
+      "navigation": "mobile open/Escape/focus passed"
+    },
+    {
+      "guide": "checklist and print action passed"
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/employee-benefits/benefitscare/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/service-details/commercial/employees-benefits/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/contact-us/",
+      "overflow": false
+    },
+    {
+      "width": 958,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 958,
+      "route": "/employee-benefits/benefitscare/",
+      "overflow": false
+    },
+    {
+      "width": 958,
+      "route": "/service-details/commercial/employees-benefits/",
+      "overflow": false
+    },
+    {
+      "width": 958,
+      "route": "/contact-us/",
+      "overflow": false
+    },
+    {
+      "reducedMotion": "service panel has no transform"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,24 @@
+/* Crisp geometric card scenes; official copy stays in native page typography. */
+.ab-scene { width: 100%; max-width: 14rem; margin: 0; justify-self: end; align-self: center; color: var(--ds-brand); }
+.ab-value-icon { display: block; width: 3rem; height: 3rem; overflow: visible; }
+.ab-art-value-emphasis { fill: var(--ds-brand); opacity: 0; }
+.ab-scene > svg { display: block; width: 100%; height: auto; overflow: visible; }
+.ab-art-paper { fill: var(--ds-paper); stroke: var(--ds-line); stroke-width: 1.3; }
+.ab-art-soft { fill: var(--ds-tint); stroke: var(--ds-line); stroke-width: 1.3; }
+.ab-art-accent { fill: var(--ds-brand); }
+.ab-art-ring { fill: none; stroke: var(--ds-line); stroke-width: 1.2; }
+.ab-art-rule { fill: none; stroke: var(--ds-line); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.ab-art-strong { fill: none; stroke: var(--ds-brand); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.ab-art-inverse { fill: none; stroke: var(--ds-inverse); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.ab-art-line { fill: var(--ds-line); }
+.ab-art-trace { fill: none; stroke: var(--ds-brand); stroke-width: 1.8; stroke-linecap: round; stroke-dasharray: 100; opacity: 0; }
+.ab-art-focus { fill: var(--ds-tint); opacity: 0; }
+[data-ab-part="needle"] { transform: rotate(45deg); }
+.ab-scene [data-ab-part="destination"] { transform-box: fill-box; transform-origin: center; }
+@media (forced-colors: active) {
+  .ab-art-paper, .ab-art-soft { fill: Canvas; stroke: CanvasText; }
+  .ab-art-accent, .ab-art-line { fill: CanvasText; }
+  .ab-art-ring, .ab-art-rule, .ab-art-strong, .ab-art-trace { stroke: CanvasText; }
+  .ab-art-inverse { stroke: Canvas; }
+}
+@media print { .ab-scene, .ab-value-icon { display: none; } }

@@ -1,0 +1,54 @@
+[
+  {
+    "route": "/",
+    "violations": []
+  },
+  {
+    "route": "/services/",
+    "violations": []
+  },
+  {
+    "route": "/employee-benefits/benefitscare/",
+    "violations": []
+  },
+  {
+    "route": "/service-details/commercial/employees-benefits/",
+    "violations": []
+  },
+  {
+    "route": "/service-details/commercial/commercialoffice-package/",
+    "violations": []
+  },
+  {
+    "route": "/service-details/personal/view-personal-insurance-products/",
+    "violations": []
+  },
+  {
+    "route": "/about-us/",
+    "violations": []
+  },
+  {
+    "route": "/claims-support/",
+    "violations": []
+  },
+  {
+    "route": "/guides/",
+    "violations": []
+  },
+  {
+    "route": "/guides/insurance-review-checklist/",
+    "violations": []
+  },
+  {
+    "route": "/contact-us/",
+    "violations": []
+  },
+  {
+    "route": "/privacy-security/",
+    "violations": []
+  },
+  {
+    "route": "/404.html",
+    "violations": []
+  }
+]

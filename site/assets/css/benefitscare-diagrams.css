@@ -1,0 +1,64 @@
+/* The five services converge on mobile access without moving the labels. */
+.bc-network { position: relative; width: 100%; max-width: 35rem; aspect-ratio: 60 / 46; margin: 0 auto; }
+.bc-network-lines { position: absolute; inset: 0; width: 100%; height: 100%; }
+.bc-network-centre { position: absolute; left: 67%; top: 17%; width: 31%; height: 58%; display: grid; gap: var(--ds-space-2); align-content: center; justify-items: center; border: 2px solid var(--ds-brand); border-radius: var(--ds-radius-lg); background: var(--ds-paper); color: var(--ds-brand); text-align: center; padding: var(--ds-space-4); }
+.bc-network-centre > svg { width: 2rem; height: 2rem; margin-block: var(--ds-space-2); }
+.bc-network-centre strong { font-size: var(--ds-lead); letter-spacing: var(--ds-tracking); }
+.bc-network-centre > span { font-size: var(--ds-caption); color: var(--ds-muted); line-height: 1.5; }
+.bc-network-speaker { position: absolute; top: var(--ds-space-3); width: 2rem; height: .2rem; border-radius: var(--ds-pill); background: var(--ds-line); }
+.bc-network-home { position: absolute; bottom: var(--ds-space-3); width: 2rem; height: .2rem; border-radius: var(--ds-pill); background: var(--ds-line); }
+.bc-network-services { display: flex; gap: var(--ds-space-3); padding-top: var(--ds-space-3); }
+.bc-network-services svg { width: 1.15rem; height: 1.15rem; }
+.bc-network-node { position: absolute; left: 0; top: calc(3% + var(--bc-node-index) * 18%); width: 52%; height: 13%; display: grid; grid-template-columns: 2.75rem minmax(0, 1fr); gap: 0 var(--ds-space-3); align-content: center; align-items: center; background: var(--ds-wash); }
+.bc-network-symbol { grid-row: span 2; display: grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: var(--ds-pill); background: var(--ds-paper); color: var(--ds-brand); }
+.bc-network-symbol > svg { width: 1.3rem; height: 1.3rem; }
+.bc-network-node strong { font-size: var(--ds-small); color: var(--ds-ink); font-weight: var(--ds-weight); line-height: 1.5; }
+.bc-network-node > span:last-child { font-size: var(--ds-caption); color: var(--ds-muted); line-height: 1.5; max-width: 23ch; }
+.bc-plan-benefits { min-width: 0; list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--ds-space-4) var(--ds-space-6); grid-column: 1 / -1; }
+.bc-plan-benefits li { display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: var(--ds-space-3); align-items: start; }
+.bc-benefit-symbol { display: grid; place-items: center; width: 2.5rem; height: 2.5rem; border-radius: var(--ds-pill); background: var(--ds-paper); color: var(--ds-brand); }
+.bc-benefit-symbol svg { width: 1.3rem; height: 1.3rem; }
+.bc-plan-benefits li strong { display: block; font-size: var(--ds-body); font-weight: var(--ds-weight); line-height: 1.5; margin: 0 0 var(--ds-space-1); }
+.bc-plan-benefits li p { font-size: var(--ds-small); color: var(--ds-muted); line-height: 1.6; margin: 0; max-width: 40ch; }
+.bc-plan-benefits .bc-benefit--unavailable :is(strong, p, .bc-benefit-symbol) { color: var(--benefit-unavailable); }
+.bc-benefit--unavailable :is(.bc-benefit-name, p, .bc-benefit-symbol) { opacity: .5; }
+.bc-benefit--unavailable .bc-benefit-symbol { background: var(--ds-clear); }
+.bc-benefit-status { display: inline-block; margin-left: var(--ds-space-2); font-size: var(--ds-caption); font-weight: 400; }
+.bc-mobile-demo { position: relative; margin: 0 auto; width: 100%; max-width: 16rem; }
+.bc-device { padding: var(--ds-space-4); background: var(--ds-paper); border: 2px solid var(--ds-line); border-radius: var(--ds-radius-lg); }
+.bc-device-top { width: 3rem; height: .25rem; border-radius: var(--ds-pill); background: var(--ds-line); margin: 0 auto var(--ds-space-5); }
+.bc-device-heading { display: flex; align-items: center; gap: var(--ds-space-2); color: var(--ds-brand); font-size: var(--ds-small); margin-bottom: var(--ds-space-5); }
+.bc-device-heading > svg { width: 1.3rem; height: 1.3rem; }
+.bc-device-services { display: grid; gap: var(--ds-space-3); }
+.bc-device-services > div { position: relative; display: grid; grid-template-columns: 1.2rem minmax(0, 1fr) 1rem; align-items: center; gap: var(--ds-space-2); font-size: var(--ds-caption); line-height: 1.5; padding: var(--ds-space-3) var(--ds-space-2); border-radius: var(--ds-radius-sm); background: var(--ds-wash); }
+.bc-device-services > div > span { display: flex; color: var(--ds-brand); }
+.bc-device-services svg { width: 1.1rem; height: 1.1rem; }
+.bc-device-services .bc-device-flow { position: absolute; left: var(--ds-space-2); right: var(--ds-space-2); bottom: .25rem; width: calc(100% - var(--ds-space-4)); height: 2px; }
+.bc-device-flow .bc-scene-route { stroke: var(--ds-clear); }
+.bc-device-support { display: flex; align-items: center; gap: var(--ds-space-2); font-size: var(--ds-caption); color: var(--ds-brand); padding-top: var(--ds-space-5); }
+.bc-device-support > svg { width: 1.25rem; height: 1.25rem; }
+.bc-mobile-demo figcaption { color: var(--ds-muted); font-size: var(--ds-caption); line-height: 1.6; margin-top: var(--ds-space-3); text-align: center; }
+@media (min-width: 48.01rem) and (max-width: 60rem) {
+  .bc-network-node { grid-template-columns: 2rem minmax(0, 1fr); gap: 0 var(--ds-space-2); }
+  .bc-network-symbol { width: 2rem; height: 2rem; }
+  .bc-network-centre { padding: var(--ds-space-2); }
+  .bc-network-centre strong { font-size: var(--ds-small); }
+}
+@media (max-width: 48rem) {
+  .bc-plan-benefits { grid-template-columns: 1fr; }
+  .bc-network { aspect-ratio: auto; height: 17rem; max-width: 29rem; }
+  .bc-network-node { grid-template-columns: 2rem minmax(0, 1fr); gap: 0 var(--ds-space-2); width: 53%; }
+  .bc-network-symbol { width: 2rem; height: 2rem; grid-row: 1; }
+  .bc-network-node strong { font-size: var(--ds-caption); }
+  .bc-network-node > span:last-child { display: none; }
+  .bc-network-centre { top: 15%; height: 62%; width: 32%; padding: var(--ds-space-2); border-radius: var(--ds-radius); }
+  .bc-network-centre > svg { width: 1.5rem; height: 1.5rem; margin: 0; }
+  .bc-network-centre strong { font-size: var(--ds-caption); }
+  .bc-network-services { gap: var(--ds-space-2); padding-top: var(--ds-space-2); }
+  .bc-network-services svg { width: 1rem; height: 1rem; }
+  .bc-mobile-demo { max-width: 17rem; }
+}
+@media print {
+  .bc-network { width: 28rem; max-width: 100%; }
+  .bc-mobile-demo { max-width: 16rem; margin-bottom: var(--ds-space-5); }
+}

@@ -1,0 +1,97 @@
+name: Deploy website to Azure Singapore
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: inspro-website-singapore
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      AZURE_WEBAPP_NAME: inspro-website-sg
+      AZURE_RESOURCE_GROUP: rg-inspro-website-prod
+      SITE_URL: https://inspro-website-sg.azurewebsites.net
+      AZURE_CORE_OUTPUT: none
+
+    steps:
+      - name: Check out the website
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+
+      - name: Validate the committed static site
+        run: npm run build
+
+      - name: Package public files and the production server
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, zipfile
+          from pathlib import Path
+          root = Path.cwd()
+          files = sorted(path for path in (root / 'site').rglob('*') if path.is_file())
+          files += [root / 'scripts' / name for name in ('server.mjs', 'http-files.mjs')]
+          package = {'name': 'inspro-website', 'version': '1.0.0', 'private': True,
+                     'type': 'module', 'engines': {'node': '^24.0.0'},
+                     'scripts': {'start': 'node scripts/server.mjs'}}
+          with zipfile.ZipFile(Path(os.environ['RUNNER_TEMP']) / 'website.zip', 'w',
+                               compression=zipfile.ZIP_DEFLATED) as archive:
+              for path in files:
+                  relative = path.relative_to(root)
+                  if path.is_symlink() or any(part.startswith('.') for part in relative.parts):
+                      raise RuntimeError('Unexpected hidden file or symlink in deployment')
+                  archive.write(path, relative.as_posix())
+              archive.writestr('package.json', json.dumps(package) + '\n')
+          PY
+
+      - name: Authenticate to Azure with OpenID Connect
+        uses: azure/login@a641126d1b8aa4d1fa005f4f92df94a3a4c4c906 # v3
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Confirm the target is in Singapore
+        shell: bash
+        run: |
+          region=$(az resource show --resource-group "$AZURE_RESOURCE_GROUP" \
+            --name "$AZURE_WEBAPP_NAME" --resource-type Microsoft.Web/sites \
+            --api-version 2024-11-01 --query location --output tsv)
+          region="${region,,}"
+          test "${region// /}" = southeastasia
+
+      - name: Deploy the website
+        shell: bash
+        run: |
+          az webapp deploy --resource-group "$AZURE_RESOURCE_GROUP" \
+            --name "$AZURE_WEBAPP_NAME" --src-path "$RUNNER_TEMP/website.zip" \
+            --type zip --clean true --restart true --enable-kudu-warmup false \
+            --timeout 600000
+
+      - name: Verify health and the deployed homepage
+        shell: bash
+        run: |
+          curl --fail --silent --show-error --retry 8 --retry-all-errors \
+            --retry-delay 5 --max-time 30 "$SITE_URL/healthz"
+          curl --fail --silent --show-error --retry 8 --retry-all-errors \
+            --retry-delay 5 --max-time 30 "$SITE_URL/" --output "$RUNNER_TEMP/live-home.html"
+          cmp site/index.html "$RUNNER_TEMP/live-home.html"
+          printf 'Deployed %s to %s\n' "$GITHUB_SHA" "$SITE_URL" >> "$GITHUB_STEP_SUMMARY"

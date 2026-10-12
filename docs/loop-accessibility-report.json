@@ -1,0 +1,71 @@
+{
+  "round": 2,
+  "viewport": 1065,
+  "results": [
+    {
+      "route": "/",
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/services/",
+      "violations": [],
+      "passes": 18
+    },
+    {
+      "route": "/employee-benefits/benefitscare/",
+      "violations": [],
+      "passes": 23
+    },
+    {
+      "route": "/service-details/commercial/employees-benefits/",
+      "violations": [],
+      "passes": 28
+    },
+    {
+      "route": "/service-details/commercial/commercialoffice-package/",
+      "violations": [],
+      "passes": 27
+    },
+    {
+      "route": "/service-details/personal/view-personal-insurance-products/",
+      "violations": [],
+      "passes": 26
+    },
+    {
+      "route": "/about-us/",
+      "violations": [],
+      "passes": 19
+    },
+    {
+      "route": "/claims-support/",
+      "violations": [],
+      "passes": 19
+    },
+    {
+      "route": "/guides/",
+      "violations": [],
+      "passes": 18
+    },
+    {
+      "route": "/guides/insurance-review-checklist/",
+      "violations": [],
+      "passes": 23
+    },
+    {
+      "route": "/contact-us/",
+      "violations": [],
+      "passes": 23
+    },
+    {
+      "route": "/privacy-security/",
+      "violations": [],
+      "passes": 19
+    },
+    {
+      "route": "/404.html",
+      "violations": [],
+      "passes": 19
+    }
+  ]
+}

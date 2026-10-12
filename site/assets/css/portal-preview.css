@@ -1,0 +1,64 @@
+/* A compact capability preview with working role and feature navigation. */
+.ds-page .hp-portal-preview {
+  min-width: 0;
+  padding: var(--ds-space-5);
+  border-radius: var(--card-preview-radius);
+  background: var(--ds-paper);
+  box-shadow: none;
+}
+.ds-page .hp-portal-preview .hp-preview-roles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--ds-space-1);
+  padding: var(--ds-space-1);
+  margin-bottom: var(--ds-space-3);
+  background: var(--ds-wash);
+  border-radius: var(--ds-radius-sm);
+}
+.ds-page .hp-portal-preview .hp-preview-roles > .ui-tabs-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ds-space-2);
+  border: 0;
+  min-height: 2.75rem;
+  padding: var(--ds-space-3) var(--ds-space-2);
+  background: none;
+  font-size: var(--ds-small);
+  transition: background var(--ds-speed), color var(--ds-speed);
+}
+.ds-page .hp-portal-preview .hp-preview-roles > .ui-tabs-trigger[data-state="active"] { background: var(--ds-brand); color: var(--ds-inverse); }
+.ds-page .hp-portal-preview .hp-preview-roles > .ui-tabs-trigger:focus-visible { outline-width: var(--nav-focus-width); outline-offset: var(--nav-focus-offset); }
+.ds-page .hp-portal-preview .hp-portal-role { outline-offset: var(--nav-focus-offset); }
+.hp-preview-features { display: grid; gap: var(--ds-space-2); list-style: none; margin: 0; padding: 0; }
+.hp-preview-feature {
+  display: grid;
+  grid-template-columns: var(--ds-icon) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--ds-space-3);
+  padding: var(--ds-space-4) var(--ds-space-1);
+  color: var(--ds-ink);
+}
+.hp-preview-feature > svg { color: var(--ds-brand); }
+.hp-preview-feature > span { min-width: 0; }
+.hp-preview-feature strong, .hp-preview-feature > span > span { display: block; }
+.hp-preview-feature strong { font-size: var(--ds-small); font-weight: var(--ds-weight); }
+.hp-preview-feature > span > span { margin-top: var(--ds-space-1); font-size: var(--ds-caption); line-height: 1.5; color: var(--ds-muted); text-wrap: pretty; }
+.ds-page .hp-preview-feature:focus-visible { outline: var(--nav-focus-width) solid var(--ds-brand); outline-offset: var(--nav-focus-offset); border-radius: var(--ds-radius-sm); }
+@media (max-width: 70rem) and (min-width: 60.01rem) {
+  .hp-home .xp-portal-teaser { grid-template-columns: 1fr; }
+}
+@media (max-width: 48rem) {
+  .ds-page .hp-portal-preview { padding: var(--ds-space-4); }
+  .hp-preview-feature { padding-block: var(--ds-space-3); }
+}
+@media (hover: hover) {
+  .ds-page .hp-portal-preview .hp-preview-roles > .ui-tabs-trigger:not([data-state="active"]):hover { background: var(--ds-tint); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ds-page .hp-portal-preview .hp-preview-roles > .ui-tabs-trigger { transition: none; }
+}
+@media print {
+  .ds-page .hp-portal-preview .hp-preview-roles { display: none; }
+  .ds-page .hp-portal-role[data-state="inactive"] { display: block; margin-top: var(--ds-space-4); }
+}

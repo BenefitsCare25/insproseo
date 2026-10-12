@@ -1,0 +1,21 @@
+/* One type system and a centered reading width across the public pages. */
+.inspro-site { font-family: var(--experience-font); }
+.inspro-site :is(h1, h2, h3, h4, button, input, select, textarea, summary) { font-family: var(--experience-font); }
+.inspro-site main.ds-page:not([data-design-page="home"]) h1 {
+  font-size: var(--page-title-size);
+  font-weight: var(--ds-weight);
+  line-height: var(--page-title-leading);
+  letter-spacing: var(--ds-tracking);
+  text-wrap: balance;
+}
+.inspro-site main.ds-page:not([data-design-page="home"]) .xp-shell:not(.flow-panel .xp-shell) {
+  width: min(calc(100% - var(--page-content-inset) * 2), var(--page-content-width));
+}
+.inspro-site main.ds-page :is(.tr-hero-grid, .cl-hero-grid, .xp-about-grid, .xp-portal-intro) { gap: var(--page-hero-gap); }
+@media (min-width: 64.01rem) {
+  .inspro-site main.ds-page :is(.tr-hero-copy, .cl-hero-copy, .xp-about-copy) { padding-inline-start: var(--ds-space-5); }
+  .inspro-site main.ds-page .xp-portal-intro > h1 { padding-inline-start: var(--ds-space-5); }
+}
+@media print {
+  .inspro-site main.ds-page:not([data-design-page="home"]) .xp-shell:not(.flow-panel .xp-shell) { width: 100%; }
+}

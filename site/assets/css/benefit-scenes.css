@@ -1,0 +1,171 @@
+/* Content-specific benefit diagrams inside a shared responsive frame. */
+.ds-page[data-design-page="benefits"] .flow-screen { height: auto; min-height: 0; }
+.eb-scene { display: grid; grid-template-columns: minmax(0,.72fr) minmax(0,1.28fr); align-items: start; gap: var(--ds-space-8); }
+.eb-copy { min-width: 0; }
+.ds-page .eb-copy h2 { max-width: 22ch; margin-bottom: var(--ds-space-4); }
+.eb-copy p { max-width: 43ch; color: var(--ds-muted); margin: 0 0 var(--ds-space-5); }
+.eb-copy > .xp-link { display: flex; width: fit-content; margin-top: var(--ds-space-4); }
+.eb-scene h3 { margin: 0 0 var(--ds-space-3); font-size: var(--ds-title); line-height: 1.35; }
+.eb-scene p { line-height: 1.6; }
+.eb-care-map { padding-top: var(--ds-space-2); }
+.eb-care-hub { display: flex; gap: var(--ds-space-3); align-items: center; justify-content: center; color: var(--ds-brand); font-size: var(--ds-title); }
+.eb-connectors { width: 100%; height: 4rem; display: block; color: var(--ds-line); overflow: visible; }
+.eb-care-branches { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: var(--ds-space-4); }
+.eb-care-node { min-width: 0; text-align: center; }
+.eb-node-symbol { display: grid; place-items: center; margin: 0 auto var(--ds-space-4); background: var(--ds-paper); color: var(--ds-brand); width: 3rem; height: 3rem; border-radius: var(--ds-pill); }
+.eb-care-node h3 { font-size: var(--ds-body); max-width: 18ch; margin-inline: auto; }
+.eb-care-node p { font-size: var(--ds-small); color: var(--ds-muted); margin: 0; }
+.eb-hospital-board { padding: var(--ds-space-2) var(--ds-space-3) var(--ds-space-2) 0; }
+.eb-hospital-core { background: var(--ds-paper); border-radius: var(--ds-radius); padding: var(--ds-space-6); margin-right: var(--ds-space-8); }
+.eb-hospital-core > svg { color: var(--ds-brand); margin-bottom: var(--ds-space-4); }
+.eb-hospital-core h3 { max-width: 20ch; font-size: var(--card-heading); }
+.eb-hospital-core p { max-width: 36ch; margin-bottom: var(--ds-space-4); color: var(--ds-muted); }
+.eb-worldwide { color: var(--ds-brand); font-size: var(--ds-small); font-weight: var(--ds-weight); }
+.eb-major-medical { position: relative; margin: calc(-1 * var(--ds-space-3)) 0 0 var(--ds-space-8); background: var(--ds-brand); color: var(--ds-inverse); border-radius: var(--ds-radius); padding: var(--ds-space-5) var(--ds-space-6); }
+.eb-major-medical h3, .eb-major-medical p { color: inherit; }
+.eb-major-medical p { margin: 0 0 var(--ds-space-3); font-size: var(--ds-small); }
+.eb-major-medical strong { font-size: var(--ds-small); }
+.eb-scene--protection { display: block; }
+.eb-scene--protection .eb-copy { display: grid; grid-template-columns: minmax(0,.85fr) minmax(0,1.15fr); gap: var(--ds-space-8); }
+.eb-protection-band { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: var(--ds-space-6); padding-block: var(--ds-space-5); }
+.eb-protection-unit { min-width: 0; }
+.eb-protection-symbol { display: block; color: var(--ds-brand); margin-bottom: var(--ds-space-5); }
+.eb-protection-symbol > svg { width: 2.6rem; height: 2.6rem; }
+.eb-protection-unit h3 { font-size: var(--ds-title); max-width: 17ch; }
+.eb-protection-unit p { color: var(--ds-muted); font-size: var(--ds-small); margin: 0; max-width: 27ch; }
+.eb-protection-caption { display: flex; align-items: center; gap: var(--ds-space-3); margin: var(--ds-space-4) 0 0; }
+.eb-flex-graphic { display: grid; grid-template-columns: minmax(0,.8fr) 4rem minmax(0,1.5fr); align-items: center; gap: var(--ds-space-2); }
+.eb-flex-person { text-align: center; color: var(--ds-brand); }
+.eb-flex-person > svg { display: block; width: 4rem; height: 4rem; margin: 0 auto var(--ds-space-4); }
+.eb-flex-person strong { font-size: var(--ds-small); }
+.eb-flex-paths { width: 100%; height: 16rem; color: var(--ds-line); }
+.eb-flex-branches { display: grid; gap: var(--ds-space-6); }
+.eb-flex-branch > span { color: var(--ds-brand); display: block; margin-bottom: var(--ds-space-3); }
+.eb-flex-branch h3 { font-size: var(--ds-panel-title); }
+.eb-flex-branch p { font-size: var(--ds-small); color: var(--ds-muted); margin: 0; }
+.eb-tools-display { min-width: 0; }
+.eb-tools-switch { display: flex; gap: var(--ds-space-2); margin-bottom: var(--ds-space-4); }
+.eb-tools-switch button { display: flex; gap: var(--ds-space-2); align-items: center; justify-content: center; flex: 1; min-height: 2.75rem; padding: var(--ds-space-3); border: 0; border-radius: var(--ds-radius-sm); background: var(--ds-paper); color: var(--ds-ink); font-size: var(--ds-small); font-weight: var(--ds-weight); cursor: pointer; }
+.eb-tools-switch button[aria-pressed="true"] { background: var(--ds-brand); color: var(--ds-inverse); }
+.eb-tools-switch button:focus-visible { outline: var(--nav-focus-width) solid var(--ds-brand); outline-offset: var(--nav-focus-offset); }
+.eb-tools-switch button[aria-pressed="true"]:focus-visible { outline-color: var(--ds-inverse); }
+.eb-tools-view { padding: var(--ds-space-5); background: var(--ds-paper); border-radius: var(--ds-radius); }
+.eb-tools-view[hidden] { display: none; }
+.eb-tool-items { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--ds-space-5); margin-bottom: var(--ds-space-5); }
+.eb-tools-view[data-benefit-role-panel="hr"] .eb-tool-items { grid-template-columns: 1fr; }
+.eb-tool-item { display: flex; gap: var(--ds-space-3); align-items: start; }
+.eb-tool-item > svg { flex-shrink: 0; color: var(--ds-brand); width: 1.15rem; height: 1.15rem; margin-top: var(--ds-space-1); }
+.eb-tool-item h3 { font-size: var(--ds-body); margin-bottom: var(--ds-space-2); }
+.eb-tool-item p { font-size: var(--ds-small); color: var(--ds-muted); margin: 0; }
+.eb-tools-view .xp-link { font-size: var(--ds-small); }
+.eb-broker-link { display: flex; gap: var(--ds-space-3); margin-top: var(--ds-space-5); align-items: start; color: var(--ds-brand); }
+.eb-broker-link > svg { flex-shrink: 0; margin-top: var(--ds-space-1); }
+.eb-broker-link p { font-size: var(--ds-small); margin: 0; }
+.eb-broker-link span { display: block; color: var(--ds-muted); }
+@media (max-width: 70rem) {
+  .eb-scene { grid-template-columns: 1fr; gap: var(--ds-space-6); }
+  .eb-care-node p { max-width: 25ch; margin-inline: auto; }
+  .eb-flex-graphic { max-width: 36rem; width: 100%; justify-self: center; }
+}
+@media (max-width: 48rem) {
+  .eb-scene--protection .eb-copy { display: block; }
+  .eb-care-map > .eb-connectors { display: none; }
+  .eb-care-hub { justify-content: start; margin-bottom: var(--ds-space-5); }
+  .eb-care-branches { grid-template-columns: 1fr; gap: var(--ds-space-5); }
+  .eb-care-node { display: grid; grid-template-columns: 3rem minmax(0,1fr); gap: 0 var(--ds-space-3); text-align: left; }
+  .eb-node-symbol { grid-row: span 2; margin: 0; }
+  .eb-care-node h3 { font-size: var(--ds-body); max-width: none; margin: 0 0 var(--ds-space-2); }
+  .eb-care-node p { grid-column: 2; font-size: var(--ds-small); max-width: none; margin: 0; }
+  .eb-protection-band { grid-template-columns: 1fr; padding-block: var(--ds-space-3); gap: var(--ds-space-6); }
+  .eb-protection-unit { display: grid; grid-template-columns: 2.5rem minmax(0,1fr); gap: 0 var(--ds-space-4); }
+  .eb-protection-symbol { grid-row: span 2; margin: 0; }
+  .eb-protection-symbol > svg { width: 2rem; height: 2rem; }
+  .eb-protection-unit p { max-width: none; }
+  .eb-hospital-core { margin-right: var(--ds-space-4); padding: var(--ds-space-5); }
+  .eb-hospital-core h3 { font-size: var(--ds-panel-title); }
+  .eb-major-medical { margin-left: var(--ds-space-4); padding: var(--ds-space-5); }
+  .eb-flex-graphic { grid-template-columns: minmax(0,.7fr) 2.25rem minmax(0,1.5fr); }
+  .eb-flex-person > svg { width: 2.8rem; height: 2.8rem; }
+  .eb-flex-branch h3 { font-size: var(--ds-title); }
+  .eb-tool-items { grid-template-columns: 1fr; gap: var(--ds-space-4); }
+  .eb-tools-view { padding: var(--ds-space-4); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .eb-scene * { animation: none; transition: none; }
+}
+@media print {
+  .eb-scene { display: block; }
+  .eb-scene > * + * { margin-top: var(--ds-space-5); }
+  .eb-tools-switch { display: none; }
+  .eb-tools-view[hidden] { display: block !important; margin-top: var(--ds-space-4); }
+  .eb-major-medical { margin-top: var(--ds-space-4); margin-left: 0; }
+}
+
+/* The six topics share one responsive frame, sized by their largest content. */
+.flow-ready[data-design-page="benefits"] .flow-workbench .flow-screen {
+  display: grid;
+  grid-template-columns: minmax(0,1fr);
+  min-height: var(--card-stage-height);
+  height: auto;
+}
+.flow-ready[data-design-page="benefits"] .flow-panel {
+  grid-area: 1 / 1;
+  align-self: start;
+  width: 100%;
+}
+.flow-ready[data-design-page="benefits"] .flow-panel.flow-inactive {
+  display: block !important;
+  visibility: hidden;
+  pointer-events: none;
+}
+.flow-ready .eb-tools-display { display: grid; grid-template-columns: minmax(0,1fr); align-content: start; }
+.flow-ready .eb-tools-switch { grid-area: 1 / 1; }
+.flow-ready .eb-tools-view { grid-area: 2 / 1; align-self: start; }
+.flow-ready .eb-tools-view[hidden] { display: block !important; visibility: hidden; pointer-events: none; }
+.eb-copy .eb-broker-link { margin-top: var(--ds-space-8); }
+.eb-flex-paths { height: 20rem; align-self: stretch; }
+.eb-flex-branches { gap: var(--ds-space-4); }
+.eb-flex-branch > span { margin-bottom: var(--ds-space-2); }
+.eb-flex-branch h3 { font-size: var(--ds-title); margin-bottom: var(--ds-space-2); }
+.eb-year-display { min-width: 0; }
+.eb-year-nav { display: none; }
+.flow-ready .eb-year-nav { position: relative; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); margin-bottom: var(--ds-space-6); }
+.eb-year-track { position: absolute; top: 1.375rem; left: 12.5%; right: 12.5%; height: .125rem; background: var(--ds-line); }
+.eb-year-progress { display: block; width: 100%; height: 100%; background: var(--ds-brand); transform: scaleX(var(--eb-year-progress,0)); transform-origin: left; }
+.eb-year-step { position: relative; display: grid; justify-items: center; gap: var(--ds-space-2); min-width: 0; min-height: 2.75rem; padding: 0; border: 0; background: var(--ds-clear); color: var(--ds-muted); font-size: var(--ds-small); font-weight: var(--ds-weight); cursor: pointer; }
+.eb-year-marker { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; border: var(--ds-border) solid var(--ds-line); border-radius: var(--ds-pill); background: var(--ds-paper); color: var(--ds-brand); }
+.eb-year-step[aria-selected="true"] { color: var(--ds-brand); }
+.eb-year-step[aria-selected="true"] .eb-year-marker { background: var(--ds-brand); color: var(--ds-inverse); border-color: var(--ds-brand); }
+.eb-year-marker > svg { width: 1.25rem; height: 1.25rem; }
+.eb-year-step:focus-visible { outline: none; }
+.eb-year-step:focus-visible .eb-year-marker { outline: var(--nav-focus-width) solid var(--ds-inverse); outline-offset: var(--nav-focus-offset); }
+.eb-year-stories { display: grid; gap: var(--ds-space-4); }
+.eb-year-view { min-width: 0; padding: var(--ds-space-6); border-radius: var(--ds-radius); background: var(--ds-paper); }
+.eb-year-view h3 { font-size: var(--ds-title); margin-bottom: var(--ds-space-3); }
+.eb-year-view p { font-size: var(--ds-small); color: var(--ds-muted); margin: 0 0 var(--ds-space-5); }
+.eb-year-view ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--ds-space-3); }
+.eb-year-view li { display: flex; gap: var(--ds-space-3); align-items: start; font-size: var(--ds-small); color: var(--ds-ink); line-height: 1.6; }
+.eb-year-view li > svg { color: var(--ds-brand); width: 1rem; height: 1rem; flex-shrink: 0; margin-top: var(--ds-space-1); }
+.eb-year-view .eb-year-label { color: var(--ds-brand); font-weight: var(--ds-weight); }
+.flow-ready .eb-year-stories { gap: 0; }
+.flow-ready .eb-year-view { grid-area: 1 / 1; align-self: start; }
+.flow-ready .eb-year-view[hidden] { display: block !important; visibility: hidden; pointer-events: none; }
+.flow-ready .eb-year-label { display: none; }
+.ds-page[data-design-page="benefits"] .flow-expanded .flow-screen { display: block; min-height: 0; }
+.ds-page[data-design-page="benefits"] .flow-expanded .flow-panel { visibility: visible; pointer-events: auto; }
+@media (max-width: 48rem) {
+  .eb-flex-graphic { grid-template-columns: minmax(0,.65fr) 2rem minmax(0,1.5fr); }
+  .eb-flex-paths { height: 22rem; }
+  .eb-flex-branch h3 { font-size: var(--ds-body); }
+  .eb-year-view { padding: var(--ds-space-4); }
+  .eb-year-step { font-size: var(--ds-caption); }
+}
+@media print {
+  .flow-ready[data-design-page="benefits"] .flow-workbench .flow-screen { display: block; min-height: 0; height: auto; }
+  .flow-ready[data-design-page="benefits"] .flow-panel { visibility: visible !important; pointer-events: auto; }
+  .flow-ready .eb-tools-display, .flow-ready .eb-year-stories { display: block; }
+  .flow-ready .eb-tools-view[hidden], .flow-ready .eb-year-view[hidden] { display: block !important; visibility: visible; pointer-events: auto; }
+  .flow-ready .eb-year-nav { display: none; }
+  .flow-ready .eb-year-label { display: block; }
+  .eb-year-view + .eb-year-view { margin-top: var(--ds-space-4); }
+}

@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-08T23:43:18.321Z",
+  "localOnly": true,
+  "checks": [
+    {
+      "name": "BenefitsCare price FAQ",
+      "passed": true,
+      "evidence": "Visible S$2 / S$4 / S$6 per employee per month with quotation qualifications."
+    },
+    {
+      "name": "Premier plan context",
+      "passed": true,
+      "evidence": "BenefitsCare Premier selected in the enquiry and retained in the draft."
+    },
+    {
+      "name": "Required fields",
+      "passed": true,
+      "evidence": "Empty submission: two invalid fields and no prepared draft."
+    },
+    {
+      "name": "Prepared draft language",
+      "passed": true,
+      "evidence": "Subject: BenefitsCare Premier enquiry from Local readiness check; Service: BenefitsCare for SMEs."
+    },
+    {
+      "name": "Unsent status",
+      "passed": true,
+      "evidence": "Draft prepared below. Your enquiry has not been sent."
+    },
+    {
+      "name": "Edit invalidation",
+      "passed": true,
+      "evidence": "Editing the name hides the draft and asks for a new draft."
+    },
+    {
+      "name": "Mobile menu",
+      "passed": true,
+      "evidence": "Menu expands and Escape collapses it."
+    }
+  ],
+  "mailAppOpened": false,
+  "emailSent": false
+}
